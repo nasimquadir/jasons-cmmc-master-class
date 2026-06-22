@@ -1,55 +1,194 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jason's CMMC Master Class</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jason's CMMC Master Class</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
+<body class="dashboard-body">
 
-<h1>Jason's CMMC Master Class</h1>
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-icon">🛡️</div>
+    <div>
+      <h1>Jason's<br><span>CMMC</span></h1>
+      <p>MASTER CLASS</p>
+    </div>
+  </div>
 
-<h2>CMMC CCP Preparation Platform</h2>
+  <nav class="nav">
+    <a class="active" href="index.html">🏠 Dashboard</a>
+    <a href="exam-alpha.html">🟢 Alpha Exam <small>170 Questions</small></a>
+    <a href="exam-bravo.html">🟠 Bravo Exam <small>170 Questions</small></a>
+    <a href="exam-sim.html">🟣 Simulated CCP Exam <small>170 Questions</small></a>
+    <a href="study-bank.html">📘 Study Bank <small>500 Questions</small></a>
+    <a href="review.html">📝 Review Center <small>Review & Practice</small></a>
+    <a href="dashboard.html">📊 Performance <small>Analytics & Reports</small></a>
+  </nav>
 
-<hr>
+  <div class="sidebar-footer">
+    <strong>CMMC Certified Professional</strong>
+    <span>Exam Preparation Platform</span>
+  </div>
+</aside>
 
-<h3>Exam Mode</h3>
+<main class="main-dashboard">
 
-<a href="exam-alpha.html">
-<button>Exam Alpha (170 Questions)</button>
-</a>
+  <header class="topbar">
+    <div>
+      <h2>Welcome back, Jason! 👋</h2>
+      <p>Track your progress and continue your CMMC CCP certification journey.</p>
+    </div>
 
-<a href="exam-bravo.html">
-<button>Exam Bravo (170 Questions)</button>
-</a>
+    <div class="goal-card">
+      <span>🎯</span>
+      <div>
+        <small>Your Goal</small>
+        <strong>CMMC CCP Certified</strong>
+        <p>You’re on your way!</p>
+      </div>
+    </div>
+  </header>
 
-<a href="exam-sim.html">
-  <button>Simulated CCP Exam</button>
-</a>
+  <section class="stats-grid">
+    <div class="stat-card blue">
+      <p>Overall Progress</p>
+      <h3>68%</h3>
+      <div class="mini-bar"><span style="width:68%"></span></div>
+      <small>Keep going!</small>
+    </div>
 
-<hr>
+    <div class="stat-card green">
+      <p>Questions Completed</p>
+      <h3>842</h3>
+      <small>of 1,080</small>
+    </div>
 
-<h3>Study Mode</h3>
+    <div class="stat-card purple">
+      <p>Average Score</p>
+      <h3>76%</h3>
+      <small>Across all exams</small>
+    </div>
 
-<a href="study-bank.html">
-<button>500 Question Study Bank</button>
-</a>
+    <div class="stat-card orange">
+      <p>Study Streak</p>
+      <h3>14</h3>
+      <small>Days in a row</small>
+    </div>
+  </section>
 
-<hr>
+  <section class="content-grid">
 
-<h3>Analytics</h3>
+    <div class="panel exam-panel">
+      <div class="panel-header">
+        <h3>🎓 Choose Your Exam</h3>
+      </div>
 
-<a href="dashboard.html">
-<button>Statistics Dashboard</button>
-</a>
+      <div class="exam-grid">
+        <a class="exam-card alpha" href="exam-alpha.html">
+          <div class="shield">ALPHA</div>
+          <h4>Alpha Exam</h4>
+          <p>170 Questions</p>
+          <span>Advanced Difficulty</span>
+          <button>Start Exam</button>
+        </a>
 
-<hr>
+        <a class="exam-card bravo" href="exam-bravo.html">
+          <div class="shield">BRAVO</div>
+          <h4>Bravo Exam</h4>
+          <p>170 Questions</p>
+          <span>Expert Difficulty</span>
+          <button>Start Exam</button>
+        </a>
 
-<h3>Review</h3>
+        <a class="exam-card sim" href="exam-sim.html">
+          <div class="shield">SIM</div>
+          <h4>Simulated CCP Exam</h4>
+          <p>170 Questions</p>
+          <span>Real Exam Simulation</span>
+          <button>Start Exam</button>
+        </a>
 
-<a href="review.html">
-<button>Review Last Exam</button>
-</a>
+        <a class="exam-card bank" href="study-bank.html">
+          <div class="shield">📘</div>
+          <h4>Study Bank</h4>
+          <p>500 Questions</p>
+          <span>Adaptive Learning</span>
+          <button>Start Practicing</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="panel performance-panel">
+      <div class="panel-header">
+        <h3>Performance Overview</h3>
+        <a href="dashboard.html">View Full Report →</a>
+      </div>
+
+      <div class="radar-placeholder">
+        <div class="circle-score">76%</div>
+      </div>
+
+      <div class="domain-list">
+        <p><span>AC</span><strong>78%</strong></p>
+        <p><span>IA</span><strong>72%</strong></p>
+        <p><span>MP</span><strong>65%</strong></p>
+        <p><span>PE</span><strong>80%</strong></p>
+        <p><span>SC</span><strong>74%</strong></p>
+        <p><span>SI</span><strong>70%</strong></p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <h3>Recent Activity</h3>
+      </div>
+
+      <div class="activity">
+        <p>🟢 Alpha Exam Completed <span>82%</span></p>
+        <p>🟠 Bravo Exam Completed <span>74%</span></p>
+        <p>🟣 Simulated Exam Completed <span>76%</span></p>
+        <p>📘 Study Bank Session <span>20 questions</span></p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <h3>Domain Mastery</h3>
+      </div>
+
+      <div class="mastery">
+        <p>Access Control <span>78%</span></p>
+        <div><span style="width:78%"></span></div>
+
+        <p>Identification & Authentication <span>72%</span></p>
+        <div><span style="width:72%"></span></div>
+
+        <p>Media Protection <span>65%</span></p>
+        <div><span style="width:65%"></span></div>
+
+        <p>System & Communications Protection <span>74%</span></p>
+        <div><span style="width:74%"></span></div>
+      </div>
+    </div>
+
+    <div class="panel goal-progress">
+      <h3>You vs. Goal</h3>
+      <div class="big-ring">68%</div>
+      <p>CMMC CCP Certified</p>
+      <small>Stay consistent and you’ll reach your goal.</small>
+      <a href="study-bank.html"><button>Continue Studying</button></a>
+    </div>
+
+  </section>
+
+  <footer class="quote">
+    “Success is the sum of small efforts, repeated day in and day out.”
+  </footer>
+
+</main>
 
 </body>
 </html>
