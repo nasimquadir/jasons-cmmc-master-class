@@ -1,6 +1,7 @@
 let reviewQuestions = [];
 let filteredReviews = [];
 let currentReviewIndex = 0;
+let currentFilter = "all";
 
 const lastExamType =
   localStorage.getItem("lastExamType") || "alpha";
@@ -49,7 +50,7 @@ function showReviewQuestion() {
 
   if (!q) {
     document.getElementById("reviewContainer").innerHTML =
-      "<h2>No questions to review.</h2>";
+      "<h2>No questions match this review filter.</h2>";
 
     document.getElementById("reviewCounter").innerText = "";
     return;
@@ -64,50 +65,50 @@ function showReviewQuestion() {
     `Review ${currentReviewIndex + 1} of ${filteredReviews.length}`;
 
   document.getElementById("reviewContainer").innerHTML = `
-    <div class="review-card ${isCorrect ? "correct" : "incorrect"}">
+    <div class="review-card ${isCorrect ? "correct-review" : "incorrect-review"}">
 
-      <h2>${q.id} ${isFlagged ? "⚑" : ""}</h2>
+      <div class="review-header">
+        <h2>${q.id} ${isFlagged ? "⚑" : ""}</h2>
+        <span class="${isCorrect ? "status-correct" : "status-incorrect"}">
+          ${isCorrect ? "Correct" : "Incorrect"}
+        </span>
+      </div>
 
-      <p><strong>Domain:</strong> ${q.domain}</p>
-      <p><strong>Difficulty:</strong> ${q.difficulty}</p>
+      <div class="review-meta">
+        <span><strong>Domain:</strong> ${q.domain}</span>
+        <span><strong>Difficulty:</strong> ${q.difficulty}</span>
+        <span><strong>Exam:</strong> ${lastExamType.toUpperCase()}</span>
+      </div>
 
       <hr>
 
-      <p><strong>Question:</strong></p>
+      <h3>Question</h3>
       <p>${q.question}</p>
 
-      <hr>
+      <div class="review-answer-grid">
+        <div class="answer-box ${isCorrect ? "answer-good" : "answer-bad"}">
+          <h3>Your Answer</h3>
+          <p><strong>${userAnswer}</strong> ${isCorrect ? "✅" : "❌"}</p>
+          <p>${q.choices[userAnswer] || "Not Answered"}</p>
+        </div>
 
-      <p>
-        <strong>Your Answer:</strong>
-        ${userAnswer}
-        ${isCorrect ? "✅" : "❌"}
-      </p>
-
-      <p>
-        <strong>Your Answer Text:</strong>
-        ${q.choices[userAnswer] || "Not Answered"}
-      </p>
-
-      <p>
-        <strong>Correct Answer:</strong>
-        ${correctAnswer}
-        ✅
-      </p>
-
-      <p>
-        <strong>Correct Answer Text:</strong>
-        ${q.choices[correctAnswer]}
-      </p>
+        <div class="answer-box answer-good">
+          <h3>Correct Answer</h3>
+          <p><strong>${correctAnswer}</strong> ✅</p>
+          <p>${q.choices[correctAnswer]}</p>
+        </div>
+      </div>
 
       <hr>
 
-      <p><strong>Explanation:</strong></p>
+      <h3>Explanation</h3>
       <p>${q.explanation}</p>
 
-      <p><strong>Reference:</strong> ${q.reference}</p>
+      <h3>Reference</h3>
+      <p>${q.reference}</p>
 
-      <p><strong>Tags:</strong> ${q.tags ? q.tags.join(", ") : ""}</p>
+      <h3>Tags</h3>
+      <p>${q.tags ? q.tags.join(", ") : "None"}</p>
 
     </div>
   `;
@@ -128,6 +129,8 @@ function previousReview() {
 }
 
 function showMissedOnly() {
+  currentFilter = "missed";
+
   filteredReviews = reviewQuestions.filter(q => {
     const userAnswer = reviewAnswers[q.id] || "Not Answered";
     return userAnswer !== q.answer;
@@ -137,8 +140,57 @@ function showMissedOnly() {
   showReviewQuestion();
 }
 
+function showFlaggedOnly() {
+  currentFilter = "flagged";
+
+  filteredReviews = reviewQuestions.filter(q =>
+    reviewFlags.includes(q.id)
+  );
+
+  currentReviewIndex = 0;
+  showReviewQuestion();
+}
+
 function showAllReviews() {
+  currentFilter = "all";
   filteredReviews = [...reviewQuestions];
+  currentReviewIndex = 0;
+  showReviewQuestion();
+}
+
+function searchReview() {
+  const term =
+    document.getElementById("reviewSearch").value.trim().toLowerCase();
+
+  let base = [...reviewQuestions];
+
+  if (currentFilter === "missed") {
+    base = base.filter(q => {
+      const userAnswer = reviewAnswers[q.id] || "Not Answered";
+      return userAnswer !== q.answer;
+    });
+  }
+
+  if (currentFilter === "flagged") {
+    base = base.filter(q => reviewFlags.includes(q.id));
+  }
+
+  if (!term) {
+    filteredReviews = base;
+  } else {
+    filteredReviews = base.filter(q => {
+      const tagText = q.tags ? q.tags.join(" ").toLowerCase() : "";
+
+      return (
+        q.id.toLowerCase().includes(term) ||
+        q.domain.toLowerCase().includes(term) ||
+        q.difficulty.toLowerCase().includes(term) ||
+        q.question.toLowerCase().includes(term) ||
+        tagText.includes(term)
+      );
+    });
+  }
+
   currentReviewIndex = 0;
   showReviewQuestion();
 }
