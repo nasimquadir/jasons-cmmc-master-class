@@ -46,14 +46,13 @@
       Loading...
     </div>
 
-    <br>
-
-    <button onclick="previousQuestion()">Previous</button>
-    <button onclick="nextQuestion()">Next</button>
-    <button onclick="flagQuestion()">Flag Question</button>
-    <button onclick="submitExam()">Submit Exam</button>
-    <button onclick="resetExam()">Reset Exam</button>
-
+   <div class="exam-action-bar">
+  <button onclick="previousQuestion()">← Previous</button>
+  <button onclick="nextQuestion()">Next →</button>
+  <button onclick="flagQuestion()">⚑ Flag</button>
+  <button onclick="submitExam()" class="submit-btn">Submit Quiz</button>
+  <button onclick="resetExam()" class="reset-btn">Reset</button>
+</div>
   </div>
 
   <div id="questionNav"></div>
