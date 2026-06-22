@@ -1,20 +1,11 @@
-const attempts =
-  JSON.parse(localStorage.getItem("dashboardAttempts")) || [];
+const attempts = JSON.parse(localStorage.getItem("dashboardAttempts")) || [];
+const missedQuestions = JSON.parse(localStorage.getItem("missedQuestions")) || [];
 
-const missedQuestions =
-  JSON.parse(localStorage.getItem("missedQuestions")) || [];
+const alphaFlags = JSON.parse(localStorage.getItem("alphaFlags")) || [];
+const bravoFlags = JSON.parse(localStorage.getItem("bravoFlags")) || [];
+const studyFlags = JSON.parse(localStorage.getItem("studyFlags")) || [];
 
-const alphaFlags =
-  JSON.parse(localStorage.getItem("alphaFlags")) || [];
-
-const bravoFlags =
-  JSON.parse(localStorage.getItem("bravoFlags")) || [];
-
-const studyFlags =
-  JSON.parse(localStorage.getItem("studyFlags")) || [];
-
-const allFlags =
-  [...new Set([...alphaFlags, ...bravoFlags, ...studyFlags])];
+const allFlags = [...new Set([...alphaFlags, ...bravoFlags, ...studyFlags])];
 
 function setText(id, value) {
   const el = document.getElementById(id);
@@ -175,8 +166,8 @@ function renderPerformanceList(domainRows) {
 
 function updateHomeDashboard() {
   const scores = attempts.map(a => Number(a.percent) || 0);
-
   const avgScore = Math.round(average(scores));
+
   const totalQuestions = attempts.reduce((sum, a) => {
     return sum + (Number(a.total) || 0);
   }, 0);
@@ -197,6 +188,53 @@ function updateHomeDashboard() {
   renderRecentActivity();
   renderDomainMastery(domainRows);
   renderPerformanceList(domainRows);
+  renderNotifications(avgScore);
+}
+
+function renderNotifications(avgScore) {
+  const container = document.getElementById("notificationContent");
+  if (!container) return;
+
+  const lastAttempt = attempts.length ? attempts[attempts.length - 1] : null;
+
+  container.innerHTML = `
+    <p><strong>Missed Questions:</strong> ${missedQuestions.length}</p>
+    <p><strong>Flagged Questions:</strong> ${allFlags.length}</p>
+    <p><strong>Study Days:</strong> ${calculateStudyDays()}</p>
+    <p><strong>Readiness:</strong> ${readiness(avgScore)}</p>
+    <p><strong>Last Score:</strong> ${lastAttempt ? lastAttempt.percent + "%" : "No attempts yet"}</p>
+  `;
+}
+
+function setupThemeToggle() {
+  const toggle = document.getElementById("themeToggle");
+  if (!toggle) return;
+
+  const savedTheme = localStorage.getItem("themeMode");
+
+  if (savedTheme === "light") {
+    document.body.classList.add("light-mode");
+  }
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+
+    const isLight = document.body.classList.contains("light-mode");
+    localStorage.setItem("themeMode", isLight ? "light" : "dark");
+  });
+}
+
+function setupNotificationBell() {
+  const bell = document.getElementById("notificationBell");
+  const panel = document.getElementById("notificationPanel");
+
+  if (!bell || !panel) return;
+
+  bell.addEventListener("click", () => {
+    panel.classList.toggle("hidden");
+  });
 }
 
 updateHomeDashboard();
+setupThemeToggle();
+setupNotificationBell();
