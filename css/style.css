@@ -1136,4 +1136,28 @@ body:not(.dash-body) {
 .light-mode .dash-top {
   background: rgba(255,255,255,.85);
 }
+.top-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 16px;
+  border-radius: 12px;
+  background: rgba(10,28,55,.8);
+  border: 1px solid rgba(120,170,255,.25);
+  color: #dbeafe;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.top-action:hover {
+  background: rgba(30,64,175,.8);
+}
+
+.notification-panel,
+#notificationPanel,
+.toggle,
+.bell {
+  display: none !important;
+}
 }
