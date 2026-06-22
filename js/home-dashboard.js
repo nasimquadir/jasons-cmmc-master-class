@@ -1,18 +1,37 @@
-const attempts = JSON.parse(localStorage.getItem("dashboardAttempts")) || [];
-const missedQuestions = JSON.parse(localStorage.getItem("missedQuestions")) || [];
+const attempts =
+  JSON.parse(localStorage.getItem("dashboardAttempts")) || [];
 
-const alphaFlags = JSON.parse(localStorage.getItem("alphaFlags")) || [];
-const bravoFlags = JSON.parse(localStorage.getItem("bravoFlags")) || [];
-const studyFlags = JSON.parse(localStorage.getItem("studyFlags")) || [];
+const missedQuestions =
+  JSON.parse(localStorage.getItem("missedQuestions")) || [];
 
-const allFlags = [...new Set([...alphaFlags, ...bravoFlags, ...studyFlags])];
+const alphaFlags =
+  JSON.parse(localStorage.getItem("alphaFlags")) || [];
 
-function avg(list) {
-  if (!list.length) return 0;
-  return list.reduce((sum, n) => sum + n, 0) / list.length;
+const bravoFlags =
+  JSON.parse(localStorage.getItem("bravoFlags")) || [];
+
+const studyFlags =
+  JSON.parse(localStorage.getItem("studyFlags")) || [];
+
+const allFlags =
+  [...new Set([...alphaFlags, ...bravoFlags, ...studyFlags])];
+
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.innerText = value;
 }
 
-function getReadiness(score) {
+function setWidth(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.style.width = value;
+}
+
+function average(values) {
+  if (!values.length) return 0;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function readiness(score) {
   if (score < 70) return "Needs Work";
   if (score < 80) return "Borderline";
   if (score < 85) return "Ready";
@@ -20,92 +39,51 @@ function getReadiness(score) {
   return "800-Level Ready";
 }
 
-function calculateDashboard() {
-  const totalAttempts = attempts.length;
-  const scores = attempts.map(a => Number(a.percent) || 0);
-  const averageScore = Math.round(avg(scores));
-  const bestScore = scores.length ? Math.max(...scores) : 0;
+function estimateTime(totalQuestions) {
+  const minutes = Math.round(totalQuestions * 1.25);
+  const hours = Math.floor(minutes / 60);
+  const remaining = minutes % 60;
+  return `${hours}h ${remaining}m`;
+}
 
-  const questionsCompleted = attempts.reduce((sum, a) => {
-    return sum + (Number(a.total) || 0);
-  }, 0);
-
-  let domainTotals = {};
+function calculateDomainRows() {
+  const totals = {};
 
   attempts.forEach(attempt => {
     if (!attempt.domains) return;
 
     Object.keys(attempt.domains).forEach(domain => {
-      if (!domainTotals[domain]) {
-        domainTotals[domain] = { correct: 0, total: 0 };
+      if (!totals[domain]) {
+        totals[domain] = { correct: 0, total: 0 };
       }
 
-      domainTotals[domain].correct += attempt.domains[domain].correct;
-      domainTotals[domain].total += attempt.domains[domain].total;
+      totals[domain].correct += attempt.domains[domain].correct;
+      totals[domain].total += attempt.domains[domain].total;
     });
   });
 
-  const domainRows = Object.keys(domainTotals).map(domain => {
-    const d = domainTotals[domain];
-
+  return Object.keys(totals).map(domain => {
+    const d = totals[domain];
     return {
       domain,
-      percent: d.total ? Math.round((d.correct / d.total) * 100) : 0,
       correct: d.correct,
-      total: d.total
+      total: d.total,
+      percent: d.total ? Math.round((d.correct / d.total) * 100) : 0
     };
   });
-
-  const overallProgress = averageScore || 0;
-
-  updateText("overallProgress", `${overallProgress}%`);
-  updateText("questionsCompleted", questionsCompleted);
-  updateText("averageScore", `${averageScore}%`);
-  updateText("studyStreak", calculateStudyStreak());
-  updateText("timeSpent", estimateTimeSpent(questionsCompleted));
-
-  updateWidth("overallProgressBar", `${overallProgress}%`);
-  updateText("goalRing", `${overallProgress}%`);
-
-  updateRecentActivity();
-  updateDomainMastery(domainRows);
-  updatePerformanceList(domainRows);
-
-  const readiness = getReadiness(averageScore);
-  updateText("goalStatus", readiness);
 }
 
-function updateText(id, value) {
-  const el = document.getElementById(id);
-  if (el) el.innerText = value;
-}
-
-function updateWidth(id, value) {
-  const el = document.getElementById(id);
-  if (el) el.style.width = value;
-}
-
-function estimateTimeSpent(questionsCompleted) {
-  const minutes = Math.round(questionsCompleted * 1.25);
-  const hours = Math.floor(minutes / 60);
-  const remaining = minutes % 60;
-
-  return `${hours}h ${remaining}m`;
-}
-
-function calculateStudyStreak() {
+function calculateStudyDays() {
   if (!attempts.length) return 0;
 
-  const uniqueDates = [
-    ...new Set(
-      attempts.map(a => new Date(a.date).toDateString())
-    )
-  ];
+  const days = attempts.map(a =>
+    new Date(a.date).toDateString()
+  );
 
-  return uniqueDates.length;
+  return [...new Set(days)].length;
 }
 
-function updateRecentActivity() {
+function renderRecentActivity() {
   const container = document.getElementById("recentActivityList");
   if (!container) return;
 
@@ -130,7 +108,7 @@ function updateRecentActivity() {
         a.examType === "study" ? "Study Bank" :
         "Exam";
 
-      const dot =
+      const color =
         a.percent >= 85 ? "green" :
         a.percent >= 75 ? "orange" :
         a.percent >= 65 ? "purple" :
@@ -138,7 +116,7 @@ function updateRecentActivity() {
 
       return `
         <div>
-          <span class="dot ${dot}"></span>
+          <span class="dot ${color}"></span>
           <p><b>${label} Completed</b><small>Score: ${a.percent}%</small></p>
           <em>${a.date}</em>
         </div>
@@ -147,7 +125,7 @@ function updateRecentActivity() {
     .join("");
 }
 
-function updateDomainMastery(domainRows) {
+function renderDomainMastery(domainRows) {
   const container = document.getElementById("domainMasteryList");
   if (!container) return;
 
@@ -162,7 +140,8 @@ function updateDomainMastery(domainRows) {
   }
 
   container.innerHTML = domainRows
-    .sort((a, b) => a.domain.localeCompare(b.domain))
+    .sort((a, b) => a.percent - b.percent)
+    .slice(0, 6)
     .map(d => `
       <div>
         <p>${d.domain}<b>${d.percent}%</b></p>
@@ -172,23 +151,52 @@ function updateDomainMastery(domainRows) {
     .join("");
 }
 
-function updatePerformanceList(domainRows) {
+function renderPerformanceList(domainRows) {
   const container = document.getElementById("performanceScoreList");
   if (!container) return;
 
-  const shortNames = ["AC", "IA", "MP", "PE", "SC", "SI"];
+  const families = ["AC", "IA", "MP", "PE", "SC", "SI"];
 
-  container.innerHTML = shortNames.map(short => {
-    const found = domainRows.find(d =>
-      d.domain.toUpperCase().includes(short)
+  container.innerHTML = families.map(family => {
+    const match = domainRows.find(d =>
+      d.domain.toUpperCase().includes(family)
     );
 
-    const percent = found ? found.percent : 0;
+    const percent = match ? match.percent : 0;
 
     return `
-      <p><b>${short}</b><strong>${percent}%</strong></p>
+      <p>
+        <b>${family}</b>
+        <strong>${percent}%</strong>
+      </p>
     `;
   }).join("");
 }
 
-calculateDashboard();
+function updateHomeDashboard() {
+  const scores = attempts.map(a => Number(a.percent) || 0);
+
+  const avgScore = Math.round(average(scores));
+  const totalQuestions = attempts.reduce((sum, a) => {
+    return sum + (Number(a.total) || 0);
+  }, 0);
+
+  const domainRows = calculateDomainRows();
+  const progress = avgScore || 0;
+
+  setText("overallProgress", `${progress}%`);
+  setText("questionsCompleted", totalQuestions);
+  setText("averageScore", `${avgScore}%`);
+  setText("studyStreak", calculateStudyDays());
+  setText("timeSpent", estimateTime(totalQuestions));
+  setText("goalStatus", readiness(avgScore));
+  setText("goalRing", `${progress}%`);
+
+  setWidth("overallProgressBar", `${progress}%`);
+
+  renderRecentActivity();
+  renderDomainMastery(domainRows);
+  renderPerformanceList(domainRows);
+}
+
+updateHomeDashboard();
