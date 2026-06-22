@@ -507,10 +507,12 @@ ${q.choices[originalLetter]}
 
 <hr>
 
-<p>Question ${currentQuestion + 1} of ${questions.length}</p>
-<p>Answered: ${Object.keys(userAnswers).length}</p>
-<p>Flagged: ${flaggedQuestions.length}</p>
-<p>Remaining: ${questions.length - Object.keys(userAnswers).length}</p>
+<div class="exam-status-bar">
+  <span><strong>Question:</strong> ${currentQuestion + 1} / ${questions.length}</span>
+  <span><strong>Answered:</strong> ${Object.keys(userAnswers).length}</span>
+  <span><strong>Flagged:</strong> ${flaggedQuestions.length}</span>
+  <span><strong>Remaining:</strong> ${questions.length - Object.keys(userAnswers).length}</span>
+</div>
 
 ${isFlagged
   ? "<p><strong>⚑ This question is flagged for review.</strong></p>"
