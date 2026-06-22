@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jason's CMMC Master Class</title>
-  <link rel="stylesheet" href="css/style.css?v=10" />
+  <link rel="stylesheet" href="css/style.css?v=11" />
 </head>
 
 <body class="dash-body">
@@ -43,9 +43,9 @@
     <div class="top-left">
       <button class="hamburger">☰</button>
       <div class="search">
-  <input id="dashboardSearch" type="text" placeholder="Search anything..." onkeydown="handleDashboardSearch(event)" />
-  <button onclick="runDashboardSearch()">⌕</button>
-</div>
+        <input id="dashboardSearch" type="text" placeholder="Search anything..." onkeydown="handleDashboardSearch(event)" />
+        <button onclick="runDashboardSearch()">⌕</button>
+      </div>
     </div>
 
     <div class="top-right">
@@ -70,7 +70,7 @@
       <div>
         <small>YOUR GOAL</small>
         <b>CMMC CCP Certified</b>
-        <span>You’re on your way!</span>
+        <span id="goalStatus">You’re on your way!</span>
       </div>
       <div class="chev">›</div>
     </div>
@@ -79,37 +79,37 @@
   <section class="metric-row">
     <div class="metric blue-card">
       <p>Overall Progress</p>
-      <h2>68%</h2>
-      <div class="progress-line"><span style="width:68%"></span></div>
+      <h2 id="overallProgress">0%</h2>
+      <div class="progress-line"><span id="overallProgressBar" style="width:0%"></span></div>
       <small>Keep going!</small>
       <div class="metric-icon">📊</div>
     </div>
 
     <div class="metric green-card">
       <p>Questions Completed</p>
-      <h2>842</h2>
-      <small>of 1,080</small>
+      <h2 id="questionsCompleted">0</h2>
+      <small>Total answered</small>
       <div class="metric-icon">✅</div>
     </div>
 
     <div class="metric purple-card">
       <p>Average Score</p>
-      <h2>76%</h2>
+      <h2 id="averageScore">0%</h2>
       <small>Across all exams</small>
       <div class="metric-icon">📈</div>
     </div>
 
     <div class="metric orange-card">
       <p>Study Streak</p>
-      <h2>14</h2>
-      <small>Days in a row</small>
+      <h2 id="studyStreak">0</h2>
+      <small>Study days</small>
       <div class="metric-icon">🔥</div>
     </div>
 
     <div class="metric cyan-card">
       <p>Time Spent</p>
-      <h2>32h 45m</h2>
-      <small>Total study time</small>
+      <h2 id="timeSpent">0h 0m</h2>
+      <small>Estimated study time</small>
       <div class="metric-icon">🕘</div>
     </div>
   </section>
@@ -119,7 +119,7 @@
     <div class="panel choose-panel">
       <div class="panel-head">
         <h3>🎓 Choose Your Exam</h3>
-    <a href="exam-sim.html">View All Exams →</a>
+        <a href="exam-sim.html">View All Exams →</a>
       </div>
 
       <div class="exam-cards">
@@ -151,7 +151,7 @@
           <div class="tile-shield">📘</div>
           <h4>Study Bank</h4>
           <p>500 Questions</p>
-          <small>All Difficulty Levels</small>
+          <small>Adaptive Learning</small>
           <button>Start Practicing</button>
         </a>
       </div>
@@ -169,13 +169,13 @@
           <div class="radar-poly"></div>
         </div>
 
-        <div class="score-list">
-          <p><b>AC</b><strong>78%</strong></p>
-          <p><b>IA</b><strong>72%</strong></p>
-          <p><b>MP</b><strong>65%</strong></p>
-          <p><b>PE</b><strong>80%</strong></p>
-          <p><b>SC</b><strong>74%</strong></p>
-          <p><b>SI</b><strong>70%</strong></p>
+        <div id="performanceScoreList" class="score-list">
+          <p><b>AC</b><strong>0%</strong></p>
+          <p><b>IA</b><strong>0%</strong></p>
+          <p><b>MP</b><strong>0%</strong></p>
+          <p><b>PE</b><strong>0%</strong></p>
+          <p><b>SC</b><strong>0%</strong></p>
+          <p><b>SI</b><strong>0%</strong></p>
         </div>
       </div>
     </div>
@@ -187,36 +187,28 @@
     <div class="panel">
       <div class="panel-head">
         <h3>Recent Activity</h3>
-<a href="dashboard.html">View All →</a>
+        <a href="dashboard.html">View All →</a>
       </div>
 
-      <div class="activity-list">
-        <div><span class="dot green"></span><p><b>Alpha Exam Completed</b><small>Score: 82%</small></p><em>2 hours ago</em></div>
-        <div><span class="dot orange"></span><p><b>Bravo Exam Completed</b><small>Score: 74%</small></p><em>1 day ago</em></div>
-        <div><span class="dot purple"></span><p><b>Simulated Exam Completed</b><small>Score: 76%</small></p><em>2 days ago</em></div>
-        <div><span class="dot blue"></span><p><b>Study Bank Session</b><small>20 questions practiced</small></p><em>3 days ago</em></div>
+      <div id="recentActivityList" class="activity-list">
+        <div><span class="dot blue"></span><p><b>No attempts yet</b><small>Start an exam or study session</small></p><em>Today</em></div>
       </div>
     </div>
 
     <div class="panel">
       <div class="panel-head">
         <h3>Domain Mastery</h3>
-<a href="dashboard.html">View All Domains →</a>
+        <a href="dashboard.html">View All Domains →</a>
       </div>
 
-      <div class="mastery-list">
-        <div><p>Access Control (AC)<b>78%</b></p><span><i style="width:78%"></i></span></div>
-        <div><p>Identification & Authentication (IA)<b>72%</b></p><span><i style="width:72%"></i></span></div>
-        <div><p>Media Protection (MP)<b>65%</b></p><span><i style="width:65%"></i></span></div>
-        <div><p>Physical Protection (PE)<b>80%</b></p><span><i style="width:80%"></i></span></div>
-        <div><p>System & Communications Protection (SC)<b>74%</b></p><span><i style="width:74%"></i></span></div>
-        <div><p>System & Information Integrity (SI)<b>70%</b></p><span><i style="width:70%"></i></span></div>
+      <div id="domainMasteryList" class="mastery-list">
+        <div><p>No domain data yet<b>0%</b></p><span><i style="width:0%"></i></span></div>
       </div>
     </div>
 
     <div class="panel goal-panel">
       <h3>You vs. Goal</h3>
-      <div class="goal-ring">68%<small>Towards Your Goal</small></div>
+      <div id="goalRing" class="goal-ring">0%<small>Towards Your Goal</small></div>
       <div class="goal-text">
         <b>CMMC CCP Certified</b>
         <p>Stay consistent and you’ll reach your goal!</p>
@@ -227,11 +219,11 @@
 
   </section>
 
-<<footer class="quote-bar">
-  <b>❝</b>
-  <span>Discipline is what sets in when motivation runs out. Stay on your grind and better yourself.</span>
-  <em>– Jason Brown</em>
-</footer>
+  <footer class="quote-bar">
+    <b>❝</b>
+    <span>Discipline is what sets in when motivation runs out. Stay on your grind and better yourself.</span>
+    <em>– Jason Brown</em>
+  </footer>
 
 </main>
 
@@ -252,30 +244,12 @@ function runDashboardSearch() {
   if (!term) return;
 
   const routes = [
-    {
-      keys: ["alpha", "alpha exam"],
-      url: "exam-alpha.html"
-    },
-    {
-      keys: ["bravo", "bravo exam"],
-      url: "exam-bravo.html"
-    },
-    {
-      keys: ["sim", "simulation", "simulated", "simulated exam"],
-      url: "exam-sim.html"
-    },
-    {
-      keys: ["study", "study bank", "bank", "practice"],
-      url: "study-bank.html"
-    },
-    {
-      keys: ["review", "missed", "incorrect", "wrong"],
-      url: "review.html"
-    },
-    {
-      keys: ["dashboard", "performance", "analytics", "report", "stats"],
-      url: "dashboard.html"
-    }
+    { keys: ["alpha", "alpha exam"], url: "exam-alpha.html" },
+    { keys: ["bravo", "bravo exam"], url: "exam-bravo.html" },
+    { keys: ["sim", "simulation", "simulated", "simulated exam"], url: "exam-sim.html" },
+    { keys: ["study", "study bank", "bank", "practice"], url: "study-bank.html" },
+    { keys: ["review", "missed", "incorrect", "wrong"], url: "review.html" },
+    { keys: ["dashboard", "performance", "analytics", "report", "stats"], url: "dashboard.html" }
   ];
 
   const match = routes.find(route =>
@@ -285,12 +259,12 @@ function runDashboardSearch() {
   if (match) {
     window.location.href = match.url;
   } else {
-    alert(
-      "Try searching: Alpha, Bravo, Simulated Exam, Study Bank, Review, or Performance."
-    );
+    alert("Try searching: Alpha, Bravo, Simulated Exam, Study Bank, Review, or Performance.");
   }
 }
 </script>
+
 <script src="js/home-dashboard.js"></script>
+
 </body>
 </html>
