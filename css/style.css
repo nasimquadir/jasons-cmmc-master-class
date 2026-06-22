@@ -905,4 +905,32 @@ body:not(.dash-body) {
   .nav-grid {
     grid-template-columns: repeat(8, 1fr);
   }
+  .exam-action-bar {
+  position: sticky;
+  bottom: 18px;
+  z-index: 20;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 22px;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(3, 15, 31, .92);
+  border: 1px solid rgba(93,164,255,.28);
+  box-shadow: 0 18px 45px rgba(0,0,0,.42);
+  backdrop-filter: blur(14px);
+}
+
+.exam-action-bar button {
+  min-width: 120px;
+}
+
+.exam-action-bar .submit-btn {
+  background: linear-gradient(90deg, #16a34a, #15803d);
+}
+
+.exam-action-bar .reset-btn {
+  background: linear-gradient(90deg, #ef4444, #991b1b);
+}
 }
