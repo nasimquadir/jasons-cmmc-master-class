@@ -744,12 +744,34 @@ button {
 }
 
 .choice {
-  display: block;
-  padding: 14px;
-  margin: 10px 0;
-  border-radius: 10px;
-  background: rgba(255,255,255,.05);
-  border: 1px solid rgba(255,255,255,.09);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+  margin: 12px 0;
+  border-radius: 14px;
+  background: rgba(255,255,255,.055);
+  border: 1px solid rgba(148, 197, 255, .16);
+  color: #f8fafc;
+  cursor: pointer;
+  transition: .18s ease;
+}
+
+.choice:hover {
+  background: rgba(56,189,248,.12);
+  border-color: rgba(56,189,248,.45);
+  transform: translateY(-1px);
+}
+
+.choice input {
+  margin-top: 3px;
+  accent-color: #38bdf8;
+}
+
+.choice:has(input:checked) {
+  background: linear-gradient(145deg, rgba(13,110,253,.25), rgba(3,15,31,.92));
+  border-color: #38bdf8;
+  box-shadow: 0 0 22px rgba(56,189,248,.22);
 }
 
 #progressBarContainer {
