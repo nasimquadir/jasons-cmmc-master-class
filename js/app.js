@@ -580,7 +580,6 @@ function jumpToQuestion(number) {
   currentQuestion = number;
   showQuestion();
 }
-
 function buildQuestionNav() {
   let html = "<h3>Question Navigator</h3>";
 
@@ -589,15 +588,18 @@ function buildQuestionNav() {
     <p><strong>Flagged:</strong> ${flaggedQuestions.length}</p>
     <p><strong>Remaining:</strong> ${questions.length - Object.keys(userAnswers).length}</p>
     <hr>
+    <div class="nav-grid">
   `;
 
   questions.forEach((q, index) => {
     let classes = "nav-question";
 
+    if (userAnswers[q.id]) {
+      classes += " nav-answered";
+    }
+
     if (index === currentQuestion) {
       classes += " nav-current";
-    } else if (userAnswers[q.id]) {
-      classes += " nav-answered";
     }
 
     if (flaggedQuestions.includes(q.id)) {
@@ -605,15 +607,15 @@ function buildQuestionNav() {
     }
 
     html += `
-<button
-class="${classes}"
-onclick="jumpToQuestion(${index})">
-${index + 1}
-${userAnswers[q.id] ? "✓" : ""}
-${flaggedQuestions.includes(q.id) ? "⚑" : ""}
-</button>
-`;
+      <button
+        class="${classes}"
+        onclick="jumpToQuestion(${index})">
+        ${index + 1}
+      </button>
+    `;
   });
+
+  html += "</div>";
 
   document.getElementById("questionNav").innerHTML = html;
 }
