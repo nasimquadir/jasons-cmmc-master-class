@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jason's CMMC Master Class</title>
-  <link rel="stylesheet" href="css/style.css?v=11" />
+  <link rel="stylesheet" href="css/style.css?v=12" />
 </head>
 
 <body class="dash-body">
@@ -42,21 +42,24 @@
   <header class="dash-top">
     <div class="top-left">
       <button class="hamburger">☰</button>
+
       <div class="search">
-        <input id="dashboardSearch" type="text" placeholder="Search anything..." onkeydown="handleDashboardSearch(event)" />
+        <input
+          id="dashboardSearch"
+          type="text"
+          placeholder="Search anything..."
+          onkeydown="handleDashboardSearch(event)"
+        />
         <button onclick="runDashboardSearch()">⌕</button>
       </div>
     </div>
 
     <div class="top-right">
-<button id="themeToggle" class="toggle">☀️ <span></span></button>
-<button id="notificationBell" class="bell">🔔</button>
+      <a href="review.html" class="top-action">📝 Review</a>
+      <a href="dashboard.html" class="top-action">📊 Reports</a>
 
-<div id="notificationPanel" class="notification-panel hidden">
-  <h3>Notifications</h3>
-  <div id="notificationContent"></div>
-</div>
       <div class="avatar">J</div>
+
       <div class="welcome-mini">
         <b>Welcome, Jason</b>
         <small>Keep up the great work!</small>
@@ -85,7 +88,9 @@
     <div class="metric blue-card">
       <p>Overall Progress</p>
       <h2 id="overallProgress">0%</h2>
-      <div class="progress-line"><span id="overallProgressBar" style="width:0%"></span></div>
+      <div class="progress-line">
+        <span id="overallProgressBar" style="width:0%"></span>
+      </div>
       <small>Keep going!</small>
       <div class="metric-icon">📊</div>
     </div>
@@ -170,7 +175,12 @@
 
       <div class="radar-wrap">
         <div class="radar">
-          <span>AC</span><span>IA</span><span>MP</span><span>PE</span><span>SC</span><span>SI</span>
+          <span>AC</span>
+          <span>IA</span>
+          <span>MP</span>
+          <span>PE</span>
+          <span>SC</span>
+          <span>SI</span>
           <div class="radar-poly"></div>
         </div>
 
@@ -196,7 +206,14 @@
       </div>
 
       <div id="recentActivityList" class="activity-list">
-        <div><span class="dot blue"></span><p><b>No attempts yet</b><small>Start an exam or study session</small></p><em>Today</em></div>
+        <div>
+          <span class="dot blue"></span>
+          <p>
+            <b>No attempts yet</b>
+            <small>Start an exam or study session</small>
+          </p>
+          <em>Today</em>
+        </div>
       </div>
     </div>
 
@@ -207,19 +224,30 @@
       </div>
 
       <div id="domainMasteryList" class="mastery-list">
-        <div><p>No domain data yet<b>0%</b></p><span><i style="width:0%"></i></span></div>
+        <div>
+          <p>No domain data yet<b>0%</b></p>
+          <span><i style="width:0%"></i></span>
+        </div>
       </div>
     </div>
 
     <div class="panel goal-panel">
       <h3>You vs. Goal</h3>
-      <div id="goalRing" class="goal-ring">0%<small>Towards Your Goal</small></div>
+
+      <div id="goalRing" class="goal-ring">
+        0%
+        <small>Towards Your Goal</small>
+      </div>
+
       <div class="goal-text">
         <b>CMMC CCP Certified</b>
         <p>Stay consistent and you’ll reach your goal!</p>
         <small>🏆 Target Date<br><strong>Dec 31, 2025</strong></small>
       </div>
-      <a href="study-bank.html"><button>Continue Studying</button></a>
+
+      <a href="study-bank.html">
+        <button>Continue Studying</button>
+      </a>
     </div>
 
   </section>
@@ -240,11 +268,11 @@ function handleDashboardSearch(event) {
 }
 
 function runDashboardSearch() {
-  const term =
-    document.getElementById("dashboardSearch")
-      .value
-      .trim()
-      .toLowerCase();
+  const term = document
+    .getElementById("dashboardSearch")
+    .value
+    .trim()
+    .toLowerCase();
 
   if (!term) return;
 
@@ -269,7 +297,7 @@ function runDashboardSearch() {
 }
 </script>
 
-<script src="js/home-dashboard.js?v=2"></script>
+<script src="js/home-dashboard.js?v=3"></script>
 
 </body>
 </html>
