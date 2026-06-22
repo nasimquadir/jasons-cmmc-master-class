@@ -108,13 +108,14 @@ function prepareStudyQuiz() {
     selected = shuffleArray(allQuestions);
   }
 
-  questions =
-    domainAwareShuffle(selected).slice(0, count);
-updateModeIndicator(
-  mode,
-  selected.length,
-  questions.length
-);
+  questions = domainAwareShuffle(selected).slice(0, count);
+
+  updateModeIndicator(
+    mode,
+    selected.length,
+    questions.length
+  );
+
   localStorage.setItem(
     active.questionOrderKey,
     JSON.stringify(questions.map(q => q.id))
@@ -148,12 +149,12 @@ function buildAdaptiveQuiz(pool, count) {
   const flaggedPool = pool.filter(q => flaggedQuestions.includes(q.id));
   const randomPool = shuffleArray(pool);
 
-  const weakCount = Math.ceil(count * 0.4);
-  const missedCount = Math.ceil(count * 0.3);
-  const flaggedCount = Math.ceil(count * 0.1);
-  const randomCount = count;
-
   let selected = [];
+
+  const weakCount = Math.ceil(count * 0.55);
+  const missedCount = Math.ceil(count * 0.20);
+  const flaggedCount = Math.ceil(count * 0.10);
+  const randomCount = count;
 
   selected = selected.concat(
     shuffleArray(weakPool).slice(0, weakCount)
@@ -210,9 +211,15 @@ function getWeakDomainQuestions(pool) {
   const dashboardAttempts =
     JSON.parse(localStorage.getItem("dashboardAttempts")) || [];
 
-  let domainTotals = {};
+  if (dashboardAttempts.length === 0) {
+    return shuffleArray(pool);
+  }
+
+  const domainTotals = {};
 
   dashboardAttempts.forEach(attempt => {
+    if (!attempt.domains) return;
+
     Object.keys(attempt.domains).forEach(domain => {
       if (!domainTotals[domain]) {
         domainTotals[domain] = {
@@ -226,13 +233,68 @@ function getWeakDomainQuestions(pool) {
     });
   });
 
-  const weakDomains = Object.keys(domainTotals).filter(domain => {
+  const domainScores = Object.keys(domainTotals).map(domain => {
     const d = domainTotals[domain];
-    return (d.correct / d.total) * 100 < 80;
+
+    return {
+      domain,
+      percent: d.total ? (d.correct / d.total) * 100 : 0,
+      total: d.total
+    };
   });
 
-  return pool.filter(q =>
-    weakDomains.includes(q.domain)
+  const weakDomains = domainScores
+    .filter(d => d.percent < 85 || d.total < 10)
+    .sort((a, b) => a.percent - b.percent);
+
+  if (weakDomains.length === 0) {
+    return shuffleArray(pool);
+  }
+
+  let weightedPool = [];
+
+  weakDomains.forEach(item => {
+    let weight = 1;
+
+    if (item.percent < 60) {
+      weight = 5;
+    } else if (item.percent < 70) {
+      weight = 4;
+    } else if (item.percent < 80) {
+      weight = 3;
+    } else if (item.percent < 85) {
+      weight = 2;
+    }
+
+    const matchingQuestions = pool.filter(q =>
+      questionMatchesDomain(q, item.domain)
+    );
+
+    for (let i = 0; i < weight; i++) {
+      weightedPool = weightedPool.concat(matchingQuestions);
+    }
+  });
+
+  weightedPool = removeDuplicateQuestions(weightedPool);
+
+  if (weightedPool.length === 0) {
+    return shuffleArray(pool);
+  }
+
+  return weightedPool;
+}
+
+function questionMatchesDomain(question, domain) {
+  const qDomain = String(question.domain || "").toUpperCase();
+  const qTags = Array.isArray(question.tags)
+    ? question.tags.join(" ").toUpperCase()
+    : "";
+  const target = String(domain || "").toUpperCase();
+
+  return (
+    qDomain.includes(target) ||
+    target.includes(qDomain) ||
+    qTags.includes(target)
   );
 }
 
