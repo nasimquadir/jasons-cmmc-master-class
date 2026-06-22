@@ -205,9 +205,17 @@ a {
   font-size: 14px;
 }
 
-.search span {
+.search button {
+  border: 0;
+  background: transparent;
   color: #b8d8ff;
   font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.search button:hover {
+  color: #38bdf8;
 }
 
 .toggle {
