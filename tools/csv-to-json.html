@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV to JSON Converter</title>
+</head>
+<body>
+
+<h1>Question Bank CSV to JSON Converter</h1>
+
+<p>Select your question_bank_template.csv file.</p>
+
+<input type="file" id="csvFile" accept=".csv">
+
+<br><br>
+
+<button onclick="convertCSV()">Convert</button>
+
+<pre id="output"></pre>
+
+<script>
+function convertCSV() {
+  const file = document.getElementById("csvFile").files[0];
+
+  if (!file) {
+    alert("Choose a CSV file first.");
+    return;
+  }
+
+  const reader = new FileReader();
+
+  reader.onload = function(e) {
+    const text = e.target.result;
+    const rows = text.split(/\r?\n/).filter(row => row.trim() !== "");
+    const headers = rows[0].split(",");
+
+    const questions = rows.slice(1).map(row => {
+      const values = parseCSVRow(row);
+      const obj = {};
+
+      headers.forEach((header, index) => {
+        obj[header.trim()] = values[index] ? values[index].trim() : "";
+      });
+
+      return {
+        id: obj.id,
+        exam: obj.exam,
+        domain: obj.domain,
+        difficulty: obj.difficulty,
+        question: obj.question,
+        choices: {
+          A: obj.A,
+          B: obj.B,
+          C: obj.C,
+          D: obj.D
+        },
+        answer: obj.answer,
+        explanation: obj.explanation,
+        reference: obj.reference,
+        tags: obj.tags ? obj.tags.split("|") : []
+      };
+    });
+
+    downloadJSON("questions_export.json", questions);
+
+    document.getElementById("output").textContent =
+      JSON.stringify(questions, null, 2);
+  };
+
+  reader.readAsText(file);
+}
+
+function parseCSVRow(row) {
+  const result = [];
+  let current = "";
+  let insideQuotes = false;
+
+  for (let i = 0; i < row.length; i++) {
+    const char = row[i];
+
+    if (char === '"' && row[i + 1] === '"') {
+      current += '"';
+      i++;
+    } else if (char === '"') {
+      insideQuotes = !insideQuotes;
+    } else if (char === "," && !insideQuotes) {
+      result.push(current);
+      current = "";
+    } else {
+      current += char;
+    }
+  }
+
+  result.push(current);
+  return result;
+}
+
+function downloadJSON(filename, data) {
+  const blob = new Blob(
+    [JSON.stringify(data, null, 2)],
+    { type: "application/json" }
+  );
+
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = filename;
+  link.click();
+}
+</script>
+
+</body>
+</html>

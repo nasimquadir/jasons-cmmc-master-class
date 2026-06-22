@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exam Alpha</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Exam Alpha</h1>
+
+<h2 id="timer">03:30:00</h2>
+
+<div id="progressBarContainer">
+  <div id="progressBar"></div>
+</div>
+
+<div class="exam-layout">
+
+  <div id="questionNav">
+  </div>
+
+  <div class="exam-main">
+
+    <div id="questionContainer">
+      Loading...
+    </div>
+
+    <br>
+
+    <button onclick="previousQuestion()">
+      Previous
+    </button>
+
+    <button onclick="nextQuestion()">
+      Next
+    </button>
+
+    <button onclick="flagQuestion()">
+      Flag Question
+    </button>
+
+    <button onclick="submitExam()">
+      Submit Exam
+    </button>
+
+    <button onclick="resetExam()">
+      Reset Exam
+    </button>
+
+  </div>
+
+</div>
+
+<script>
+window.examType="alpha";
+</script>
+
+<script src="js/timer.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scoring.js"></script>
+
+</body>
+</html>

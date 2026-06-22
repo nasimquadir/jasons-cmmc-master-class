@@ -1,0 +1,3446 @@
+[
+  {
+    "id": "ALPHA-001",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "An OSC asks who conducts authorized third-party CMMC assessments. Which entity is responsible?",
+    "choices": {
+      "A": "C3PAO",
+      "B": "Registered Practitioner",
+      "C": "Licensed Training Provider",
+      "D": "OSC"
+    },
+    "answer": "A",
+    "explanation": "C3PAOs conduct authorized third-party CMMC assessments.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "C3PAO",
+      "Roles"
+    ]
+  },
+  {
+    "id": "ALPHA-002",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "A company wants implementation advice but not a certified assessment. Which ecosystem role is most appropriate?",
+    "choices": {
+      "A": "C3PAO",
+      "B": "Registered Practitioner",
+      "C": "DIBCAC",
+      "D": "Lead Assessor"
+    },
+    "answer": "B",
+    "explanation": "Registered Practitioners provide advice and consulting but do not conduct certified CMMC assessments.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "RP",
+      "Consulting"
+    ]
+  },
+  {
+    "id": "ALPHA-003",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which entity is the organization being assessed for CMMC certification?",
+    "choices": {
+      "A": "Licensed Partner Publisher",
+      "B": "C3PAO",
+      "C": "Organization Seeking Certification",
+      "D": "Registered Practitioner"
+    },
+    "answer": "C",
+    "explanation": "The OSC is the organization seeking CMMC certification.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "OSC"
+    ]
+  },
+  {
+    "id": "ALPHA-004",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which role is responsible for leading assessment activities and coordinating assessment team work?",
+    "choices": {
+      "A": "Registered Practitioner",
+      "B": "Licensed Training Provider",
+      "C": "OSC Sponsor",
+      "D": "Lead Assessor"
+    },
+    "answer": "D",
+    "explanation": "The Lead Assessor leads and coordinates assessment activities.",
+    "reference": "CCP Blueprint v7.4|CAP v5.6",
+    "tags": [
+      "Ecosystem",
+      "Lead Assessor"
+    ]
+  },
+  {
+    "id": "ALPHA-005",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "A training company wants to deliver official CCP training. Which ecosystem entity type is most relevant?",
+    "choices": {
+      "A": "Licensed Training Provider",
+      "B": "Registered Provider Organization",
+      "C": "OSC",
+      "D": "DIBCAC"
+    },
+    "answer": "A",
+    "explanation": "Licensed Training Providers are the ecosystem entities associated with delivering authorized training.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "LTP",
+      "Training"
+    ]
+  },
+  {
+    "id": "ALPHA-006",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which ecosystem participant provides consulting services through registered practitioners but does not perform certified assessments?",
+    "choices": {
+      "A": "C3PAO",
+      "B": "Registered Provider Organization",
+      "C": "DIBCAC",
+      "D": "CQAP"
+    },
+    "answer": "B",
+    "explanation": "RPOs support consulting through registered practitioners but do not perform certified CMMC assessments.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "RPO"
+    ]
+  },
+  {
+    "id": "ALPHA-007",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which role is associated with verifying assessment documentation completeness and accuracy?",
+    "choices": {
+      "A": "Lead Assessor",
+      "B": "OSC Official",
+      "C": "CMMC Quality Assurance Professional",
+      "D": "Registered Practitioner"
+    },
+    "answer": "C",
+    "explanation": "The CQAP verifies assessment package quality and completeness.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "Ecosystem",
+      "CQAP",
+      "Quality"
+    ]
+  },
+  {
+    "id": "ALPHA-008",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which organization is being evaluated against the CMMC practices during an assessment?",
+    "choices": {
+      "A": "C3PAO",
+      "B": "Cyber AB",
+      "C": "Licensed Partner Publisher",
+      "D": "OSC"
+    },
+    "answer": "D",
+    "explanation": "The OSC is the organization whose environment and practices are assessed.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "OSC"
+    ]
+  },
+  {
+    "id": "ALPHA-009",
+    "exam": "Alpha",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which statement best distinguishes a Registered Practitioner from a C3PAO?",
+    "choices": {
+      "A": "A Registered Practitioner may advise clients but does not conduct certified assessments.",
+      "B": "A Registered Practitioner issues certifications.",
+      "C": "A Registered Practitioner replaces the Lead Assessor.",
+      "D": "A Registered Practitioner performs DIBCAC oversight."
+    },
+    "answer": "A",
+    "explanation": "Registered Practitioners provide advice and recommendations but do not participate in certified assessments.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "RP",
+      "C3PAO"
+    ]
+  },
+  {
+    "id": "ALPHA-010",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A practitioner is pressured to ignore unfavorable evidence to preserve a client relationship. Which principles are most directly implicated?",
+    "choices": {
+      "A": "Confidentiality only",
+      "B": "Objectivity and Information Integrity",
+      "C": "Physical Protection and Media Protection",
+      "D": "Scoping and asset categorization"
+    },
+    "answer": "B",
+    "explanation": "Objectivity and Information Integrity require findings to be accurate and evidence-based.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Objectivity",
+      "Information Integrity"
+    ]
+  },
+  {
+    "id": "ALPHA-011",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "A CCP receives confidential business information during an engagement. What obligation continues after the engagement ends?",
+    "choices": {
+      "A": "No obligation remains",
+      "B": "The CCP may share it if anonymized",
+      "C": "Confidentiality",
+      "D": "The CCP must publish it in the report"
+    },
+    "answer": "C",
+    "explanation": "Confidentiality obligations continue after the engagement.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Confidentiality"
+    ]
+  },
+  {
+    "id": "ALPHA-012",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "A CCP claims to hold a credential they have not earned. Which CoPC principle is most directly violated?",
+    "choices": {
+      "A": "Objectivity",
+      "B": "Confidentiality",
+      "C": "Proper Use of Methods",
+      "D": "Professionalism"
+    },
+    "answer": "D",
+    "explanation": "Professionalism requires accurate representation of credentials and authorization.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Professionalism"
+    ]
+  },
+  {
+    "id": "ALPHA-013",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "An assessor previously helped the OSC implement controls and is now assigned to the assessment team. What is the best action?",
+    "choices": {
+      "A": "Identify and manage or avoid the conflict of interest.",
+      "B": "Continue because technical expertise is useful.",
+      "C": "Ignore it unless the OSC objects.",
+      "D": "Change only the assessment scope."
+    },
+    "answer": "A",
+    "explanation": "Conflicts of interest must be identified, disclosed, managed, or avoided.",
+    "reference": "Code of Professional Conduct|CAP v5.6",
+    "tags": [
+      "CoPC",
+      "Conflict of Interest",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "ALPHA-014",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "A practitioner uses CMMC-AB or third-party copyrighted material without permission. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Confidentiality",
+      "B": "Respect for Intellectual Property",
+      "C": "Scoping",
+      "D": "Assessment Readiness"
+    },
+    "answer": "B",
+    "explanation": "The CoPC requires respect for intellectual property rights.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Intellectual Property"
+    ]
+  },
+  {
+    "id": "ALPHA-015",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A practitioner submits assessment documentation that omits material facts. Which principle is most directly violated?",
+    "choices": {
+      "A": "Professionalism only",
+      "B": "Confidentiality only",
+      "C": "Information Integrity",
+      "D": "Physical Protection"
+    },
+    "answer": "C",
+    "explanation": "Information Integrity requires complete and accurate reporting of material facts.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Information Integrity"
+    ]
+  },
+  {
+    "id": "ALPHA-016",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "A CCP guarantees an OSC will pass if the OSC purchases consulting services. Which concern is most direct?",
+    "choices": {
+      "A": "The guarantee is acceptable if written into the contract.",
+      "B": "The guarantee only affects pricing.",
+      "C": "The guarantee is a scoping issue only.",
+      "D": "The practitioner is making an inappropriate assertion about assessment outcomes."
+    },
+    "answer": "D",
+    "explanation": "Practitioners should not make guarantees about assessment outcomes.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Professionalism",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "ALPHA-017",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "Which principle requires a practitioner to use CMMC methods and materials consistent with their intended purpose?",
+    "choices": {
+      "A": "Proper Use of Methods",
+      "B": "Confidentiality",
+      "C": "Scoping",
+      "D": "Boundary Protection"
+    },
+    "answer": "A",
+    "explanation": "Proper Use of Methods requires integrity in using authorized CMMC methods and materials.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Proper Use of Methods"
+    ]
+  },
+  {
+    "id": "ALPHA-018",
+    "exam": "Alpha",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP observes another practitioner coaching interviewees to provide misleading answers. What principle is most directly violated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Information Integrity",
+      "C": "Physical Protection",
+      "D": "CUI marking"
+    },
+    "answer": "B",
+    "explanation": "Coaching personnel to provide misleading answers undermines information integrity and ethical conduct.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "CoPC",
+      "Information Integrity",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "ALPHA-019",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which document defines the CCP exam domains and weights?",
+    "choices": {
+      "A": "CAP",
+      "B": "CMMC Scope Guide",
+      "C": "CCP Blueprint",
+      "D": "Code of Professional Conduct"
+    },
+    "answer": "C",
+    "explanation": "The CCP Blueprint defines the exam domains and their weights.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Blueprint"
+    ]
+  },
+  {
+    "id": "ALPHA-020",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document describes the phases of a CMMC assessment?",
+    "choices": {
+      "A": "Assessment Guide",
+      "B": "Scoping Guide",
+      "C": "Code of Professional Conduct",
+      "D": "CAP"
+    },
+    "answer": "D",
+    "explanation": "The CAP defines the assessment process phases.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "Governance",
+      "CAP"
+    ]
+  },
+  {
+    "id": "ALPHA-021",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document provides assessment objectives and methods for evaluating practice implementation?",
+    "choices": {
+      "A": "CMMC Assessment Guide",
+      "B": "Code of Professional Conduct",
+      "C": "CMMC Glossary",
+      "D": "Licensed Training Provider guide"
+    },
+    "answer": "A",
+    "explanation": "The Assessment Guide provides assessment objectives and methods.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide"
+    ]
+  },
+  {
+    "id": "ALPHA-022",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which document is most directly used to categorize CUI Assets, Security Protection Assets, CRMAs, Specialized Assets, and Out-of-Scope Assets?",
+    "choices": {
+      "A": "CAP",
+      "B": "CMMC Scope Guide",
+      "C": "Code of Professional Conduct",
+      "D": "CCP Blueprint"
+    },
+    "answer": "B",
+    "explanation": "The CMMC Scope Guide defines asset categories and scoping guidance.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Governance",
+      "Scoping Guide"
+    ]
+  },
+  {
+    "id": "ALPHA-023",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which information type is generated for or provided by the government under a contract and is not intended for public release?",
+    "choices": {
+      "A": "CUI",
+      "B": "Classified information",
+      "C": "FCI",
+      "D": "Public information"
+    },
+    "answer": "C",
+    "explanation": "FCI is information provided by or generated for the government under contract and not intended for public release.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "FCI"
+    ]
+  },
+  {
+    "id": "ALPHA-024",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which information type requires safeguarding or dissemination controls pursuant to law, regulation, or government-wide policy?",
+    "choices": {
+      "A": "Public information",
+      "B": "Marketing information",
+      "C": "General business data",
+      "D": "CUI"
+    },
+    "answer": "D",
+    "explanation": "CUI requires safeguarding or dissemination controls.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI"
+    ]
+  },
+  {
+    "id": "ALPHA-025",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which regulation is most closely associated with the CUI program and CUI safeguarding framework?",
+    "choices": {
+      "A": "32 CFR Part 2002",
+      "B": "Local building code",
+      "C": "State privacy law only",
+      "D": "Internal HR policy"
+    },
+    "answer": "A",
+    "explanation": "32 CFR Part 2002 is associated with CUI program requirements.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI",
+      "32 CFR"
+    ]
+  },
+  {
+    "id": "ALPHA-026",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which contract clause is commonly associated with safeguarding covered defense information and reporting cyber incidents?",
+    "choices": {
+      "A": "FAR 52.204-21 only",
+      "B": "DFARS 252.204-7012",
+      "C": "NARA marking handbook only",
+      "D": "CMMC Glossary"
+    },
+    "answer": "B",
+    "explanation": "DFARS 252.204-7012 is associated with safeguarding covered defense information and cyber incident reporting.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "DFARS"
+    ]
+  },
+  {
+    "id": "ALPHA-027",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which CMMC Level 2 source standard contains 110 security requirements?",
+    "choices": {
+      "A": "FAR 52.204-21",
+      "B": "ISO 9001",
+      "C": "NIST SP 800-171",
+      "D": "DoDI 8500 only"
+    },
+    "answer": "C",
+    "explanation": "CMMC Level 2 aligns with the 110 requirements in NIST SP 800-171.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "NIST SP 800-171",
+      "Level 2"
+    ]
+  },
+  {
+    "id": "ALPHA-028",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which statement best describes CMMC Level 1?",
+    "choices": {
+      "A": "It aligns with basic safeguarding requirements for FCI.",
+      "B": "It requires all NIST SP 800-171 requirements.",
+      "C": "It is only for classified information.",
+      "D": "It eliminates the need for assessments."
+    },
+    "answer": "A",
+    "explanation": "Level 1 is associated with foundational safeguarding requirements for FCI.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Level 1",
+      "FCI"
+    ]
+  },
+  {
+    "id": "ALPHA-029",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which statement best describes CMMC Level 2?",
+    "choices": {
+      "A": "It applies only to public information.",
+      "B": "It aligns with NIST SP 800-171 requirements for CUI protection.",
+      "C": "It eliminates third-party assessments.",
+      "D": "It replaces DFARS requirements entirely."
+    },
+    "answer": "B",
+    "explanation": "Level 2 aligns with NIST SP 800-171 for protecting CUI.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Level 2",
+      "CUI"
+    ]
+  },
+  {
+    "id": "ALPHA-030",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "An OSC wants to know which document explains the meaning of CMMC acronyms and terms. Which source is most appropriate?",
+    "choices": {
+      "A": "CAP",
+      "B": "Assessment Guide",
+      "C": "CMMC Glossary",
+      "D": "Code of Professional Conduct"
+    },
+    "answer": "C",
+    "explanation": "The CMMC Glossary is used for terms and acronyms.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Glossary"
+    ]
+  },
+  {
+    "id": "ALPHA-031",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source is most relevant for official CUI categories and markings administered by NARA?",
+    "choices": {
+      "A": "C3PAO marketing material",
+      "B": "Vendor datasheet",
+      "C": "Internal project charter",
+      "D": "ISOO CUI Registry"
+    },
+    "answer": "D",
+    "explanation": "The ISOO CUI Registry is used for official CUI categories and markings.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI Registry"
+    ]
+  },
+  {
+    "id": "ALPHA-032",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which CMMC tenet emphasizes alignment with widely accepted cybersecurity standards and focus on critical requirements?",
+    "choices": {
+      "A": "Streamlined Model",
+      "B": "Conflict of Interest",
+      "C": "Visitor Escort",
+      "D": "Physical Separation"
+    },
+    "answer": "A",
+    "explanation": "The streamlined model tenet focuses on critical requirements and alignment with accepted standards.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CMMC v2.0",
+      "Tenets"
+    ]
+  },
+  {
+    "id": "ALPHA-033",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which CMMC tenet emphasizes higher accountability and assessment reliability?",
+    "choices": {
+      "A": "Flexible Implementation",
+      "B": "Reliable Assessments",
+      "C": "Media Protection",
+      "D": "Public Access Separation"
+    },
+    "answer": "B",
+    "explanation": "Reliable Assessments emphasize accountability and assessment reliability.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Reliable Assessments"
+    ]
+  },
+  {
+    "id": "ALPHA-034",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document should an assessor use to understand how a Level 2 practice is evaluated using objectives and methods?",
+    "choices": {
+      "A": "Scope Guide",
+      "B": "Code of Professional Conduct",
+      "C": "Assessment Guide Level 2",
+      "D": "CMMC Glossary only"
+    },
+    "answer": "C",
+    "explanation": "The Level 2 Assessment Guide contains practice objectives and methods.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide",
+      "Level 2"
+    ]
+  },
+  {
+    "id": "ALPHA-035",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which document should be used to understand how an OSC defines the assessment boundary and included assets?",
+    "choices": {
+      "A": "CCP Blueprint only",
+      "B": "Code of Professional Conduct only",
+      "C": "CMMC Glossary only",
+      "D": "CMMC Scope Guide Level 2"
+    },
+    "answer": "D",
+    "explanation": "The Scope Guide supports assessment boundary and asset categorization decisions.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Governance",
+      "Scope"
+    ]
+  },
+  {
+    "id": "ALPHA-036",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "A contractor asks who has authority to identify and mark CUI. Which answer is most accurate?",
+    "choices": {
+      "A": "Government authorities identify and mark CUI according to applicable CUI rules.",
+      "B": "Any contractor employee may invent CUI markings.",
+      "C": "The C3PAO determines all CUI markings.",
+      "D": "The CCP Blueprint assigns CUI categories."
+    },
+    "answer": "A",
+    "explanation": "Government authority and applicable CUI directives govern identifying and marking CUI.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI",
+      "Marking"
+    ]
+  },
+  {
+    "id": "ALPHA-037",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which consequence is identified in the blueprint as a possible result of non-compliance?",
+    "choices": {
+      "A": "Automatic public release of CUI",
+      "B": "Failure to receive contract award",
+      "C": "Automatic waiver of safeguards",
+      "D": "Replacement of DFARS clauses"
+    },
+    "answer": "B",
+    "explanation": "The blueprint identifies potential consequences such as failure to receive contract award.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Noncompliance"
+    ]
+  },
+  {
+    "id": "ALPHA-038",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which document explains how assessment artifacts may be hashed and retained for assessment support?",
+    "choices": {
+      "A": "Code of Professional Conduct only",
+      "B": "CCP Blueprint only",
+      "C": "CMMC Artifact Hashing Tool User Guide",
+      "D": "FAR 52.204-21 only"
+    },
+    "answer": "C",
+    "explanation": "The CMMC Artifact Hashing Tool User Guide is a source document identified in the blueprint.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Artifacts",
+      "Hashing"
+    ]
+  },
+  {
+    "id": "ALPHA-039",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document is most directly tied to ethics, conflicts of interest, confidentiality, and information integrity?",
+    "choices": {
+      "A": "CMMC Assessment Guide",
+      "B": "CMMC Scope Guide",
+      "C": "CMMC Glossary",
+      "D": "Code of Professional Conduct"
+    },
+    "answer": "D",
+    "explanation": "The Code of Professional Conduct addresses ethics, confidentiality, objectivity, and information integrity.",
+    "reference": "Code of Professional Conduct",
+    "tags": [
+      "Governance",
+      "CoPC"
+    ]
+  },
+  {
+    "id": "ALPHA-040",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document is most directly tied to planning, conducting, reporting, and POA&M close-out activities?",
+    "choices": {
+      "A": "CAP",
+      "B": "CMMC Glossary",
+      "C": "NARA CUI Registry",
+      "D": "LTP course catalog"
+    },
+    "answer": "A",
+    "explanation": "The CAP describes the CMMC assessment process phases and activities.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "Governance",
+      "CAP",
+      "Assessment Process"
+    ]
+  },
+  {
+    "id": "ALPHA-041",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document should be used to understand asset categories and scope reduction strategies?",
+    "choices": {
+      "A": "Assessment Guide only",
+      "B": "CMMC Scope Guide",
+      "C": "Code of Professional Conduct",
+      "D": "CMMC Glossary only"
+    },
+    "answer": "B",
+    "explanation": "The Scope Guide addresses scoping and asset categorization.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Governance",
+      "Scope Guide"
+    ]
+  },
+  {
+    "id": "ALPHA-042",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document is primarily used to understand the CCP exam structure rather than assessment performance?",
+    "choices": {
+      "A": "CAP",
+      "B": "Assessment Guide",
+      "C": "CCP Blueprint",
+      "D": "Scope Guide"
+    },
+    "answer": "C",
+    "explanation": "The CCP Blueprint describes exam structure, domains, and weights.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Blueprint"
+    ]
+  },
+  {
+    "id": "ALPHA-043",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "An OSC asks which document explains Level 2 practice objectives, discussion, and assessment methods. Which answer is best?",
+    "choices": {
+      "A": "CMMC Glossary",
+      "B": "Code of Professional Conduct",
+      "C": "Scope Guide",
+      "D": "Assessment Guide Level 2"
+    },
+    "answer": "D",
+    "explanation": "The Level 2 Assessment Guide supports evaluation of Level 2 practices.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide",
+      "Level 2"
+    ]
+  },
+  {
+    "id": "ALPHA-044",
+    "exam": "Alpha",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source document pair is best for understanding both practice evaluation and assessment execution?",
+    "choices": {
+      "A": "Assessment Guide for practice evaluation and CAP for assessment execution.",
+      "B": "Scope Guide for both practice evaluation and assessment execution.",
+      "C": "Code of Professional Conduct for all technical practice objectives.",
+      "D": "CCP Blueprint for assessment evidence collection."
+    },
+    "answer": "A",
+    "explanation": "The Assessment Guide supports practice evaluation, while the CAP describes the assessment process.",
+    "reference": "Assessment Guide Level 2|CAP v5.6",
+    "tags": [
+      "Governance",
+      "Assessment Guide",
+      "CAP"
+    ]
+  },
+  {
+    "id": "ALPHA-045",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An administrator account remains enabled for a terminated employee for three weeks after departure. Which practice area is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Account Management",
+      "C": "Physical Protection",
+      "D": "Audit Logging"
+    },
+    "answer": "B",
+    "explanation": "Account management includes disabling accounts when no longer required.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Account Management"
+    ]
+  },
+  {
+    "id": "ALPHA-046",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A user can access engineering drawings unrelated to their job duties. Which principle is most directly violated?",
+    "choices": {
+      "A": "Least Privilege",
+      "B": "Physical Escort",
+      "C": "Media Sanitization",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Least privilege limits access to authorized functions and information.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-047",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "A contractor shares one generic account among five users to simplify administration. Which area is most directly affected?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Visitor Control",
+      "C": "Identification and Authentication",
+      "D": "Physical Security"
+    },
+    "answer": "C",
+    "explanation": "Unique identification is required for accountability and authentication.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "ALPHA-048",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Remote users authenticate with passwords only, despite MFA policy requirements. Which control family is most directly implicated?",
+    "choices": {
+      "A": "PE",
+      "B": "IA",
+      "C": "MP",
+      "D": "SI"
+    },
+    "answer": "B",
+    "explanation": "Identification and Authentication includes MFA requirements for privileged and network access.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "ALPHA-049",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "USB drives containing CUI are discarded without sanitization. Which practice family is most directly involved?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System Integrity",
+      "C": "Physical Protection",
+      "D": "Configuration Management"
+    },
+    "answer": "A",
+    "explanation": "Media containing CUI should be sanitized before disposal.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Sanitization"
+    ]
+  },
+  {
+    "id": "ALPHA-050",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Visitors enter a controlled area containing CUI systems without being escorted. Which family is most directly implicated?",
+    "choices": {
+      "A": "Access Control",
+      "B": "Physical Protection",
+      "C": "Media Protection",
+      "D": "Awareness and Training"
+    },
+    "answer": "B",
+    "explanation": "Physical Protection includes monitoring and escorting visitors.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Visitor Control"
+    ]
+  },
+  {
+    "id": "ALPHA-051",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Users receive browser certificate warnings when connecting to CUI applications. Which concern is most directly affected?",
+    "choices": {
+      "A": "Media Marking",
+      "B": "Communications Authenticity",
+      "C": "Visitor Accountability",
+      "D": "Physical Access"
+    },
+    "answer": "B",
+    "explanation": "Certificate validation affects communications authenticity.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Authenticity"
+    ]
+  },
+  {
+    "id": "ALPHA-052",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "A firewall permits unrestricted inbound traffic from the Internet to internal servers. Which area is most directly involved?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Personnel Security",
+      "D": "Awareness Training"
+    },
+    "answer": "A",
+    "explanation": "Boundary protection controls communications between networks.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-053",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Endpoint malware protection signatures have not been updated in six months. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "System and Information Integrity",
+      "C": "Media Protection",
+      "D": "Audit and Accountability"
+    },
+    "answer": "B",
+    "explanation": "Protection from malicious code is part of System and Information Integrity.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-054",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Security patches are routinely delayed for critical vulnerabilities. Which objective is most directly affected?",
+    "choices": {
+      "A": "Media Sanitization",
+      "B": "Flaw Remediation",
+      "C": "Physical Escort",
+      "D": "Session Lock"
+    },
+    "answer": "B",
+    "explanation": "Timely remediation of vulnerabilities supports system integrity.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-055",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An employee accesses a database containing CUI using elevated privileges that are unnecessary for their duties. Which principle is violated?",
+    "choices": {
+      "A": "Least Privilege",
+      "B": "Visitor Escort",
+      "C": "Media Accountability",
+      "D": "Configuration Baseline"
+    },
+    "answer": "A",
+    "explanation": "Least privilege limits privileges to only those required.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-056",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Users leave workstations unlocked when unattended in shared spaces. Which practice is most directly implicated?",
+    "choices": {
+      "A": "Media Transport",
+      "B": "Session Lock",
+      "C": "Boundary Defense",
+      "D": "Physical Escort"
+    },
+    "answer": "B",
+    "explanation": "Session lock prevents unauthorized access when users are absent.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Session Lock"
+    ]
+  },
+  {
+    "id": "ALPHA-057",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A contractor stores backup tapes containing CUI in an unlocked cabinet accessible to all employees. Which family is most directly implicated?",
+    "choices": {
+      "A": "Identification and Authentication",
+      "B": "Media Protection",
+      "C": "Incident Response",
+      "D": "System Integrity"
+    },
+    "answer": "B",
+    "explanation": "Media containing CUI must be physically protected and controlled.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Storage",
+      "CUI"
+    ]
+  },
+  {
+    "id": "ALPHA-058",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A help desk technician uses another employee's credentials to troubleshoot a system because shared passwords are considered convenient. Which control family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Identification and Authentication",
+      "C": "Media Protection",
+      "D": "Awareness and Training"
+    },
+    "answer": "B",
+    "explanation": "Users should be uniquely identified and authenticated to ensure accountability.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Authentication",
+      "Accountability"
+    ]
+  },
+  {
+    "id": "ALPHA-059",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC allows former contractors to retain VPN access after project completion. Which area is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Account Management",
+      "C": "System Integrity",
+      "D": "Physical Protection"
+    },
+    "answer": "B",
+    "explanation": "Accounts and access should be disabled when no longer required.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Account Management"
+    ]
+  },
+  {
+    "id": "ALPHA-060",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Backup media containing CUI are transported offsite without protective containers or tracking. Which family is most directly affected?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "System Integrity"
+    },
+    "answer": "A",
+    "explanation": "Media transport should provide protection and accountability.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Transport",
+      "Accountability"
+    ]
+  },
+  {
+    "id": "ALPHA-061",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An employee accesses CUI from a personal device that is not authorized by policy. Which family is most directly implicated?",
+    "choices": {
+      "A": "Personnel Security",
+      "B": "Access Control",
+      "C": "Media Protection",
+      "D": "Audit and Accountability"
+    },
+    "answer": "B",
+    "explanation": "Access should be limited to authorized devices and users.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Authorized Access"
+    ]
+  },
+  {
+    "id": "ALPHA-062",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Server room doors are left unlocked during business hours because employees are trusted. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System Integrity",
+      "C": "Physical Protection",
+      "D": "Configuration Management"
+    },
+    "answer": "C",
+    "explanation": "Physical access to systems should be controlled and monitored.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "ALPHA-063",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Sensitive printouts containing CUI are left unattended on a shared printer. Which family is most directly involved?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Risk Management",
+      "C": "Awareness and Training",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Printed media containing CUI should be protected from unauthorized access.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Paper Media"
+    ]
+  },
+  {
+    "id": "ALPHA-064",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Users can bypass session lock settings through local configuration changes. Which practice area is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "Access Control",
+      "D": "System Integrity"
+    },
+    "answer": "C",
+    "explanation": "Session lock mechanisms help prevent unauthorized access to unattended systems.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Session Lock"
+    ]
+  },
+  {
+    "id": "ALPHA-065",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Network communications carrying CUI are transmitted in plaintext across external networks. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Physical Protection",
+      "C": "Personnel Security",
+      "D": "Media Protection"
+    },
+    "answer": "A",
+    "explanation": "Confidentiality of CUI in transit should be protected through cryptographic mechanisms.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Encryption",
+      "Transmission"
+    ]
+  },
+  {
+    "id": "ALPHA-066",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Administrators are unable to determine whether anti-malware software is functioning because alerts are disabled. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Information Integrity",
+      "C": "Access Control",
+      "D": "Physical Protection"
+    },
+    "answer": "B",
+    "explanation": "Organizations should monitor and respond to malicious code protection mechanisms.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-067",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A user authenticates with a password but MFA is required for remote access. Which control family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "B",
+    "explanation": "MFA strengthens identity assurance for remote access.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "ALPHA-068",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Security updates are applied only once each year despite frequent vendor advisories. Which family is most directly involved?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "System and Information Integrity",
+      "D": "Awareness and Training"
+    },
+    "answer": "C",
+    "explanation": "Timely flaw remediation helps reduce exposure to vulnerabilities.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-069",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An organization permits unrestricted wireless connections directly into its internal CUI network. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Personnel Security",
+      "D": "Physical Protection"
+    },
+    "answer": "A",
+    "explanation": "Boundary protections help control communications entering and leaving the network.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-070",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A cleaning contractor enters a controlled area containing CUI systems without authorization or escort. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "System Integrity"
+    },
+    "answer": "C",
+    "explanation": "Physical access to facilities and visitors should be controlled and monitored.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Visitor Control"
+    ]
+  },
+  {
+    "id": "ALPHA-071",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An administrator creates local accounts on workstations without management approval or documentation. Which practice area is most directly implicated?",
+    "choices": {
+      "A": "Account Management",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Account management includes controlling the creation and management of accounts.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Account Management"
+    ]
+  },
+  {
+    "id": "ALPHA-072",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Privileged users are permitted to browse the Internet and read email using administrative accounts. Which principle is most directly violated?",
+    "choices": {
+      "A": "Media Sanitization",
+      "B": "Least Functionality",
+      "C": "Least Privilege",
+      "D": "Visitor Escort"
+    },
+    "answer": "C",
+    "explanation": "Administrative privileges should be restricted to authorized functions.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-073",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Authentication credentials are transmitted across the network without encryption. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Protection of communications includes safeguarding authentication information in transit.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Encryption",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "ALPHA-074",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC uses MFA for remote users but not for privileged accounts. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "System Integrity",
+      "D": "Physical Protection"
+    },
+    "answer": "B",
+    "explanation": "Privileged accounts require multifactor authentication.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "MFA",
+      "Privileged Access"
+    ]
+  },
+  {
+    "id": "ALPHA-075",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Backup disks containing CUI are stored with no inventory records or chain of custody. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Access Control",
+      "C": "Physical Protection",
+      "D": "Configuration Management"
+    },
+    "answer": "A",
+    "explanation": "Media accountability supports protection and traceability of CUI media.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Media Accountability"
+    ]
+  },
+  {
+    "id": "ALPHA-076",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Employees prop open the secure door to a CUI processing area to improve convenience. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System Integrity",
+      "C": "Physical Protection",
+      "D": "Risk Management"
+    },
+    "answer": "C",
+    "explanation": "Physical access to facilities and systems should be controlled.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "ALPHA-077",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Network traffic between two CUI systems is transmitted in plaintext across an external connection. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Communications Protection",
+      "C": "Awareness Training",
+      "D": "Personnel Security"
+    },
+    "answer": "B",
+    "explanation": "Cryptographic protections should be used to protect CUI in transit.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Encryption"
+    ]
+  },
+  {
+    "id": "ALPHA-078",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Anti-malware software is installed but logs are never reviewed and alerts are ignored. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Information Integrity",
+      "C": "Physical Protection",
+      "D": "Configuration Management"
+    },
+    "answer": "B",
+    "explanation": "Organizations should identify, report, and correct malicious code protection failures.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-079",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A vulnerability scan identifies critical flaws, but remediation is postponed indefinitely. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Information Integrity",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Timely flaw remediation supports system integrity and security.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-080",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Users may install any software they choose on company systems without approval. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Least Functionality",
+      "B": "Media Protection",
+      "C": "Visitor Escort",
+      "D": "Session Lock"
+    },
+    "answer": "A",
+    "explanation": "Limiting system functionality reduces attack surface and risk.",
+    "reference": "Assessment Guide Level 2 - CM",
+    "tags": [
+      "CM",
+      "Least Functionality"
+    ]
+  },
+  {
+    "id": "ALPHA-081",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "The organization uses a shared administrator password for all network devices. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "Risk Management"
+    },
+    "answer": "B",
+    "explanation": "Unique identification and authentication support accountability.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "ALPHA-082",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Employees write passwords on sticky notes attached to monitors in a CUI environment. Which family is most directly implicated?",
+    "choices": {
+      "A": "Identification and Authentication",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Authentication information should be protected from unauthorized disclosure.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Credential Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-083",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Portable drives containing CUI are sent by mail without encryption. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "System Integrity",
+      "D": "Awareness Training"
+    },
+    "answer": "B",
+    "explanation": "Media containing CUI should be protected during transport and storage.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Encryption",
+      "Transport"
+    ]
+  },
+  {
+    "id": "ALPHA-084",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Security guards do not verify visitor badges before allowing access to a server room. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "Access Control",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Physical access and visitor activities should be controlled and monitored.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Visitor Access"
+    ]
+  },
+  {
+    "id": "ALPHA-085",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC discovers that expired digital certificates are still used for encrypted communications. Which concern is most directly affected?",
+    "choices": {
+      "A": "Media Accountability",
+      "B": "Communications Authenticity",
+      "C": "Visitor Escort",
+      "D": "Media Sanitization"
+    },
+    "answer": "B",
+    "explanation": "Certificate validity supports communications authenticity.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Authenticity"
+    ]
+  },
+  {
+    "id": "ALPHA-086",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Users are allowed to connect personally owned wireless access points to the CUI network. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "A",
+    "explanation": "Boundary protections help control network communications.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-087",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Patch deployment records cannot demonstrate when vulnerabilities were corrected. Which family is most directly implicated?",
+    "choices": {
+      "A": "System Integrity",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Flaw remediation requires evidence of corrective action.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-088",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An employee's account remains active after termination and is later used for unauthorized access. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "Access Control",
+      "D": "Configuration Management"
+    },
+    "answer": "C",
+    "explanation": "Account management includes disabling inactive accounts.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Account Management"
+    ]
+  },
+  {
+    "id": "ALPHA-089",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Sensitive paper files containing CUI are discarded into normal trash containers. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "Risk Management",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Media sanitization and destruction protect CUI.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Sanitization"
+    ]
+  },
+  {
+    "id": "ALPHA-090",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Remote users authenticate with MFA but privileged local accounts use only passwords. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "B",
+    "explanation": "Privileged accounts should employ multifactor authentication.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "ALPHA-091",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Cleaning personnel are granted unescorted access to areas containing CUI systems. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "Access Control",
+      "D": "System Integrity"
+    },
+    "answer": "A",
+    "explanation": "Visitor access should be controlled and monitored.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Visitor Escort"
+    ]
+  },
+  {
+    "id": "ALPHA-092",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Firewall rules permit unrestricted inbound traffic to internal servers hosting CUI. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Boundary protections limit communications entering and leaving the network.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-093",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Anti-virus software signatures have not been updated for nine months. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Information Integrity",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Protection from malicious code requires current mechanisms.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-094",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Users can continue working indefinitely without reauthentication after extended inactivity. Which practice area is most directly implicated?",
+    "choices": {
+      "A": "Session Lock",
+      "B": "Media Protection",
+      "C": "Physical Escort",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Session lock mechanisms help prevent unauthorized access to unattended systems.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Session Lock"
+    ]
+  },
+  {
+    "id": "ALPHA-095",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A user is granted administrator privileges to simplify troubleshooting, despite only needing standard access. Which principle is most directly violated?",
+    "choices": {
+      "A": "Media Accountability",
+      "B": "Least Privilege",
+      "C": "Visitor Control",
+      "D": "Media Sanitization"
+    },
+    "answer": "B",
+    "explanation": "Least privilege restricts users to only the privileges necessary to perform assigned duties.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-096",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An organization allows users to reuse their previous two passwords indefinitely. Which control family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Identification and Authentication",
+      "C": "Physical Protection",
+      "D": "Incident Response"
+    },
+    "answer": "B",
+    "explanation": "Password management policies support strong authentication and reduce credential compromise risk.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Password Management"
+    ]
+  },
+  {
+    "id": "ALPHA-097",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A privileged account is shared among three administrators to simplify emergency access. Which concern is most directly affected?",
+    "choices": {
+      "A": "Accountability",
+      "B": "Media Sanitization",
+      "C": "Boundary Protection",
+      "D": "Visitor Control"
+    },
+    "answer": "A",
+    "explanation": "Shared privileged accounts reduce accountability and traceability.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Accountability",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "ALPHA-098",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Users may connect removable media to systems without authorization or malware scanning. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Personnel Security",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "A",
+    "explanation": "Media usage should be controlled and protected from malicious code.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Removable Media"
+    ]
+  },
+  {
+    "id": "ALPHA-099",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC permits unrestricted remote administrative access from any Internet location. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Risk Management",
+      "D": "Physical Protection"
+    },
+    "answer": "A",
+    "explanation": "Remote access pathways should be controlled and protected.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Remote Access"
+    ]
+  },
+  {
+    "id": "ALPHA-100",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Employees are not required to display identification badges in controlled areas containing CUI systems. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "System Integrity",
+      "D": "Access Control"
+    },
+    "answer": "B",
+    "explanation": "Physical access mechanisms support identification and control of personnel.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Identification"
+    ]
+  },
+  {
+    "id": "ALPHA-101",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Critical security alerts generated by endpoint protection are routinely ignored. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Information Integrity",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Organizations should identify, report, and respond to malicious code protection failures.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-102",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Administrators delay applying emergency security patches because system downtime is inconvenient. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Information Integrity",
+      "C": "Awareness Training",
+      "D": "Physical Protection"
+    },
+    "answer": "B",
+    "explanation": "Timely flaw remediation is essential to maintaining system integrity.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-103",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC permits unrestricted peer-to-peer software installation on CUI systems. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Least Functionality",
+      "B": "Media Sanitization",
+      "C": "Visitor Escort",
+      "D": "Physical Separation"
+    },
+    "answer": "A",
+    "explanation": "Limiting system functionality reduces unnecessary risk.",
+    "reference": "Assessment Guide Level 2 - CM",
+    "tags": [
+      "CM",
+      "Least Functionality"
+    ]
+  },
+  {
+    "id": "ALPHA-104",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Employees authenticate to CUI systems using group accounts instead of unique credentials. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "Identification and Authentication",
+      "D": "Risk Management"
+    },
+    "answer": "C",
+    "explanation": "Unique identifiers support accountability and authentication.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Unique Identification"
+    ]
+  },
+  {
+    "id": "ALPHA-105",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Backup tapes containing CUI are left unattended during transportation. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "Access Control",
+      "D": "Awareness Training"
+    },
+    "answer": "A",
+    "explanation": "Media transport requires protection and accountability.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Transport"
+    ]
+  },
+  {
+    "id": "ALPHA-106",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An employee bypasses MFA by using a colleague's authenticated workstation. Which principle is most directly compromised?",
+    "choices": {
+      "A": "Media Accountability",
+      "B": "Authentication Assurance",
+      "C": "Physical Protection",
+      "D": "Media Sanitization"
+    },
+    "answer": "B",
+    "explanation": "Authentication mechanisms support identity assurance and accountability.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "MFA",
+      "Identity Assurance"
+    ]
+  },
+  {
+    "id": "ALPHA-107",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Server room access logs are never reviewed for unusual activity. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "System Integrity",
+      "D": "Personnel Security"
+    },
+    "answer": "A",
+    "explanation": "Monitoring physical access helps detect unauthorized activity.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "ALPHA-108",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC discovers expired anti-malware licenses prevented signature updates for months. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Information Integrity",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "B",
+    "explanation": "Malicious code protection mechanisms should remain current and effective.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-109",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An administrator disables account lockout because users frequently mistype passwords. Which family is most directly implicated?",
+    "choices": {
+      "A": "Identification and Authentication",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Account protection mechanisms help defend against brute-force attacks and unauthorized access.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Account Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-110",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Users may retain access to shared folders after transferring departments because permissions are never reviewed. Which principle is most directly affected?",
+    "choices": {
+      "A": "Visitor Escort",
+      "B": "Least Privilege",
+      "C": "Media Sanitization",
+      "D": "Physical Separation"
+    },
+    "answer": "B",
+    "explanation": "Least privilege requires access to be limited to authorized duties.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-111",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Portable media containing CUI are reused without sanitization before reassignment. Which family is most directly implicated?",
+    "choices": {
+      "A": "System Integrity",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "B",
+    "explanation": "Media sanitization prevents unauthorized disclosure of residual information.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Sanitization"
+    ]
+  },
+  {
+    "id": "ALPHA-112",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Employees can enter the server room using a common keypad code known to all personnel. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "Risk Management",
+      "D": "Personnel Security"
+    },
+    "answer": "B",
+    "explanation": "Physical access mechanisms should uniquely identify and control access.",
+    "reference": "Assessment Guide Level 2 - PE",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "ALPHA-113",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "A contractor transmits CUI through an unencrypted third-party file-sharing site. Which family is most directly implicated?",
+    "choices": {
+      "A": "System and Communications Protection",
+      "B": "Media Protection",
+      "C": "Awareness Training",
+      "D": "Physical Protection"
+    },
+    "answer": "A",
+    "explanation": "Communications carrying CUI should be protected using cryptographic mechanisms.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Encryption"
+    ]
+  },
+  {
+    "id": "ALPHA-114",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Anti-malware software reports repeated failures, but personnel do not investigate the alerts. Which family is most directly implicated?",
+    "choices": {
+      "A": "Physical Protection",
+      "B": "Media Protection",
+      "C": "System and Information Integrity",
+      "D": "Configuration Management"
+    },
+    "answer": "C",
+    "explanation": "Organizations should identify, report, and correct malicious code protection failures.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "ALPHA-115",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Security patches are applied only during annual maintenance windows despite critical vulnerabilities. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Information Integrity",
+      "C": "Physical Protection",
+      "D": "Awareness Training"
+    },
+    "answer": "B",
+    "explanation": "Timely flaw remediation reduces exposure to known vulnerabilities.",
+    "reference": "Assessment Guide Level 2 - SI",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "ALPHA-116",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Users are granted administrative rights on laptops to avoid frequent help desk requests. Which principle is most directly violated?",
+    "choices": {
+      "A": "Media Accountability",
+      "B": "Least Privilege",
+      "C": "Visitor Control",
+      "D": "Media Sanitization"
+    },
+    "answer": "B",
+    "explanation": "Users should be provided only the privileges necessary to perform assigned duties.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "ALPHA-117",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Hard",
+    "question": "Employees may authenticate to CUI systems using passwords that never expire. Which family is most directly implicated?",
+    "choices": {
+      "A": "Identification and Authentication",
+      "B": "Media Protection",
+      "C": "Physical Protection",
+      "D": "Incident Response"
+    },
+    "answer": "A",
+    "explanation": "Credential management policies support secure authentication practices.",
+    "reference": "Assessment Guide Level 2 - IA",
+    "tags": [
+      "IA",
+      "Credential Management"
+    ]
+  },
+  {
+    "id": "ALPHA-118",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Printed reports containing CUI are stored overnight in unlocked desks accessible to cleaning personnel. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "Physical Protection",
+      "C": "Access Control",
+      "D": "System Integrity"
+    },
+    "answer": "A",
+    "explanation": "Media containing CUI should be protected from unauthorized access.",
+    "reference": "Assessment Guide Level 2 - MP",
+    "tags": [
+      "MP",
+      "Storage"
+    ]
+  },
+  {
+    "id": "ALPHA-119",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "An OSC allows unrestricted inbound network connections to systems hosting CUI because operations require flexibility. Which family is most directly implicated?",
+    "choices": {
+      "A": "Media Protection",
+      "B": "System and Communications Protection",
+      "C": "Physical Protection",
+      "D": "Personnel Security"
+    },
+    "answer": "B",
+    "explanation": "Boundary protections help control communications entering and leaving systems.",
+    "reference": "Assessment Guide Level 2 - SC",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "ALPHA-120",
+    "exam": "Alpha",
+    "domain": "Domain 4 - Model Construct and Practice Implementation",
+    "difficulty": "Elite",
+    "question": "Employees leave active sessions unattended for extended periods without automatic lock mechanisms. Which practice area is most directly implicated?",
+    "choices": {
+      "A": "Media Sanitization",
+      "B": "Session Lock",
+      "C": "Visitor Escort",
+      "D": "Physical Separation"
+    },
+    "answer": "B",
+    "explanation": "Session lock mechanisms reduce the risk of unauthorized access to unattended systems.",
+    "reference": "Assessment Guide Level 2 - AC",
+    "tags": [
+      "AC",
+      "Session Lock"
+    ]
+  },
+  {
+    "id": "ALPHA-121",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During an assessment, interviews indicate that multifactor authentication is enforced for remote access, but testing reveals one VPN group authenticates with only a password. What should assessors do?",
+    "choices": {
+      "A": "Assign MET because interviews confirmed implementation",
+      "B": "Resolve the conflicting evidence and determine actual implementation",
+      "C": "Ignore the testing results",
+      "D": "Mark the practice N/A"
+    },
+    "answer": "B",
+    "explanation": "Conflicting evidence must be reconciled before assigning a final result.",
+    "reference": "CAP v5.6; Assessment Guide Level 2",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency",
+      "Test"
+    ]
+  },
+  {
+    "id": "ALPHA-122",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which three assessment methods are used during a CMMC assessment?",
+    "choices": {
+      "A": "Review, Approve, Certify",
+      "B": "Examine, Interview, Test",
+      "C": "Observe, Document, Verify",
+      "D": "Inspect, Validate, Report"
+    },
+    "answer": "B",
+    "explanation": "CMMC assessments use Examine, Interview, and Test methods.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Methods"
+    ]
+  },
+  {
+    "id": "ALPHA-123",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An administrator states account reviews are performed monthly, but no documentation exists and testing cannot confirm the process. Which result is most appropriate?",
+    "choices": {
+      "A": "MET",
+      "B": "N/A",
+      "C": "NOT MET",
+      "D": "POA&M"
+    },
+    "answer": "C",
+    "explanation": "Assertions alone are insufficient without adequate evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "ALPHA-124",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes planning and preparing for the assessment?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "A",
+    "explanation": "Phase 1 consists of assessment preparation and planning activities.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 1"
+    ]
+  },
+  {
+    "id": "ALPHA-125",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An assessor observes contradictory evidence between screenshots and live system testing. Which action is most appropriate?",
+    "choices": {
+      "A": "Rely only on screenshots",
+      "B": "Rely only on interviews",
+      "C": "Investigate further and reconcile discrepancies",
+      "D": "Assign MET because evidence exists"
+    },
+    "answer": "C",
+    "explanation": "Assessment conclusions require sufficient and consistent evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-126",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes conducting Examine, Interview, and Test procedures?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "B",
+    "explanation": "Assessment execution occurs during Phase 2.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 2"
+    ]
+  },
+  {
+    "id": "ALPHA-127",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Evidence shows a control is implemented for most users, but several exceptions allow unauthorized access. Which assessment result is most appropriate?",
+    "choices": {
+      "A": "MET",
+      "B": "NOT MET",
+      "C": "N/A",
+      "D": "POA&M"
+    },
+    "answer": "B",
+    "explanation": "Material deficiencies prevent a MET determination.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "MET",
+      "NOT MET"
+    ]
+  },
+  {
+    "id": "ALPHA-128",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes reporting assessment results?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "C",
+    "explanation": "Reporting occurs during Phase 3.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 3"
+    ]
+  },
+  {
+    "id": "ALPHA-129",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An OSC provides documentation from three years ago as evidence of account management. Which concern is most direct?",
+    "choices": {
+      "A": "Evidence sufficiency",
+      "B": "Visitor access",
+      "C": "Physical protection",
+      "D": "Media accountability"
+    },
+    "answer": "A",
+    "explanation": "Evidence should demonstrate current implementation.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Currency"
+    ]
+  },
+  {
+    "id": "ALPHA-130",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes POA&M closeout activities?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "D",
+    "explanation": "Phase 4 includes post-assessment and POA&M activities.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 4"
+    ]
+  },
+  {
+    "id": "ALPHA-131",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Personnel describe a process that differs from documented procedures. What should assessors do?",
+    "choices": {
+      "A": "Accept the documentation",
+      "B": "Accept interviews only",
+      "C": "Reconcile differences using additional evidence",
+      "D": "Assign NOT MET immediately"
+    },
+    "answer": "C",
+    "explanation": "Assessors should resolve inconsistencies before reaching conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Interviews",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-132",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which role is responsible for leading assessment activities?",
+    "choices": {
+      "A": "CQAP",
+      "B": "Lead Assessor",
+      "C": "Registered Practitioner",
+      "D": "OSC Sponsor"
+    },
+    "answer": "B",
+    "explanation": "The Lead Assessor directs assessment activities.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Lead Assessor"
+    ]
+  },
+  {
+    "id": "ALPHA-133",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Testing confirms MFA works for privileged accounts, but screenshots provided by the OSC are outdated. Which evidence source should drive conclusions?",
+    "choices": {
+      "A": "Outdated screenshots",
+      "B": "Current testing results",
+      "C": "Marketing material",
+      "D": "Previous assessment reports"
+    },
+    "answer": "B",
+    "explanation": "Current testing provides stronger evidence of implementation.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Testing",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-134",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During an assessment, personnel describe monthly account reviews, but the only records provided are more than one year old. Which concern is most direct?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Evidence sufficiency",
+      "C": "Visitor access",
+      "D": "Physical security"
+    },
+    "answer": "B",
+    "explanation": "Evidence should demonstrate current implementation. Outdated artifacts alone may be insufficient.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency",
+      "Artifacts"
+    ]
+  },
+  {
+    "id": "ALPHA-135",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which assessment method involves reviewing policies, procedures, and screenshots?",
+    "choices": {
+      "A": "Interview",
+      "B": "Examine",
+      "C": "Test",
+      "D": "Observe"
+    },
+    "answer": "B",
+    "explanation": "Examine activities include reviewing documentation and artifacts.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Examine"
+    ]
+  },
+  {
+    "id": "ALPHA-136",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Testing demonstrates MFA works correctly, but one interviewee states it is not required. What should assessors do?",
+    "choices": {
+      "A": "Assign NOT MET immediately",
+      "B": "Rely only on interviews",
+      "C": "Resolve the inconsistency using additional evidence",
+      "D": "Ignore the discrepancy"
+    },
+    "answer": "C",
+    "explanation": "Assessors should reconcile contradictory evidence before reaching conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Contradictory Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-137",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which assessment method involves asking personnel how processes are performed?",
+    "choices": {
+      "A": "Interview",
+      "B": "Examine",
+      "C": "Test",
+      "D": "Observe"
+    },
+    "answer": "A",
+    "explanation": "Interviews are used to understand how activities are performed.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Interview"
+    ]
+  },
+  {
+    "id": "ALPHA-138",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An assessor receives conflicting screenshots from different administrators. Which action is most appropriate?",
+    "choices": {
+      "A": "Assign MET because screenshots exist",
+      "B": "Ignore the conflict",
+      "C": "Gather additional evidence and reconcile discrepancies",
+      "D": "Assign N/A"
+    },
+    "answer": "C",
+    "explanation": "Conflicting evidence should be investigated and resolved.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-139",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which assessment method includes validating technical operation of controls?",
+    "choices": {
+      "A": "Interview",
+      "B": "Examine",
+      "C": "Test",
+      "D": "Review"
+    },
+    "answer": "C",
+    "explanation": "Testing validates that controls operate as intended.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Test"
+    ]
+  },
+  {
+    "id": "ALPHA-140",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An OSC provides only verbal statements to support implementation of a practice. Which conclusion is most appropriate?",
+    "choices": {
+      "A": "MET",
+      "B": "NOT MET unless sufficient evidence exists",
+      "C": "POA&M",
+      "D": "N/A"
+    },
+    "answer": "B",
+    "explanation": "Assertions alone do not constitute sufficient evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "ALPHA-141",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which role is responsible for ensuring assessment package quality and completeness?",
+    "choices": {
+      "A": "Registered Practitioner",
+      "B": "Lead Assessor",
+      "C": "CQAP",
+      "D": "OSC Official"
+    },
+    "answer": "C",
+    "explanation": "The CMMC Quality Assurance Professional reviews assessment package quality.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "CQAP"
+    ]
+  },
+  {
+    "id": "ALPHA-142",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Testing confirms that a control functions for most users, but several exceptions allow unauthorized access. Which result is most appropriate?",
+    "choices": {
+      "A": "MET",
+      "B": "NOT MET",
+      "C": "N/A",
+      "D": "POA&M"
+    },
+    "answer": "B",
+    "explanation": "Material deficiencies prevent a MET determination.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "MET",
+      "NOT MET"
+    ]
+  },
+  {
+    "id": "ALPHA-143",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes final reporting of assessment results?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "C",
+    "explanation": "Phase 3 includes reporting assessment results.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 3"
+    ]
+  },
+  {
+    "id": "ALPHA-144",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Assessors observe inconsistent implementation across sampled systems. Which action is most appropriate?",
+    "choices": {
+      "A": "Expand testing and reconcile findings",
+      "B": "Assign MET because most systems comply",
+      "C": "Ignore outliers",
+      "D": "Mark N/A"
+    },
+    "answer": "A",
+    "explanation": "Additional evidence may be required when implementation varies across samples.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-145",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase addresses POA&M closeout activities?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "D",
+    "explanation": "Post-assessment and POA&M activities occur during Phase 4.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 4",
+      "POA&M"
+    ]
+  },
+  {
+    "id": "ALPHA-146",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Which principle is most important when assessors encounter conflicting evidence from artifacts, interviews, and testing?",
+    "choices": {
+      "A": "Speed",
+      "B": "Consistency and objectivity",
+      "C": "Convenience",
+      "D": "Assumptions"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be objective, evidence-based, and consistent.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "ALPHA-147",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During Phase 2, interviews indicate monthly account reviews occur, but testing shows several dormant accounts remain enabled. What should assessors do?",
+    "choices": {
+      "A": "Assign MET because the process exists",
+      "B": "Reconcile the conflicting evidence and determine actual implementation",
+      "C": "Ignore testing and rely on interviews",
+      "D": "Mark the practice N/A"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions require sufficient and consistent evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence",
+      "Interviews",
+      "Testing"
+    ]
+  },
+  {
+    "id": "ALPHA-148",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase includes the execution of Examine, Interview, and Test activities?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "B",
+    "explanation": "Assessment execution occurs during Phase 2.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 2"
+    ]
+  },
+  {
+    "id": "ALPHA-149",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Which principle is most important when evaluating contradictory evidence?",
+    "choices": {
+      "A": "Convenience",
+      "B": "Consistency and objectivity",
+      "C": "Speed",
+      "D": "Assumptions"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be objective and evidence-based.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "ALPHA-150",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which role is responsible for verifying assessment package completeness and quality?",
+    "choices": {
+      "A": "Registered Practitioner",
+      "B": "Lead Assessor",
+      "C": "CQAP",
+      "D": "OSC Official"
+    },
+    "answer": "C",
+    "explanation": "The CQAP reviews assessment package quality.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "CQAP"
+    ]
+  },
+  {
+    "id": "ALPHA-151",
+    "exam": "Alpha",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Evidence demonstrates control implementation for most systems, but testing identifies material exceptions. Which result is most appropriate?",
+    "choices": {
+      "A": "MET",
+      "B": "NOT MET",
+      "C": "N/A",
+      "D": "POA&M"
+    },
+    "answer": "B",
+    "explanation": "Material deficiencies prevent a MET determination.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "MET",
+      "NOT MET"
+    ]
+  },
+  {
+    "id": "ALPHA-152",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A workstation stores and processes CUI and connects directly to CUI systems. Which asset category most likely applies?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "Specialized Asset",
+      "C": "CUI Asset",
+      "D": "Out-of-Scope Asset"
+    },
+    "answer": "C",
+    "explanation": "Assets that process, store, or transmit CUI are CUI Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-153",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A SIEM collects logs and provides security monitoring for CUI assets but does not process CUI. Which category most likely applies?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "CRMA",
+      "C": "Specialized Asset",
+      "D": "Out-of-Scope Asset"
+    },
+    "answer": "A",
+    "explanation": "Security Protection Assets provide security functions supporting CUI assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "SIEM"
+    ]
+  },
+  {
+    "id": "ALPHA-154",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which asset category generally includes manufacturing equipment that cannot practically implement all CMMC practices?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "Specialized Asset",
+      "C": "Security Protection Asset",
+      "D": "CRMA"
+    },
+    "answer": "B",
+    "explanation": "Specialized Assets may have unique operational constraints.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-155",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A cloud email gateway filters malicious messages for systems within scope. Which category most likely applies?",
+    "choices": {
+      "A": "Specialized Asset",
+      "B": "Out-of-Scope Asset",
+      "C": "CRMA",
+      "D": "Security Protection Asset"
+    },
+    "answer": "D",
+    "explanation": "Email gateways providing protection are Security Protection Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA"
+    ]
+  },
+  {
+    "id": "ALPHA-156",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "Which asset category consists of contractor-owned systems capable of accessing CUI but separated through technical controls preventing access?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "Out-of-Scope Asset",
+      "C": "Specialized Asset",
+      "D": "CUI Asset"
+    },
+    "answer": "B",
+    "explanation": "Assets effectively isolated from CUI processing are Out-of-Scope.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Out-of-Scope"
+    ]
+  },
+  {
+    "id": "ALPHA-157",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A contractor manages identity services used by CUI assets but stores no CUI. Which category most likely applies?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "CRMA",
+      "C": "Specialized Asset",
+      "D": "Out-of-Scope Asset"
+    },
+    "answer": "A",
+    "explanation": "Identity services supporting security are SPAs.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Identity"
+    ]
+  },
+  {
+    "id": "ALPHA-158",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which category describes assets that may process CUI under the contractor's risk management responsibilities?",
+    "choices": {
+      "A": "CRMA",
+      "B": "Out-of-Scope Asset",
+      "C": "Specialized Asset",
+      "D": "Security Protection Asset"
+    },
+    "answer": "A",
+    "explanation": "CRMAs are contractor risk-managed assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CRMA"
+    ]
+  },
+  {
+    "id": "ALPHA-159",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An engineering workstation can access CUI repositories without restrictions. Which category most likely applies?",
+    "choices": {
+      "A": "Specialized Asset",
+      "B": "Out-of-Scope Asset",
+      "C": "CUI Asset",
+      "D": "Security Protection Asset"
+    },
+    "answer": "C",
+    "explanation": "Unrestricted access to CUI generally places the asset in scope as a CUI Asset.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-160",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which category includes badge systems and endpoint security tools supporting protection of CUI systems?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "Specialized Asset",
+      "C": "Out-of-Scope Asset",
+      "D": "CRMA"
+    },
+    "answer": "A",
+    "explanation": "Protection mechanisms supporting scoped assets are SPAs.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA"
+    ]
+  },
+  {
+    "id": "ALPHA-161",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A printer stores CUI documents and is directly connected to a CUI system. Which category most likely applies?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "Specialized Asset",
+      "C": "CUI Asset",
+      "D": "CRMA"
+    },
+    "answer": "C",
+    "explanation": "Assets storing or transmitting CUI are CUI Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-162",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A VoIP system provides communications but does not process CUI and supports CUI operations. Which category most likely applies?",
+    "choices": {
+      "A": "Specialized Asset",
+      "B": "Security Protection Asset",
+      "C": "Out-of-Scope Asset",
+      "D": "CRMA"
+    },
+    "answer": "B",
+    "explanation": "Security-supporting infrastructure is generally categorized as SPA.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA"
+    ]
+  },
+  {
+    "id": "ALPHA-163",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which category is most likely for HVAC systems controlling server room temperature?",
+    "choices": {
+      "A": "Specialized Asset",
+      "B": "CUI Asset",
+      "C": "CRMA",
+      "D": "Out-of-Scope Asset"
+    },
+    "answer": "A",
+    "explanation": "Industrial or facility systems often qualify as Specialized Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-164",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A mobile device accesses and stores CUI email. Which category most likely applies?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "CUI Asset",
+      "C": "Specialized Asset",
+      "D": "Security Protection Asset"
+    },
+    "answer": "B",
+    "explanation": "Devices storing or transmitting CUI are CUI Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-165",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A laptop is separated from CUI assets through technical controls preventing CUI access. Which category most likely applies?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "Security Protection Asset",
+      "C": "CRMA",
+      "D": "Specialized Asset"
+    },
+    "answer": "A",
+    "explanation": "Effective separation may place assets out of scope.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Out-of-Scope"
+    ]
+  },
+  {
+    "id": "ALPHA-166",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which asset category provides cybersecurity functions supporting CUI assets?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "Specialized Asset",
+      "C": "CRMA",
+      "D": "Out-of-Scope Asset"
+    },
+    "answer": "A",
+    "explanation": "SPAs provide security services supporting CUI Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA"
+    ]
+  },
+  {
+    "id": "ALPHA-167",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A vulnerability scanner supports protection of CUI systems but stores no CUI. Which category most likely applies?",
+    "choices": {
+      "A": "Security Protection Asset",
+      "B": "Out-of-Scope Asset",
+      "C": "Specialized Asset",
+      "D": "CRMA"
+    },
+    "answer": "A",
+    "explanation": "Security tools supporting scoped assets are SPAs.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Vulnerability Scanner"
+    ]
+  },
+  {
+    "id": "ALPHA-168",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "Which category generally includes industrial control systems with limited security capabilities?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "Specialized Asset",
+      "C": "Security Protection Asset",
+      "D": "CUI Asset"
+    },
+    "answer": "B",
+    "explanation": "Industrial systems with operational limitations are often Specialized Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "ALPHA-169",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "Which factor is most important when determining whether an asset is in scope?",
+    "choices": {
+      "A": "Cost",
+      "B": "Physical size",
+      "C": "Ability to process, store, or transmit CUI",
+      "D": "Vendor preference"
+    },
+    "answer": "C",
+    "explanation": "Scoping decisions are driven by the asset's relationship to CUI.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI"
+    ]
+  },
+  {
+    "id": "ALPHA-170",
+    "exam": "Alpha",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "Which document provides the authoritative guidance for categorizing CUI Assets, SPAs, Specialized Assets, CRMAs, and Out-of-Scope Assets?",
+    "choices": {
+      "A": "CAP v5.6",
+      "B": "Assessment Guide Level 2",
+      "C": "Code of Professional Conduct",
+      "D": "CMMC Scope Guide Level 2"
+    },
+    "answer": "D",
+    "explanation": "The CMMC Scope Guide defines asset categories and scoping principles.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Scope Guide"
+    ]
+  }
+]

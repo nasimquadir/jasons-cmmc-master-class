@@ -1,0 +1,3453 @@
+[
+  {
+    "id": "BRAVO-001",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An OSC receives conflicting guidance from an internal policy and a recently issued CMMC Assessment Guide discussion. The policy permits password-only VPN access for administrators, while the guide objective emphasizes multifactor authentication. Which source should most strongly influence implementation decisions?",
+    "choices": {
+      "A": "The internal policy because it predates the guide",
+      "B": "The latest authoritative CMMC guidance supporting assessment objectives",
+      "C": "The opinion of the system administrator",
+      "D": "The contract manager's interpretation"
+    },
+    "answer": "B",
+    "explanation": "Current authoritative CMMC guidance should drive implementation and assessment decisions when internal documents conflict.",
+    "reference": "CCP Blueprint v7.4; Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Source Documents"
+    ]
+  },
+  {
+    "id": "BRAVO-002",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "During a readiness engagement, a CCP discovers evidence suggesting a close personal friend falsified assessment artifacts. Which action best aligns with professional obligations?",
+    "choices": {
+      "A": "Ignore the issue to avoid harming the relationship",
+      "B": "Privately alter the evidence to protect the friend",
+      "C": "Maintain integrity and address the issue through appropriate channels",
+      "D": "Complete the engagement without documenting concerns"
+    },
+    "answer": "C",
+    "explanation": "Professional conduct requires integrity and objectivity even when conflicts involve personal relationships.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-003",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "An OSC asks whether a C3PAO employee may independently issue a certification decision without the assessment process. Which response is most accurate?",
+    "choices": {
+      "A": "Certification decisions require the established CMMC ecosystem processes",
+      "B": "Any CCP may certify an organization independently",
+      "C": "The OSC determines certification status",
+      "D": "Certification occurs automatically after self-attestation"
+    },
+    "answer": "A",
+    "explanation": "Certification decisions follow defined CMMC ecosystem roles and processes.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-004",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An engineer argues that a legacy local procedure should override newer CMMC documentation because it has worked for years. What is the best response?",
+    "choices": {
+      "A": "Operational history automatically outweighs updated guidance",
+      "B": "Implementation should align with authoritative and current requirements",
+      "C": "Local procedures are always superior",
+      "D": "No reconciliation is necessary"
+    },
+    "answer": "B",
+    "explanation": "Organizations should align with authoritative, current guidance rather than relying solely on legacy practices.",
+    "reference": "Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Requirements"
+    ]
+  },
+  {
+    "id": "BRAVO-005",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A client offers an expensive gift to a CCP shortly before an assessment. Which response most closely aligns with the Code of Professional Conduct?",
+    "choices": {
+      "A": "Accept the gift because no assessment has begun",
+      "B": "Accept the gift and disclose it later if asked",
+      "C": "Decline the gift to preserve independence and objectivity",
+      "D": "Accept it if the OSC approves"
+    },
+    "answer": "C",
+    "explanation": "Maintaining objectivity and avoiding improper influence are core professional responsibilities.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-006",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "A practitioner needs detailed implementation objectives for evaluating AC and IA practices. Which source is most appropriate?",
+    "choices": {
+      "A": "Code of Professional Conduct",
+      "B": "Assessment Guide Level 2",
+      "C": "Marketing material from a vendor",
+      "D": "Corporate travel policy"
+    },
+    "answer": "B",
+    "explanation": "The Assessment Guide provides objectives and discussion supporting practice evaluation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide"
+    ]
+  },
+  {
+    "id": "BRAVO-007",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "An OSC assumes that passing a readiness review guarantees certification. Which response is most accurate?",
+    "choices": {
+      "A": "Readiness reviews and certification assessments serve different purposes",
+      "B": "Readiness reviews automatically issue certification",
+      "C": "Only the OSC determines certification outcomes",
+      "D": "Certification occurs after policy approval"
+    },
+    "answer": "A",
+    "explanation": "Readiness activities do not replace formal assessment and certification processes.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Assessment Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-008",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A program manager insists that a customer questionnaire should take precedence over formal CMMC guidance because it is contract-specific. During preparation, conflicting requirements are discovered. Which approach is most appropriate?",
+    "choices": {
+      "A": "Treat the questionnaire as automatically overriding authoritative guidance",
+      "B": "Reconcile contractual requirements while ensuring alignment with authoritative CMMC sources",
+      "C": "Delay implementation until the next assessment cycle",
+      "D": "Allow system administrators to decide independently"
+    },
+    "answer": "B",
+    "explanation": "Contractual requirements should be considered, but authoritative CMMC sources remain foundational and conflicts must be reconciled.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Source Hierarchy"
+    ]
+  },
+  {
+    "id": "BRAVO-009",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP is asked by a client to omit a significant weakness from a readiness report because disclosure may jeopardize funding. What action best supports professional responsibilities?",
+    "choices": {
+      "A": "Exclude the issue because readiness reviews are informal",
+      "B": "Document findings accurately and maintain professional integrity",
+      "C": "Delay the report until the issue is corrected",
+      "D": "Report only weaknesses affecting certification"
+    },
+    "answer": "B",
+    "explanation": "Integrity and objectivity require accurate reporting regardless of external pressure.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Integrity",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-010",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "An OSC believes that employing a CCP guarantees successful certification because expertise eliminates assessment risk. Which response is most accurate?",
+    "choices": {
+      "A": "Certification depends on evidence and assessment outcomes, not personnel titles",
+      "B": "A CCP may independently approve certification decisions",
+      "C": "Certification depends primarily on contract value",
+      "D": "Employing multiple CCPs guarantees success"
+    },
+    "answer": "A",
+    "explanation": "Certification outcomes are based on implementation and assessment results, not credentials alone.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-011",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An engineer references an archived internal checklist that conflicts with recently updated assessment objectives. Which principle should guide the organization's decision?",
+    "choices": {
+      "A": "Historical success outweighs current guidance",
+      "B": "Current authoritative guidance should drive implementation",
+      "C": "Engineering preference controls compliance decisions",
+      "D": "Any documented procedure is equally valid"
+    },
+    "answer": "B",
+    "explanation": "Current authoritative documents should be used when evaluating implementation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Currency"
+    ]
+  },
+  {
+    "id": "BRAVO-012",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "During an engagement, a practitioner discovers that prior consulting advice they provided may have contributed to a control deficiency. Which response best aligns with professional expectations?",
+    "choices": {
+      "A": "Avoid mentioning the issue to prevent bias allegations",
+      "B": "Disclose the situation and maintain objectivity",
+      "C": "Withdraw all documentation from the assessment",
+      "D": "Transfer responsibility to the OSC immediately"
+    },
+    "answer": "B",
+    "explanation": "Transparency and objectivity are essential when potential conflicts arise.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Conflicts of Interest"
+    ]
+  },
+  {
+    "id": "BRAVO-013",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A security lead asks which document provides assessment objectives and discussion statements used to evaluate implementation rather than prescribe organizational policy. Which source is most appropriate?",
+    "choices": {
+      "A": "Code of Professional Conduct",
+      "B": "Assessment Guide Level 2",
+      "C": "Corporate security handbook",
+      "D": "Contract performance statement"
+    },
+    "answer": "B",
+    "explanation": "The Assessment Guide contains objectives and discussion statements supporting assessment activities.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide"
+    ]
+  },
+  {
+    "id": "BRAVO-014",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "A contractor assumes that successful completion of consulting activities creates an obligation for assessors to reach favorable conclusions. Which statement is most accurate?",
+    "choices": {
+      "A": "Consulting outcomes influence certification decisions",
+      "B": "Assessment conclusions must remain evidence-based and independent",
+      "C": "Consultants determine final certification status",
+      "D": "Readiness reviews eliminate the need for formal assessments"
+    },
+    "answer": "B",
+    "explanation": "Assessment decisions must remain objective and independent regardless of prior consulting efforts.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Independence"
+    ]
+  },
+  {
+    "id": "BRAVO-015",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "During preparation for a Level 2 assessment, a security manager relies on an internal standard developed years earlier. A recently updated Assessment Guide objective appears inconsistent with the local procedure. Which action is most appropriate?",
+    "choices": {
+      "A": "Maintain the existing procedure because internal standards control implementation",
+      "B": "Align implementation with current authoritative guidance while reconciling internal procedures",
+      "C": "Delay the assessment until a new contract is issued",
+      "D": "Use whichever requirement is easier to satisfy"
+    },
+    "answer": "B",
+    "explanation": "Organizations should align implementation with current authoritative guidance and reconcile conflicting internal documents.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Source Hierarchy"
+    ]
+  },
+  {
+    "id": "BRAVO-016",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "An OSC assumes a Registered Practitioner may independently determine certification outcomes because the practitioner assisted with readiness activities. Which response is most accurate?",
+    "choices": {
+      "A": "Certification decisions are based on defined assessment and ecosystem processes",
+      "B": "Registered Practitioners issue certifications after reviewing evidence",
+      "C": "The OSC determines certification status internally",
+      "D": "Certification decisions are made by contract administrators"
+    },
+    "answer": "A",
+    "explanation": "Roles within the CMMC ecosystem are separated to preserve independence and objectivity.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-017",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP discovers that a former employer, now an assessment client, omitted information that could materially affect results. Which action best aligns with professional responsibilities?",
+    "choices": {
+      "A": "Remain silent because the information was learned previously",
+      "B": "Disclose and address the issue objectively through appropriate channels",
+      "C": "Withdraw all prior evidence from consideration",
+      "D": "Modify findings to avoid appearance of bias"
+    },
+    "answer": "B",
+    "explanation": "Integrity and objectivity require professionals to address material issues regardless of prior relationships.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-018",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "A team member asks which document provides detailed assessment objectives used to determine whether implementation satisfies practices. Which source is most appropriate?",
+    "choices": {
+      "A": "Code of Professional Conduct",
+      "B": "CMMC Scoping Guide",
+      "C": "Assessment Guide Level 2",
+      "D": "Contractor security awareness training"
+    },
+    "answer": "C",
+    "explanation": "The Assessment Guide contains objectives and discussion supporting practice evaluation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide"
+    ]
+  },
+  {
+    "id": "BRAVO-019",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "A contractor believes a successful gap assessment guarantees a favorable certification result. Which statement is most accurate?",
+    "choices": {
+      "A": "Readiness activities and certification assessments serve different purposes",
+      "B": "Gap assessments automatically establish compliance",
+      "C": "Certification depends on the readiness provider's opinion",
+      "D": "Certification status is determined by system owners"
+    },
+    "answer": "A",
+    "explanation": "Readiness reviews do not replace independent assessment activities.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Assessment Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-020",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "During an engagement, a client representative offers future consulting work contingent upon favorable reporting. Which response most closely aligns with professional expectations?",
+    "choices": {
+      "A": "Accept the arrangement because future work is unrelated",
+      "B": "Continue the engagement but omit documentation of the offer",
+      "C": "Maintain independence and avoid arrangements that impair objectivity",
+      "D": "Delegate reporting responsibilities to the client"
+    },
+    "answer": "C",
+    "explanation": "Professional independence and objectivity must be preserved.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-021",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An organization receives differing interpretations from two consultants regarding the handling of CUI assets. Which approach should most strongly guide implementation decisions?",
+    "choices": {
+      "A": "Adopt the interpretation requiring the least effort",
+      "B": "Use consensus between the consultants regardless of references",
+      "C": "Rely on current authoritative CMMC source documents and supporting guidance",
+      "D": "Postpone decisions until after the assessment begins"
+    },
+    "answer": "C",
+    "explanation": "Authoritative source documents should drive implementation decisions when opinions differ.",
+    "reference": "CCP Blueprint v7.4; CMMC Scoping Guide Level 2",
+    "tags": [
+      "Governance",
+      "Authoritative Sources"
+    ]
+  },
+  {
+    "id": "BRAVO-022",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP discovers that a colleague assigned to the same engagement previously accepted paid consulting work from the OSC and failed to disclose the relationship. Which response most closely aligns with professional responsibilities?",
+    "choices": {
+      "A": "Continue the engagement because the work was completed before the assessment",
+      "B": "Document the concern and ensure the potential conflict is appropriately addressed",
+      "C": "Assume independence is unaffected because consulting and assessments are separate",
+      "D": "Delay all assessment activities until contract renewal"
+    },
+    "answer": "B",
+    "explanation": "Professional integrity requires transparency and management of potential conflicts of interest.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Conflicts of Interest"
+    ]
+  },
+  {
+    "id": "BRAVO-023",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A security architect receives contradictory recommendations from two vendors regarding implementation priorities. Neither recommendation cites authoritative references. Which approach is most appropriate?",
+    "choices": {
+      "A": "Select the solution with lower cost",
+      "B": "Implement both approaches to avoid disagreement",
+      "C": "Use current authoritative CMMC guidance to determine priorities",
+      "D": "Follow whichever recommendation was received first"
+    },
+    "answer": "C",
+    "explanation": "Authoritative source documents should guide implementation decisions when opinions differ.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Authoritative Sources"
+    ]
+  },
+  {
+    "id": "BRAVO-024",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "An OSC expects a readiness review provider to guarantee certification because deficiencies were not identified during consulting. Which statement is most accurate?",
+    "choices": {
+      "A": "Consulting outcomes influence assessment scoring",
+      "B": "Certification depends upon evidence collected during formal assessment activities",
+      "C": "Readiness reviews substitute for independent assessments",
+      "D": "Certification decisions are made jointly with the OSC"
+    },
+    "answer": "B",
+    "explanation": "Readiness services and certification assessments are distinct activities with different purposes.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Assessment Roles"
+    ]
+  },
+  {
+    "id": "BRAVO-025",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A practitioner encounters an outdated local policy that conflicts with recently updated assessment objectives. Which principle should drive resolution?",
+    "choices": {
+      "A": "Existing practices should remain unchanged to preserve stability",
+      "B": "Current authoritative guidance should take precedence over legacy procedures",
+      "C": "Contractors may choose either source if implementation is consistent",
+      "D": "Assessment objectives apply only after certification"
+    },
+    "answer": "B",
+    "explanation": "Organizations should align with current authoritative guidance when resolving conflicts.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Source Hierarchy"
+    ]
+  },
+  {
+    "id": "BRAVO-026",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "During a readiness engagement, an executive asks a CCP to omit negative observations because they are already being corrected. Which response best reflects professional conduct expectations?",
+    "choices": {
+      "A": "Exclude the observations because remediation has begun",
+      "B": "Document findings accurately regardless of anticipated corrections",
+      "C": "Delay reporting until remediation is complete",
+      "D": "Report only issues affecting certification eligibility"
+    },
+    "answer": "B",
+    "explanation": "Integrity requires accurate and objective reporting of observed conditions.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-027",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "A contractor assumes that the presence of certified personnel within the company is sufficient evidence of compliance. Which response is most accurate?",
+    "choices": {
+      "A": "Certified personnel replace the need for objective evidence",
+      "B": "Compliance depends upon demonstrated implementation rather than personnel credentials",
+      "C": "Certification status is determined by workforce experience",
+      "D": "Organizations may self-certify when employing CCPs"
+    },
+    "answer": "B",
+    "explanation": "Implementation evidence, not titles or credentials, supports assessment conclusions.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-028",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A security manager asks which document should be used to understand assessment objectives and discussion supporting practice evaluation rather than organizational ethics or scoping categories. Which source is most appropriate?",
+    "choices": {
+      "A": "Code of Professional Conduct",
+      "B": "CMMC Scoping Guide",
+      "C": "Assessment Guide Level 2",
+      "D": "CAP v5.6"
+    },
+    "answer": "C",
+    "explanation": "The Assessment Guide provides objectives and discussion used to evaluate implementation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "Governance",
+      "Assessment Guide"
+    ]
+  },
+  {
+    "id": "BRAVO-029",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An OSC receives CUI handling instructions from a prime contractor that conflict with its outdated internal data classification guide. Which action is best?",
+    "choices": {
+      "A": "Follow the internal guide because it is approved locally",
+      "B": "Ignore the prime contractor because only government markings matter",
+      "C": "Reconcile the conflict using authoritative CUI and CMMC source documents",
+      "D": "Treat all contract data as public until the assessment begins"
+    },
+    "answer": "C",
+    "explanation": "CUI handling decisions should be based on authoritative source documents and applicable contract requirements, not outdated internal guidance.",
+    "reference": "CCP Blueprint v7.4; CUI source guidance",
+    "tags": [
+      "Governance",
+      "CUI",
+      "Source Documents"
+    ]
+  },
+  {
+    "id": "BRAVO-030",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP notices that a colleague's report wording makes an unresolved issue appear fully corrected. The colleague says the wording is technically defensible. What is the best response?",
+    "choices": {
+      "A": "Accept the wording if the client prefers it",
+      "B": "Focus on whether the report accurately represents material facts",
+      "C": "Remove the issue from the report to avoid disagreement",
+      "D": "Defer all reporting decisions to the OSC"
+    },
+    "answer": "B",
+    "explanation": "Information integrity requires accurate representation of material facts, not technically evasive wording.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Information Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-031",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "An OSC asks whether a Registered Provider Organization can perform the same role as a C3PAO during certification. What is the best answer?",
+    "choices": {
+      "A": "Yes, if the RPO employs experienced consultants",
+      "B": "No, RPOs provide consulting support and do not conduct certified assessments",
+      "C": "Yes, if the OSC approves the scope",
+      "D": "No, only DIBCAC may conduct any assessment"
+    },
+    "answer": "B",
+    "explanation": "RPOs may provide consulting support, while C3PAOs conduct authorized third-party assessments.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "RPO",
+      "C3PAO"
+    ]
+  },
+  {
+    "id": "BRAVO-032",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An OSC wants to treat FCI and CUI the same way to simplify procedures. What is the strongest concern?",
+    "choices": {
+      "A": "FCI and CUI have different safeguarding and dissemination expectations",
+      "B": "FCI is always more sensitive than CUI",
+      "C": "CUI applies only to classified systems",
+      "D": "FCI cannot appear in contracts"
+    },
+    "answer": "A",
+    "explanation": "FCI and CUI are different information categories with different protection expectations.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "FCI",
+      "CUI"
+    ]
+  },
+  {
+    "id": "BRAVO-033",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A practitioner is asked to reuse proprietary assessment templates from a previous employer because they are effective. No permission exists. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Objectivity",
+      "B": "Respect for intellectual property",
+      "C": "Assessment sampling",
+      "D": "Evidence sufficiency"
+    },
+    "answer": "B",
+    "explanation": "Using proprietary materials without authorization violates respect for intellectual property.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Intellectual Property"
+    ]
+  },
+  {
+    "id": "BRAVO-034",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "A compliance manager asks why CMMC Level 2 is more demanding than Level 1. Which explanation is most accurate?",
+    "choices": {
+      "A": "Level 2 aligns with NIST SP 800-171 requirements for protecting CUI",
+      "B": "Level 2 applies only to classified information",
+      "C": "Level 2 replaces all contract clauses",
+      "D": "Level 2 is only a training requirement"
+    },
+    "answer": "A",
+    "explanation": "CMMC Level 2 aligns with NIST SP 800-171 requirements for protecting CUI.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Level 2",
+      "NIST SP 800-171"
+    ]
+  },
+  {
+    "id": "BRAVO-035",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "An OSC assumes the Lead Assessor must help remediate deficiencies during the assessment to ensure fairness. Which response is best?",
+    "choices": {
+      "A": "The Lead Assessor may remediate if the OSC requests help",
+      "B": "Assessment roles must preserve independence from implementation assistance",
+      "C": "Remediation is required before evidence collection",
+      "D": "The OSC decides whether independence matters"
+    },
+    "answer": "B",
+    "explanation": "Assessment roles must remain independent and evidence-based; remediation support creates objectivity concerns.",
+    "reference": "CCP Blueprint v7.4; CAP v5.6",
+    "tags": [
+      "Ecosystem",
+      "Lead Assessor",
+      "Independence"
+    ]
+  },
+  {
+    "id": "BRAVO-036",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "A system owner argues that because CMMC is not open book, source documents are irrelevant to preparation. What is the best response?",
+    "choices": {
+      "A": "Source documents are still the foundation for understanding exam objectives and assessment expectations",
+      "B": "Only commercial practice tests should be used",
+      "C": "Source documents matter only to CCAs",
+      "D": "The exam tests general cybersecurity knowledge only"
+    },
+    "answer": "A",
+    "explanation": "The CCP exam is based on the CMMC model, source documents, governance, scoping, CAP, and ethics.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Source Documents",
+      "Exam Prep"
+    ]
+  },
+  {
+    "id": "BRAVO-037",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Hard",
+    "question": "A client asks a CCP to sign an NDA that prevents disclosure of unethical conduct discovered during the engagement. Which concern is most direct?",
+    "choices": {
+      "A": "The NDA may conflict with lawful and ethical responsibilities",
+      "B": "The NDA automatically replaces professional obligations",
+      "C": "The NDA eliminates confidentiality duties",
+      "D": "The NDA converts the engagement into an assessment"
+    },
+    "answer": "A",
+    "explanation": "Contracts and NDAs do not remove lawful and ethical professional obligations.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "NDA",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "BRAVO-038",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An OSC receives a spreadsheet of controls from a vendor and assumes it is equivalent to the CMMC Assessment Guide. Which response is best?",
+    "choices": {
+      "A": "Vendor mappings may help planning but do not replace authoritative assessment objectives",
+      "B": "Vendor spreadsheets are always sufficient evidence",
+      "C": "Vendor mappings determine scoring",
+      "D": "Assessment Guides apply only to assessors, not OSCs"
+    },
+    "answer": "A",
+    "explanation": "Vendor materials may support preparation but do not replace authoritative CMMC assessment guidance.",
+    "reference": "Assessment Guide Level 2; CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "Assessment Guide",
+      "Vendor Material"
+    ]
+  },
+  {
+    "id": "BRAVO-039",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Hard",
+    "question": "Which statement best reflects the CCP role on an assessment team?",
+    "choices": {
+      "A": "A CCP may support assessment activities within authorized role boundaries",
+      "B": "A CCP independently issues final certification decisions",
+      "C": "A CCP replaces the Lead Assessor when technical controls are involved",
+      "D": "A CCP may certify any OSC after training"
+    },
+    "answer": "A",
+    "explanation": "A CCP may support assessment activities but does not independently issue certification decisions.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Ecosystem",
+      "CCP",
+      "Assessment Team"
+    ]
+  },
+  {
+    "id": "BRAVO-040",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Elite",
+    "question": "An OSC treats CUI markings from a subcontractor as optional because the data did not come directly from the government. What is the best concern?",
+    "choices": {
+      "A": "CUI handling obligations can follow the information and applicable contract flow-downs",
+      "B": "Only prime contractors handle CUI",
+      "C": "Subcontractor data is always FCI",
+      "D": "CUI markings are never relevant to contractors"
+    },
+    "answer": "A",
+    "explanation": "CUI handling responsibilities may apply to authorized holders and flow through contractual relationships.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI",
+      "Flowdown"
+    ]
+  },
+  {
+    "id": "BRAVO-041",
+    "exam": "Bravo",
+    "domain": "Domain 2 - Code of Professional Conduct",
+    "difficulty": "Elite",
+    "question": "A CCP identifies a potential conflict of interest but believes they can remain unbiased. What is the best action?",
+    "choices": {
+      "A": "Do nothing unless bias is proven",
+      "B": "Identify and manage the conflict through proper disclosure and process",
+      "C": "Continue and document only favorable evidence",
+      "D": "Ask the OSC whether they mind"
+    },
+    "answer": "B",
+    "explanation": "Potential conflicts must be disclosed and managed; subjective confidence is not enough.",
+    "reference": "Code of Professional Conduct v2.3",
+    "tags": [
+      "CoPC",
+      "Conflict of Interest",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-042",
+    "exam": "Bravo",
+    "domain": "Domain 3 - Governance and Source Documents",
+    "difficulty": "Hard",
+    "question": "Which source is most appropriate for understanding official CUI categories and markings?",
+    "choices": {
+      "A": "ISOO CUI Registry",
+      "B": "An internal help desk knowledge base",
+      "C": "A vendor security white paper",
+      "D": "A readiness consultant's checklist"
+    },
+    "answer": "A",
+    "explanation": "The ISOO CUI Registry supports understanding official CUI categories and markings.",
+    "reference": "CCP Blueprint v7.4",
+    "tags": [
+      "Governance",
+      "CUI Registry"
+    ]
+  },
+  {
+    "id": "BRAVO-043",
+    "exam": "Bravo",
+    "domain": "Domain 1 - CMMC Ecosystem",
+    "difficulty": "Elite",
+    "question": "An OSC wants the same consultant who designed its CUI enclave to serve on the certification assessment team. What is the strongest concern?",
+    "choices": {
+      "A": "The consultant may lack technical knowledge",
+      "B": "The arrangement may impair assessment independence and objectivity",
+      "C": "The enclave cannot be assessed if consultants were involved",
+      "D": "The OSC must use DIBCAC instead"
+    },
+    "answer": "B",
+    "explanation": "Prior implementation work may create independence and objectivity concerns for assessment participation.",
+    "reference": "CCP Blueprint v7.4; Code of Professional Conduct v2.3",
+    "tags": [
+      "Ecosystem",
+      "Objectivity",
+      "Conflict of Interest"
+    ]
+  },
+  {
+    "id": "BRAVO-044",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A system administrator proposes allowing developers to retain local administrator rights because endpoint controls block known malware. Which consideration is most significant?",
+    "choices": {
+      "A": "Endpoint protection compensates fully for excessive privileges",
+      "B": "Least privilege should be preserved because preventive controls address different risks",
+      "C": "Local administrator rights are acceptable when users acknowledge responsibility",
+      "D": "Administrative rights are irrelevant if logging is enabled"
+    },
+    "answer": "B",
+    "explanation": "Protective technologies do not eliminate the need to restrict privileges to authorized functions.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-045",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC implements MFA for VPN access but allows emergency privileged access through a bypass mechanism requiring only a password. Which concern is most significant?",
+    "choices": {
+      "A": "The bypass may undermine identity assurance for privileged access",
+      "B": "Emergency access always exempts MFA requirements",
+      "C": "Password complexity compensates for MFA exceptions",
+      "D": "Privileged accounts are outside normal authentication expectations"
+    },
+    "answer": "A",
+    "explanation": "Exceptions that bypass MFA may weaken authentication protections for privileged access.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "BRAVO-046",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Printed engineering drawings containing CUI are stored in locked cabinets, but cleaning personnel have unrestricted access to master keys. Which issue is most significant?",
+    "choices": {
+      "A": "Media markings are inadequate",
+      "B": "Physical protections may be ineffective despite locked storage",
+      "C": "Paper records are inherently low risk",
+      "D": "Master key access is irrelevant if logs exist"
+    },
+    "answer": "B",
+    "explanation": "Physical protection mechanisms must be effective, not merely documented.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "PE"
+    ]
+  },
+  {
+    "id": "BRAVO-047",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A network team encrypts traffic leaving the organization but transmits sensitive traffic internally in clear text across shared infrastructure. Which factor most influences risk?",
+    "choices": {
+      "A": "Encryption is required only externally",
+      "B": "Internal trust eliminates exposure concerns",
+      "C": "Shared infrastructure may expose communications despite internal boundaries",
+      "D": "Clear-text traffic is acceptable if segmented by VLAN"
+    },
+    "answer": "C",
+    "explanation": "Communications protection depends on exposure paths, not assumptions about internal trust.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Encryption"
+    ]
+  },
+  {
+    "id": "BRAVO-048",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Malware signatures are updated automatically, but failed updates generate alerts no one reviews. Which weakness is most significant?",
+    "choices": {
+      "A": "Signature updates eliminate the need for monitoring",
+      "B": "Alert review is unnecessary when automation exists",
+      "C": "Protection mechanisms require operational oversight",
+      "D": "False positives are more dangerous than missed alerts"
+    },
+    "answer": "C",
+    "explanation": "Security mechanisms require monitoring and response, not just installation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "BRAVO-049",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Users authenticate uniquely, but service accounts are shared among multiple administrators for convenience. Which concern is most direct?",
+    "choices": {
+      "A": "Credential rotation frequency",
+      "B": "Loss of accountability",
+      "C": "Excessive session timeout",
+      "D": "Visitor access management"
+    },
+    "answer": "B",
+    "explanation": "Shared credentials reduce traceability and accountability.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Accountability"
+    ]
+  },
+  {
+    "id": "BRAVO-050",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC limits user permissions but allows unrestricted software installation to avoid support requests. Which principle is most directly affected?",
+    "choices": {
+      "A": "Least functionality",
+      "B": "Media accountability",
+      "C": "Cryptographic protection",
+      "D": "Personnel screening"
+    },
+    "answer": "A",
+    "explanation": "Limiting unnecessary functionality reduces attack surface.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "CM",
+      "Least Functionality"
+    ]
+  },
+  {
+    "id": "BRAVO-051",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An organization maintains current patches but delays deployment of critical out-of-band fixes for months pending quarterly maintenance windows. Which issue is most significant?",
+    "choices": {
+      "A": "Patch cadence alone determines compliance",
+      "B": "Flaw remediation timeliness may not align with risk",
+      "C": "Emergency fixes should never bypass schedules",
+      "D": "Quarterly updates eliminate vulnerability concerns"
+    },
+    "answer": "B",
+    "explanation": "Timeliness is a key component of effective flaw remediation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "BRAVO-052",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Employees badge into a controlled area individually, but visitors are escorted by contractors who lack authorization to approve access. Which issue is most significant?",
+    "choices": {
+      "A": "Escort authority and visitor control",
+      "B": "Badge color standards",
+      "C": "Visitor sign-in forms",
+      "D": "Camera placement"
+    },
+    "answer": "A",
+    "explanation": "Physical protection includes proper authorization and control of visitors.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "PE",
+      "Visitor Control"
+    ]
+  },
+  {
+    "id": "BRAVO-053",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A firewall blocks inbound traffic effectively, but outbound traffic to unknown destinations is unrestricted. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Boundary protection applies only to inbound traffic",
+      "B": "Outbound communications require control as well",
+      "C": "Outbound traffic is addressed only through awareness training",
+      "D": "Encryption alone addresses destination risk"
+    },
+    "answer": "B",
+    "explanation": "Boundary protection encompasses communications entering and leaving systems.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-054",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Users are required to lock screens manually, but observations show unattended sessions frequently remain active. Which concern is most significant?",
+    "choices": {
+      "A": "Training frequency",
+      "B": "Session protection depends on reliable mechanisms, not user behavior alone",
+      "C": "Screen savers create usability issues",
+      "D": "Idle sessions affect only availability"
+    },
+    "answer": "B",
+    "explanation": "Automated session controls reduce reliance on human behavior.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Session Lock"
+    ]
+  },
+  {
+    "id": "BRAVO-055",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Backup tapes are encrypted and inventoried, but transport logs cannot establish chain of custody during shipment. Which issue is most significant?",
+    "choices": {
+      "A": "Encryption eliminates accountability concerns",
+      "B": "Media accountability may be insufficient",
+      "C": "Physical transportation is outside scope",
+      "D": "Media markings are unnecessary"
+    },
+    "answer": "B",
+    "explanation": "Protection includes accountability during transport.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Media Accountability"
+    ]
+  },
+  {
+    "id": "BRAVO-056",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A vulnerability scanner reports critical findings, but asset owners routinely suppress alerts without documenting rationale. Which concern is most significant?",
+    "choices": {
+      "A": "Alert fatigue is expected",
+      "B": "Risk decisions require visibility and justification",
+      "C": "Suppressed findings improve efficiency",
+      "D": "Vulnerability scanners are advisory only"
+    },
+    "answer": "B",
+    "explanation": "Flaw remediation depends upon visibility and accountable risk decisions.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Vulnerability Management"
+    ]
+  },
+  {
+    "id": "BRAVO-057",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Administrative accounts require MFA, but cached credentials permit privileged access when identity services are unavailable. Which issue deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Availability always outweighs identity assurance",
+      "B": "Offline access mechanisms may introduce authentication risk",
+      "C": "Caching strengthens accountability",
+      "D": "Privileged users are exempt during outages"
+    },
+    "answer": "B",
+    "explanation": "Emergency mechanisms should not undermine authentication protections.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "BRAVO-058",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Sensitive print jobs are released automatically to shared devices in open areas. Which issue is most direct?",
+    "choices": {
+      "A": "Media exposure before user retrieval",
+      "B": "Password complexity",
+      "C": "Remote access controls",
+      "D": "Boundary protection"
+    },
+    "answer": "A",
+    "explanation": "Physical exposure of printed CUI creates risk.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Paper Media"
+    ]
+  },
+  {
+    "id": "BRAVO-059",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC allows remote administration from unmanaged devices because VPN encryption is enabled. Which concern is most significant?",
+    "choices": {
+      "A": "Encryption alone does not establish trusted endpoints",
+      "B": "VPNs eliminate endpoint risks",
+      "C": "Remote administration requires only passwords",
+      "D": "Unmanaged devices are equivalent to corporate assets"
+    },
+    "answer": "A",
+    "explanation": "Communications protections do not replace endpoint trust requirements.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Remote Access"
+    ]
+  },
+  {
+    "id": "BRAVO-060",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Antivirus software blocks known threats, but users frequently disable protection to improve performance. Which weakness is most significant?",
+    "choices": {
+      "A": "Protection mechanisms are not consistently enforced",
+      "B": "Performance optimization outweighs security",
+      "C": "Malware protection is optional when patching is current",
+      "D": "Awareness training replaces technical controls"
+    },
+    "answer": "A",
+    "explanation": "Security mechanisms must operate consistently to remain effective.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "BRAVO-061",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "A help desk process grants elevated privileges temporarily, but no review verifies removal afterward. Which principle is most directly affected?",
+    "choices": {
+      "A": "Least privilege lifecycle management",
+      "B": "Physical access",
+      "C": "Media sanitization",
+      "D": "Boundary protection"
+    },
+    "answer": "A",
+    "explanation": "Temporary privileges should be controlled and removed when no longer needed.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-062",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Wireless guest traffic and CUI traffic share the same infrastructure but rely solely on logical separation. Which consideration is most important?",
+    "choices": {
+      "A": "Segmentation effectiveness should be evaluated rather than assumed",
+      "B": "Wireless traffic is inherently trusted",
+      "C": "Guest access improves monitoring",
+      "D": "Physical separation is always mandatory"
+    },
+    "answer": "A",
+    "explanation": "Logical separation must be evaluated for effectiveness.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "BRAVO-063",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A privileged user authenticates properly but performs routine email and web browsing with administrative credentials. Which concern is most significant?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Least privilege and exposure reduction",
+      "C": "Visitor management",
+      "D": "Backup retention"
+    },
+    "answer": "B",
+    "explanation": "Privileged accounts should be restricted to authorized administrative activities to reduce exposure.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege",
+      "IA"
+    ]
+  },
+  {
+    "id": "BRAVO-064",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC uses role-based access controls correctly, but emergency access requests are approved verbally and never documented. Which issue is most significant?",
+    "choices": {
+      "A": "Lack of media accountability",
+      "B": "Inadequate traceability of privileged access decisions",
+      "C": "Insufficient physical access restrictions",
+      "D": "Weak cryptographic protections"
+    },
+    "answer": "B",
+    "explanation": "Emergency access should remain controlled and auditable.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Privileged Access"
+    ]
+  },
+  {
+    "id": "BRAVO-065",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A privileged account requires MFA, but a legacy application forces administrators to store credentials in scripts. Which concern deserves the greatest attention?",
+    "choices": {
+      "A": "Credential exposure undermining authentication controls",
+      "B": "Session timeout settings",
+      "C": "Visitor access procedures",
+      "D": "Paper media handling"
+    },
+    "answer": "A",
+    "explanation": "Stored credentials can negate the intended protection of MFA.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Credential Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-066",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "A secure printer requires badge release, but printed reports are routinely left in conference rooms after meetings. Which issue is most direct?",
+    "choices": {
+      "A": "Boundary protection",
+      "B": "Physical exposure of media after authorized access",
+      "C": "Remote access policy",
+      "D": "Malicious code prevention"
+    },
+    "answer": "B",
+    "explanation": "Protection of media extends beyond initial release mechanisms.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Physical Media"
+    ]
+  },
+  {
+    "id": "BRAVO-067",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC segments engineering and corporate networks, but temporary firewall rules remain in place months after troubleshooting. Which principle is most affected?",
+    "choices": {
+      "A": "Session lock",
+      "B": "Sustained boundary protection effectiveness",
+      "C": "Visitor management",
+      "D": "Media transport accountability"
+    },
+    "answer": "B",
+    "explanation": "Temporary exceptions should not become permanent weaknesses.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-068",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Patch management reports show 98% compliance, but unsupported systems cannot receive updates and lack compensating measures. Which issue is most significant?",
+    "choices": {
+      "A": "Overall compliance percentage",
+      "B": "Residual risk from unsupported assets",
+      "C": "Physical access control",
+      "D": "Credential complexity"
+    },
+    "answer": "B",
+    "explanation": "Unsupported systems require additional risk mitigation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "BRAVO-069",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Users authenticate uniquely, but administrators routinely approve access requests without validating business need. Which principle is weakened?",
+    "choices": {
+      "A": "Media sanitization",
+      "B": "Least privilege",
+      "C": "Physical escort procedures",
+      "D": "Boundary defense"
+    },
+    "answer": "B",
+    "explanation": "Access decisions should align with authorized responsibilities.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-070",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Remote contractors authenticate with MFA, but shared jump servers preserve active sessions between users. Which concern is most significant?",
+    "choices": {
+      "A": "Loss of individual accountability",
+      "B": "Encryption overhead",
+      "C": "Patch frequency",
+      "D": "Visitor logging"
+    },
+    "answer": "A",
+    "explanation": "Persisting sessions can undermine user attribution.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Accountability"
+    ]
+  },
+  {
+    "id": "BRAVO-071",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Portable hard drives containing encrypted backups are transported securely, but inventory records are updated weeks later. Which issue is most direct?",
+    "choices": {
+      "A": "Delayed accountability for media movement",
+      "B": "Weak password complexity",
+      "C": "Unrestricted remote access",
+      "D": "Session timeout failures"
+    },
+    "answer": "A",
+    "explanation": "Timely accountability is essential for media control.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Media Accountability"
+    ]
+  },
+  {
+    "id": "BRAVO-072",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Traffic between virtualized systems hosting CUI remains unencrypted because administrators assume the hypervisor provides sufficient isolation. Which concern is most significant?",
+    "choices": {
+      "A": "Hypervisors eliminate communication risks",
+      "B": "Trust assumptions may not provide adequate communication protection",
+      "C": "Physical security controls",
+      "D": "Media retention requirements"
+    },
+    "answer": "B",
+    "explanation": "Isolation assumptions should be evaluated rather than presumed.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Encryption"
+    ]
+  },
+  {
+    "id": "BRAVO-073",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Anti-malware alerts are routed to email inboxes that no one monitors after personnel turnover. Which issue is most direct?",
+    "choices": {
+      "A": "Signature age",
+      "B": "Breakdown of operational monitoring",
+      "C": "Visitor escort procedures",
+      "D": "Media labeling"
+    },
+    "answer": "B",
+    "explanation": "Security controls require active operational support.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "BRAVO-074",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Privileged users receive elevated access for maintenance, but exceptions are renewed automatically without review. Which principle is most affected?",
+    "choices": {
+      "A": "Media protection",
+      "B": "Least privilege lifecycle management",
+      "C": "Boundary defense",
+      "D": "Physical access authorization"
+    },
+    "answer": "B",
+    "explanation": "Privileges should be reviewed and justified periodically.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-075",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC requires strong passwords and MFA, but administrators share hardware tokens during after-hours support rotations. Which issue is most significant?",
+    "choices": {
+      "A": "Token portability",
+      "B": "Identity assurance and accountability",
+      "C": "Patch deployment",
+      "D": "Paper media security"
+    },
+    "answer": "B",
+    "explanation": "Authentication mechanisms must preserve individual accountability.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "BRAVO-076",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Media disposal procedures require shredding, but containers remain unlocked in publicly accessible hallways. Which concern is most direct?",
+    "choices": {
+      "A": "Residual exposure before destruction",
+      "B": "Firewall rule review",
+      "C": "Patch cadence",
+      "D": "Remote access restrictions"
+    },
+    "answer": "A",
+    "explanation": "Protection applies until destruction is complete.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Sanitization"
+    ]
+  },
+  {
+    "id": "BRAVO-077",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Wireless access points enforce WPA3, but guest devices share routing infrastructure with CUI systems without inspection. Which issue is most significant?",
+    "choices": {
+      "A": "Encryption alone",
+      "B": "Segmentation and communication control",
+      "C": "Badge issuance",
+      "D": "Screen locking"
+    },
+    "answer": "B",
+    "explanation": "Communication protections depend on effective segmentation and monitoring.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "BRAVO-078",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Vulnerability scans are performed monthly, but scan exclusions are never reviewed and have accumulated for years. Which issue deserves greatest scrutiny?",
+    "choices": {
+      "A": "Potential blind spots in flaw identification",
+      "B": "Visitor logs",
+      "C": "Media transport",
+      "D": "Authentication token lifespan"
+    },
+    "answer": "A",
+    "explanation": "Exclusions should be justified and periodically reassessed.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Vulnerability Management"
+    ]
+  },
+  {
+    "id": "BRAVO-079",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Employees may access CUI from approved laptops, but browser password managers automatically fill credentials on personal web services. Which issue is most direct?",
+    "choices": {
+      "A": "Boundary protection",
+      "B": "Credential exposure and inappropriate reuse",
+      "C": "Media retention",
+      "D": "Physical access"
+    },
+    "answer": "B",
+    "explanation": "Credential handling practices influence authentication risk.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Credential Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-080",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Server rooms are badge-controlled, but emergency override keys are stored in unlocked desks. Which concern is most significant?",
+    "choices": {
+      "A": "Compromise of physical access controls",
+      "B": "Session lock settings",
+      "C": "Software inventory",
+      "D": "Patch verification"
+    },
+    "answer": "A",
+    "explanation": "Physical protections are only as strong as override mechanisms.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "BRAVO-081",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Outbound traffic is inspected, but encrypted tunnels established by administrators bypass monitoring controls. Which principle is most affected?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Boundary protection visibility",
+      "C": "Visitor management",
+      "D": "Paper media security"
+    },
+    "answer": "B",
+    "explanation": "Monitoring blind spots may weaken communication controls.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-082",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Anti-malware software blocks malicious files, but users are permitted to disable scanning for large archives to improve performance. Which issue is most direct?",
+    "choices": {
+      "A": "Operational inconsistency in protective mechanisms",
+      "B": "Password complexity",
+      "C": "Badge control",
+      "D": "Media transport"
+    },
+    "answer": "A",
+    "explanation": "Control effectiveness depends on consistent enforcement.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "BRAVO-083",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A privileged engineer performs daily email and web browsing from an administrative workstation because switching accounts is inconvenient. Which principle is most affected?",
+    "choices": {
+      "A": "Media sanitization",
+      "B": "Least privilege and exposure reduction",
+      "C": "Visitor access",
+      "D": "Patch deployment cadence"
+    },
+    "answer": "B",
+    "explanation": "Administrative functions should be separated from routine activities to reduce risk.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-084",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An organization uses PAM software to issue temporary administrator credentials. During an outage, administrators bypass PAM and use a shared emergency account documented in a sealed envelope. Which concern deserves the greatest scrutiny?",
+    "choices": {
+      "A": "The envelope storage location",
+      "B": "Whether accountability and individual attribution are preserved during emergencies",
+      "C": "Password complexity requirements",
+      "D": "Patch currency on administrator workstations"
+    },
+    "answer": "B",
+    "explanation": "Emergency procedures should preserve accountability and not undermine identification and authentication controls.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Accountability",
+      "Privileged Access"
+    ]
+  },
+  {
+    "id": "BRAVO-085",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A server containing CUI is isolated behind multiple firewalls, but engineers are granted broad access because troubleshooting delays are costly. Which principle is most directly weakened?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Least privilege",
+      "C": "Physical escort",
+      "D": "Malicious code protection"
+    },
+    "answer": "B",
+    "explanation": "Compensating technical controls do not eliminate the need to limit access to authorized functions.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-086",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "CUI printouts are stored in locked containers and access logs are maintained, but custodial personnel possess master keys and no review process exists for key issuance. Which issue is most significant?",
+    "choices": {
+      "A": "Printer release settings",
+      "B": "Media marking",
+      "C": "Effectiveness of physical protection mechanisms",
+      "D": "Screen lock configuration"
+    },
+    "answer": "C",
+    "explanation": "Controls must be effective in practice, not merely documented.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "PE"
+    ]
+  },
+  {
+    "id": "BRAVO-087",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A contractor encrypts traffic to cloud services, but administrators establish unmanaged site-to-site tunnels for vendor support. Which risk deserves the greatest attention?",
+    "choices": {
+      "A": "Media retention periods",
+      "B": "Loss of communication visibility and boundary control",
+      "C": "Visitor management",
+      "D": "Password history requirements"
+    },
+    "answer": "B",
+    "explanation": "Unauthorized tunnels may bypass communication protections and monitoring.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-088",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Malware detection is centrally managed, but exclusions created during software deployments are never removed. Which concern is most significant?",
+    "choices": {
+      "A": "Credential reuse",
+      "B": "Accumulated blind spots reducing detection effectiveness",
+      "C": "Visitor authorization",
+      "D": "Physical storage of backups"
+    },
+    "answer": "B",
+    "explanation": "Temporary exclusions should be reviewed and removed when no longer necessary.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Malicious Code"
+    ]
+  },
+  {
+    "id": "BRAVO-089",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "An organization requires MFA for administrators, but a break-glass procedure allows password-only access when the identity provider is unavailable. Which question is most important?",
+    "choices": {
+      "A": "How often passwords expire",
+      "B": "Whether emergency procedures are controlled and auditable",
+      "C": "Who owns the server room",
+      "D": "How many users possess laptops"
+    },
+    "answer": "B",
+    "explanation": "Emergency access should not eliminate accountability or create uncontrolled exceptions.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "MFA"
+    ]
+  },
+  {
+    "id": "BRAVO-090",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Security patches are applied quickly to servers, but network appliances supporting CUI remain years behind because upgrades require downtime. Which factor deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Asset inventory labels",
+      "B": "Residual risk created by unsupported infrastructure",
+      "C": "Badge issuance procedures",
+      "D": "Media transport records"
+    },
+    "answer": "B",
+    "explanation": "Timely flaw remediation must consider all relevant technologies, not just servers.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Flaw Remediation"
+    ]
+  },
+  {
+    "id": "BRAVO-091",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Users are prohibited from installing software, yet developers may execute unsigned tools from personal repositories to accelerate testing. Which principle is most directly weakened?",
+    "choices": {
+      "A": "Least functionality",
+      "B": "Visitor control",
+      "C": "Media sanitization",
+      "D": "Physical access"
+    },
+    "answer": "A",
+    "explanation": "Uncontrolled software execution expands attack surface and reduces system integrity.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "CM",
+      "Least Functionality"
+    ]
+  },
+  {
+    "id": "BRAVO-092",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Physical access logs show normal activity, but video footage reveals piggybacking into restricted areas occurs regularly. Which conclusion is most appropriate?",
+    "choices": {
+      "A": "Badge records alone demonstrate effective protection",
+      "B": "Physical controls should be evaluated for actual effectiveness",
+      "C": "Piggybacking is an awareness issue only",
+      "D": "Video surveillance replaces visitor procedures"
+    },
+    "answer": "B",
+    "explanation": "Control effectiveness is determined by actual operation, not by documentation alone.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "BRAVO-093",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Administrators use dedicated workstations for privileged activities, but frequently browse external websites from those same systems for convenience. Which concern is most direct?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Reduced separation between administrative and non-administrative activities",
+      "C": "Visitor authorization",
+      "D": "Backup retention"
+    },
+    "answer": "B",
+    "explanation": "Privileged systems should minimize exposure to unnecessary activities.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege",
+      "SC"
+    ]
+  },
+  {
+    "id": "BRAVO-094",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A contractor uses endpoint detection tools to compensate for broad user permissions. Investigators later determine users routinely execute unsigned utilities from external repositories. Which concern is most significant?",
+    "choices": {
+      "A": "Endpoint monitoring compensates for unrestricted execution",
+      "B": "Least functionality and privilege controls address different risks",
+      "C": "Unsigned tools are acceptable when malware scanning is enabled",
+      "D": "Repository reputation eliminates software integrity concerns"
+    },
+    "answer": "B",
+    "explanation": "Monitoring controls do not replace restrictions on unnecessary functionality and privileges.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "CM",
+      "Least Functionality"
+    ]
+  },
+  {
+    "id": "BRAVO-095",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Administrators authenticate with MFA, but password reset procedures allow help desk personnel to issue temporary passwords without validating identity beyond caller ID. Which issue is most significant?",
+    "choices": {
+      "A": "Caller ID provides sufficient identity proof",
+      "B": "Weak identity verification may undermine authentication assurance",
+      "C": "Password complexity requirements",
+      "D": "Session timeout duration"
+    },
+    "answer": "B",
+    "explanation": "Identity proofing and reset procedures should preserve authentication assurance.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "Credential Management"
+    ]
+  },
+  {
+    "id": "BRAVO-096",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Encrypted backup drives are stored offsite, but the vendor's inventory process cannot identify which customer owns individual media. Which concern deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Media markings",
+      "B": "Media accountability and traceability",
+      "C": "Remote access restrictions",
+      "D": "Patch deployment"
+    },
+    "answer": "B",
+    "explanation": "Encryption alone does not eliminate the need for accountability.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "MP",
+      "Accountability"
+    ]
+  },
+  {
+    "id": "BRAVO-097",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "A facility uses biometric readers, but tailgating incidents are treated as awareness issues and never investigated. Which principle is most affected?",
+    "choices": {
+      "A": "Physical protections must be evaluated for effectiveness",
+      "B": "Biometrics eliminate physical risks",
+      "C": "Badge design standards",
+      "D": "Media retention procedures"
+    },
+    "answer": "A",
+    "explanation": "Physical controls should be monitored and enforced.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "PE",
+      "Physical Access"
+    ]
+  },
+  {
+    "id": "BRAVO-098",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "An OSC encrypts remote connections, but third-party vendors maintain persistent unmanaged tunnels for convenience. Which concern is most direct?",
+    "choices": {
+      "A": "Visitor access",
+      "B": "Loss of boundary visibility and control",
+      "C": "Media labeling",
+      "D": "Password expiration"
+    },
+    "answer": "B",
+    "explanation": "Persistent unmanaged connections may bypass communication protections.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Boundary Protection"
+    ]
+  },
+  {
+    "id": "BRAVO-099",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "Security alerts are routed to a ticketing system, but tickets close automatically after seven days without review. Which issue is most significant?",
+    "choices": {
+      "A": "Patch frequency",
+      "B": "Operational failure of response processes",
+      "C": "Media disposal",
+      "D": "Physical access controls"
+    },
+    "answer": "B",
+    "explanation": "Security mechanisms require monitoring and response, not merely alert generation.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "BRAVO-100",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Users require approval before receiving privileged access, but inherited group memberships routinely grant excessive permissions. Which concern is most significant?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Least privilege erosion through indirect assignments",
+      "C": "Session lock settings",
+      "D": "Visitor controls"
+    },
+    "answer": "B",
+    "explanation": "Indirect privilege inheritance should be evaluated for excessive access.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "AC",
+      "Least Privilege"
+    ]
+  },
+  {
+    "id": "BRAVO-101",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Hard",
+    "question": "An identity provider supports MFA, but service accounts bypass authentication controls because applications cannot support modern protocols. Which factor deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Patch schedules",
+      "B": "Compensating measures protecting noninteractive accounts",
+      "C": "Media transport",
+      "D": "Physical security logs"
+    },
+    "answer": "B",
+    "explanation": "Legacy exceptions require additional protections and risk management.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "IA",
+      "MFA",
+      "Service Accounts"
+    ]
+  },
+  {
+    "id": "BRAVO-102",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Traffic inspection appliances monitor outbound connections, but encrypted administrator tunnels are excluded permanently because they generate false positives. Which issue is most significant?",
+    "choices": {
+      "A": "Media markings",
+      "B": "Persistent blind spots in communication monitoring",
+      "C": "Password history requirements",
+      "D": "Visitor escort procedures"
+    },
+    "answer": "B",
+    "explanation": "Permanent exclusions should be justified and periodically reviewed.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SC",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "BRAVO-103",
+    "exam": "Bravo",
+    "domain": "Domain 4 - Model Construct and Implementation Evaluation",
+    "difficulty": "Elite",
+    "question": "Vulnerability scans show no critical findings, but unsupported systems are excluded and no compensating controls exist. Which conclusion is most appropriate?",
+    "choices": {
+      "A": "Scan results alone demonstrate effective flaw remediation",
+      "B": "Unsupported assets may invalidate confidence in remediation effectiveness",
+      "C": "Unsupported systems are outside assessment considerations",
+      "D": "Patch metrics outweigh architectural concerns"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should consider excluded assets and residual risk.",
+    "reference": "Assessment Guide Level 2",
+    "tags": [
+      "SI",
+      "Flaw Remediation",
+      "Risk"
+    ]
+  },
+  {
+    "id": "BRAVO-104",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Interviews indicate privileged accounts require MFA. Screenshots show MFA configuration enabled. Live testing reveals one legacy account authenticates with only a password. What is the most appropriate action?",
+    "choices": {
+      "A": "Assign MET because most evidence supports implementation",
+      "B": "Resolve the inconsistency and determine whether the exception is material",
+      "C": "Ignore the legacy account because it is rarely used",
+      "D": "Accept screenshots as stronger evidence than testing"
+    },
+    "answer": "B",
+    "explanation": "Conflicting evidence should be reconciled and exceptions evaluated for materiality.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-105",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Policies require quarterly access reviews. Interviews confirm they occur. Sampled records show reviews were skipped twice during the year. Which consideration is most important?",
+    "choices": {
+      "A": "The written policy",
+      "B": "Whether implementation evidence supports consistent execution",
+      "C": "The number of administrators involved",
+      "D": "The age of the policy"
+    },
+    "answer": "B",
+    "explanation": "Assessments focus on implementation, not merely documented intent.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Implementation"
+    ]
+  },
+  {
+    "id": "BRAVO-106",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Testing validates account lockout settings on sampled systems, but one administrator claims another business unit operates differently. What should assessors do?",
+    "choices": {
+      "A": "Expand evidence collection as needed",
+      "B": "Assume all systems behave identically",
+      "C": "Ignore interviews and rely solely on testing",
+      "D": "Assign NOT MET immediately"
+    },
+    "answer": "A",
+    "explanation": "Evidence should be sufficient to support conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling"
+    ]
+  },
+  {
+    "id": "BRAVO-107",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Current screenshots support a control, but timestamps reveal they were captured months before major system changes. Which concern is most significant?",
+    "choices": {
+      "A": "Image quality",
+      "B": "Evidence currency and relevance",
+      "C": "File naming conventions",
+      "D": "Document ownership"
+    },
+    "answer": "B",
+    "explanation": "Evidence should reflect the current assessed environment.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Artifacts"
+    ]
+  },
+  {
+    "id": "BRAVO-108",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Interviews and documentation align, but testing consistently contradicts both. Which principle should drive conclusions?",
+    "choices": {
+      "A": "Majority opinion",
+      "B": "Most recent evidence",
+      "C": "Objective evidence and reconciliation of discrepancies",
+      "D": "Management preference"
+    },
+    "answer": "C",
+    "explanation": "Testing may reveal implementation gaps requiring reconciliation.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-109",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "An OSC provides extensive policies but minimal operational evidence. Which question is most important?",
+    "choices": {
+      "A": "Who wrote the policies",
+      "B": "Whether implementation can be demonstrated",
+      "C": "How long the documents are",
+      "D": "Whether branding is current"
+    },
+    "answer": "B",
+    "explanation": "Policies alone do not demonstrate implementation.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "BRAVO-110",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Sampled systems support a practice, but a newly deployed enclave was excluded because personnel considered it low risk. Which concern deserves scrutiny?",
+    "choices": {
+      "A": "Network bandwidth",
+      "B": "Sampling rationale and scope completeness",
+      "C": "Patch frequency",
+      "D": "Asset age"
+    },
+    "answer": "B",
+    "explanation": "Sampling should support reliable conclusions across the environment.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling"
+    ]
+  },
+  {
+    "id": "BRAVO-111",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A control is implemented correctly but assessors cannot obtain sufficient evidence due to unavailable personnel and inaccessible systems. Which factor is most relevant?",
+    "choices": {
+      "A": "Intent",
+      "B": "Evidence sufficiency",
+      "C": "Control complexity",
+      "D": "Training history"
+    },
+    "answer": "B",
+    "explanation": "Conclusions require sufficient evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "BRAVO-112",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "A system owner verbally describes a process inconsistent with documented procedures. What should assessors do?",
+    "choices": {
+      "A": "Accept the interview",
+      "B": "Accept the document",
+      "C": "Collect additional evidence and reconcile differences",
+      "D": "Ignore both sources"
+    },
+    "answer": "C",
+    "explanation": "Contradictions should be resolved objectively.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Interviews"
+    ]
+  },
+  {
+    "id": "BRAVO-113",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Testing confirms controls on most devices, but unsupported assets could not be evaluated. Which issue is most significant?",
+    "choices": {
+      "A": "Incomplete evidence coverage",
+      "B": "Password complexity",
+      "C": "Physical security",
+      "D": "Asset depreciation"
+    },
+    "answer": "A",
+    "explanation": "Unassessed assets may affect confidence in conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Coverage"
+    ]
+  },
+  {
+    "id": "BRAVO-114",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Assessors discover that screenshots provided by the OSC were recreated after a deficiency was identified. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Media protection",
+      "B": "Evidence integrity",
+      "C": "Session lock",
+      "D": "Visitor control"
+    },
+    "answer": "B",
+    "explanation": "Evidence integrity is essential to objective conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-115",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which assessment method most directly validates technical operation?",
+    "choices": {
+      "A": "Interview",
+      "B": "Examine",
+      "C": "Test",
+      "D": "Review"
+    },
+    "answer": "C",
+    "explanation": "Testing validates operation of controls.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Test"
+    ]
+  },
+  {
+    "id": "BRAVO-116",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Interviews reveal that personnel bypass documented procedures because they are operationally inconvenient. Which issue is most significant?",
+    "choices": {
+      "A": "Training frequency",
+      "B": "Implementation effectiveness",
+      "C": "Document formatting",
+      "D": "Management style"
+    },
+    "answer": "B",
+    "explanation": "Actual practice is more important than documented intent.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Implementation"
+    ]
+  },
+  {
+    "id": "BRAVO-117",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Evidence from different sources appears equally credible yet contradictory. Which action is most appropriate?",
+    "choices": {
+      "A": "Choose the evidence supporting compliance",
+      "B": "Escalate and reconcile inconsistencies",
+      "C": "Average the findings",
+      "D": "Accept interviews over testing"
+    },
+    "answer": "B",
+    "explanation": "Contradictory evidence should be resolved, not averaged.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-118",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which phase focuses primarily on conducting assessment activities?",
+    "choices": {
+      "A": "Phase 1",
+      "B": "Phase 2",
+      "C": "Phase 3",
+      "D": "Phase 4"
+    },
+    "answer": "B",
+    "explanation": "Phase 2 includes execution of assessment activities.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Phase 2"
+    ]
+  },
+  {
+    "id": "BRAVO-119",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A practice is implemented everywhere except one isolated but active enclave. Which consideration matters most?",
+    "choices": {
+      "A": "Convenience",
+      "B": "Materiality of the exception",
+      "C": "Network speed",
+      "D": "Vendor support"
+    },
+    "answer": "B",
+    "explanation": "Exceptions should be evaluated for impact on assessment conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Materiality"
+    ]
+  },
+  {
+    "id": "BRAVO-120",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An assessor previously consulted on implementation of the same control being evaluated. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Media accountability",
+      "B": "Independence and objectivity",
+      "C": "Boundary protection",
+      "D": "Physical access"
+    },
+    "answer": "B",
+    "explanation": "Assessments require independence and objectivity.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-121",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Which assessment method primarily reviews documents and artifacts?",
+    "choices": {
+      "A": "Test",
+      "B": "Interview",
+      "C": "Examine",
+      "D": "Observe"
+    },
+    "answer": "C",
+    "explanation": "Examine activities focus on documentation and artifacts.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Examine"
+    ]
+  },
+  {
+    "id": "BRAVO-122",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A practice appears fully implemented but supporting evidence is unavailable because records were destroyed during migration. Which factor is most relevant?",
+    "choices": {
+      "A": "Intent",
+      "B": "Evidence sufficiency",
+      "C": "Asset value",
+      "D": "Patch frequency"
+    },
+    "answer": "B",
+    "explanation": "Conclusions depend on sufficient evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-123",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Different assessors interpret the same evidence differently. Which principle should guide resolution?",
+    "choices": {
+      "A": "Efficiency",
+      "B": "Consistency and objectivity",
+      "C": "Convenience",
+      "D": "Majority vote"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be objective and consistently applied.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Consistency"
+    ]
+  },
+  {
+    "id": "BRAVO-124",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During testing, assessors verify MFA enforcement on sampled systems. Interviews confirm MFA is required. A recently acquired enclave was excluded from sampling because personnel assumed it mirrored the rest of the environment. Which issue deserves the greatest scrutiny?",
+    "choices": {
+      "A": "The age of the acquisition",
+      "B": "Sampling sufficiency and assumptions regarding inherited implementation",
+      "C": "Password complexity settings",
+      "D": "Physical access logs"
+    },
+    "answer": "B",
+    "explanation": "Sampling decisions should support confidence that conclusions apply across the assessed environment.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling",
+      "Coverage"
+    ]
+  },
+  {
+    "id": "BRAVO-125",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An OSC provides screen captures showing account reviews, but metadata reveals the images were created after assessors requested evidence. Which principle is most directly implicated?",
+    "choices": {
+      "A": "Boundary protection",
+      "B": "Evidence integrity and reliability",
+      "C": "Media sanitization",
+      "D": "Least functionality"
+    },
+    "answer": "B",
+    "explanation": "Assessors should consider the authenticity and reliability of evidence supporting conclusions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-126",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Policies, interviews, and screenshots support a practice, but direct testing consistently demonstrates that the control fails. Which action is most appropriate?",
+    "choices": {
+      "A": "Accept the majority of evidence",
+      "B": "Prioritize objective testing and reconcile inconsistencies",
+      "C": "Ignore interviews entirely",
+      "D": "Assign MET because intent exists"
+    },
+    "answer": "B",
+    "explanation": "Objective evidence should be reconciled and weighed appropriately.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity",
+      "Testing"
+    ]
+  },
+  {
+    "id": "BRAVO-127",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A Lead Assessor previously advised the OSC on implementing several practices now under review. Which concern deserves the greatest attention?",
+    "choices": {
+      "A": "Sampling methodology",
+      "B": "Independence and objectivity",
+      "C": "Password expiration",
+      "D": "Media accountability"
+    },
+    "answer": "B",
+    "explanation": "Prior implementation assistance may impair assessment objectivity and should be managed appropriately.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity",
+      "Independence"
+    ]
+  },
+  {
+    "id": "BRAVO-128",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Documentation shows quarterly access reviews, but sampled records reveal one business unit has never performed them. Interviews indicate personnel believed another department was responsible. Which factor is most significant?",
+    "choices": {
+      "A": "Training frequency",
+      "B": "Materiality of the implementation gap",
+      "C": "Document formatting",
+      "D": "Asset depreciation"
+    },
+    "answer": "B",
+    "explanation": "Assessors should evaluate whether the exception represents a material deficiency.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Materiality"
+    ]
+  },
+  {
+    "id": "BRAVO-129",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "An OSC demonstrates a control successfully during the assessment, but no historical evidence exists because logs were overwritten during migration. Which consideration is most important?",
+    "choices": {
+      "A": "Whether current implementation alone is sufficient to establish confidence",
+      "B": "The number of administrators involved",
+      "C": "Media retention schedules",
+      "D": "Badge issuance procedures"
+    },
+    "answer": "A",
+    "explanation": "Assessors should evaluate whether available evidence provides sufficient support for conclusions despite historical limitations.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "BRAVO-130",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During Phase 2, assessors discover that screenshots provided during planning do not match current system configurations observed during testing. Which action is most appropriate?",
+    "choices": {
+      "A": "Rely on the planning artifacts because they were approved",
+      "B": "Resolve discrepancies using current objective evidence before reaching conclusions",
+      "C": "Accept whichever evidence favors implementation",
+      "D": "Ignore screenshots because testing always overrides other evidence"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be based on current, objective, and reconciled evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Currency",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-131",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "A practice is implemented consistently on sampled systems, but a recently deployed enclave was excluded because administrators considered it temporary. Which consideration is most important?",
+    "choices": {
+      "A": "Whether temporary systems are within assessment scope",
+      "B": "The age of the enclave",
+      "C": "Patch management cadence",
+      "D": "Who approved the exclusion"
+    },
+    "answer": "A",
+    "explanation": "Sampling and scope decisions should ensure that conclusions are representative of the assessed environment.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling",
+      "Scope"
+    ]
+  },
+  {
+    "id": "BRAVO-132",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An assessor receives interview responses that align with policy documents, but log reviews demonstrate repeated deviations from procedures. Which principle should guide conclusions?",
+    "choices": {
+      "A": "Majority agreement among evidence sources",
+      "B": "Operational evidence and reconciliation of inconsistencies",
+      "C": "Management intent",
+      "D": "Historical compliance performance"
+    },
+    "answer": "B",
+    "explanation": "Actual implementation should drive assessment conclusions when evidence conflicts.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Implementation",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-133",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A Lead Assessor discovers that a team member previously designed several controls under evaluation but did not disclose the relationship. Which concern deserves the greatest attention?",
+    "choices": {
+      "A": "Sampling methodology",
+      "B": "Objectivity and independence",
+      "C": "Media accountability",
+      "D": "Phase 4 closeout activities"
+    },
+    "answer": "B",
+    "explanation": "Undisclosed prior involvement may impair independence and objectivity.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Independence",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-134",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An OSC demonstrates successful operation of a control during testing, but historical records are unavailable because systems were migrated and logs retained only for minimal operational needs. Which factor is most significant?",
+    "choices": {
+      "A": "Whether available evidence provides sufficient confidence in sustained implementation",
+      "B": "The age of the migrated systems",
+      "C": "The size of the log files",
+      "D": "The number of administrators interviewed"
+    },
+    "answer": "A",
+    "explanation": "Assessors should evaluate whether available evidence is sufficient to support conclusions despite historical limitations.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency",
+      "Artifacts"
+    ]
+  },
+  {
+    "id": "BRAVO-135",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "During an assessment, screenshots show MFA enabled and interviews confirm the requirement. Testing reveals one privileged account authenticates with only a password because it was excluded from the identity provider. Which consideration is most important?",
+    "choices": {
+      "A": "The number of screenshots collected",
+      "B": "Whether the exception represents a material deficiency requiring reconciliation",
+      "C": "How long the account has existed",
+      "D": "The age of the password"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be based on reconciled evidence and evaluation of material exceptions.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Materiality",
+      "Contradictory Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-136",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "An OSC supplies hundreds of artifacts, but many are duplicates and none demonstrate current implementation. Which factor deserves the greatest attention?",
+    "choices": {
+      "A": "Quantity of evidence",
+      "B": "Evidence sufficiency and relevance",
+      "C": "File naming conventions",
+      "D": "Document storage locations"
+    },
+    "answer": "B",
+    "explanation": "Large volumes of evidence do not compensate for lack of relevant, current evidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "BRAVO-137",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A sampled enclave fully demonstrates implementation, but interviews reveal another enclave follows different procedures and was omitted because administrators considered it low risk. What should assessors evaluate first?",
+    "choices": {
+      "A": "Whether the omitted enclave affects scope and sampling confidence",
+      "B": "The number of users in the enclave",
+      "C": "Patch deployment schedules",
+      "D": "Whether documentation templates match"
+    },
+    "answer": "A",
+    "explanation": "Sampling should provide confidence that conclusions apply across the assessed environment.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Sampling",
+      "Coverage"
+    ]
+  },
+  {
+    "id": "BRAVO-138",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Two assessors reviewing the same evidence disagree because one prioritizes interviews and the other prioritizes screenshots. Which principle should guide resolution?",
+    "choices": {
+      "A": "Majority vote",
+      "B": "Consistency and objective evaluation of evidence",
+      "C": "The preference of the Lead Assessor",
+      "D": "The OSC's explanation"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be consistent and evidence-driven.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity",
+      "Consistency"
+    ]
+  },
+  {
+    "id": "BRAVO-139",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Documentation and interviews support a practice, but operational logs show personnel routinely bypass procedures. Which factor is most significant?",
+    "choices": {
+      "A": "Intent",
+      "B": "Actual implementation",
+      "C": "Training frequency",
+      "D": "Document age"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions are based on implementation, not stated intent.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Implementation"
+    ]
+  },
+  {
+    "id": "BRAVO-140",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "An assessor discovers that evidence originally collected during Phase 2 was altered before reporting to improve clarity. Which concern deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Media retention",
+      "B": "Evidence integrity and traceability",
+      "C": "Password complexity",
+      "D": "Visitor control procedures"
+    },
+    "answer": "B",
+    "explanation": "Evidence should remain authentic and traceable throughout the assessment lifecycle.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Integrity"
+    ]
+  },
+  {
+    "id": "BRAVO-141",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "A team member previously participated in implementing the controls now being assessed and failed to disclose the relationship. Which principle is most directly affected?",
+    "choices": {
+      "A": "Sampling methodology",
+      "B": "Independence and objectivity",
+      "C": "Media accountability",
+      "D": "System availability"
+    },
+    "answer": "B",
+    "explanation": "Undisclosed implementation involvement may impair assessment objectivity.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Objectivity",
+      "Independence"
+    ]
+  },
+  {
+    "id": "BRAVO-142",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Hard",
+    "question": "Interviews indicate a process has operated for years, but no artifacts are available because records were destroyed during a migration. Which question is most important?",
+    "choices": {
+      "A": "How old the records were",
+      "B": "Whether sufficient alternative evidence exists to support conclusions",
+      "C": "How many administrators were involved",
+      "D": "Whether screenshots are available"
+    },
+    "answer": "B",
+    "explanation": "Assessors should determine whether available evidence provides adequate confidence.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Evidence Sufficiency"
+    ]
+  },
+  {
+    "id": "BRAVO-143",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Testing confirms controls on sampled systems, but unsupported devices were intentionally excluded because they rarely connect to the network. Which issue deserves the greatest attention?",
+    "choices": {
+      "A": "Scope completeness and residual risk",
+      "B": "Asset depreciation",
+      "C": "Printer security",
+      "D": "Password history requirements"
+    },
+    "answer": "A",
+    "explanation": "Excluded systems may affect confidence in conclusions and should be evaluated appropriately.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Coverage",
+      "Risk"
+    ]
+  },
+  {
+    "id": "BRAVO-144",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Conflicting evidence from interviews, logs, and screenshots appears equally credible. What action is most appropriate?",
+    "choices": {
+      "A": "Accept the evidence supporting compliance",
+      "B": "Gather additional evidence and reconcile discrepancies",
+      "C": "Average the findings",
+      "D": "Rely solely on interviews"
+    },
+    "answer": "B",
+    "explanation": "Contradictory evidence should be resolved before conclusions are reached.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Contradictory Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-145",
+    "exam": "Bravo",
+    "domain": "Domain 5 - CMMC Assessment Process",
+    "difficulty": "Elite",
+    "question": "Assessors disagree about the significance of an isolated implementation exception. Which principle should ultimately guide the conclusion?",
+    "choices": {
+      "A": "Convenience",
+      "B": "Consistency, objectivity, and materiality",
+      "C": "Management preference",
+      "D": "Historical performance"
+    },
+    "answer": "B",
+    "explanation": "Assessment conclusions should be objective, consistent, and based on the materiality of the issue.",
+    "reference": "CAP v5.6",
+    "tags": [
+      "CAP",
+      "Materiality",
+      "Objectivity"
+    ]
+  },
+  {
+    "id": "BRAVO-146",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A cloud-hosted SIEM receives security logs from CUI Assets, provides alerting and correlation, but cannot store or retrieve the underlying CUI files. The OSC classifies the SIEM as Out-of-Scope because it does not process business data. Which assessment concern is most significant?",
+    "choices": {
+      "A": "The SIEM vendor's patch cadence",
+      "B": "Whether the SIEM provides security functions supporting CUI Assets",
+      "C": "Whether the SIEM resides in the cloud",
+      "D": "Whether the SIEM uses multifactor authentication"
+    },
+    "answer": "B",
+    "explanation": "Assets providing security functions to CUI Assets are generally considered Security Protection Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "SIEM"
+    ]
+  },
+  {
+    "id": "BRAVO-147",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A manufacturing controller cannot support modern endpoint protections and processes production instructions associated with CUI. Administrators argue that because security controls cannot be implemented, the asset should be Out-of-Scope. Which consideration is most important?",
+    "choices": {
+      "A": "Operational limitations automatically remove assets from scope",
+      "B": "The inability to implement controls determines CRMA status",
+      "C": "Assets with unique operational constraints may be Specialized Assets but remain in scope",
+      "D": "Physical isolation eliminates all assessment concerns"
+    },
+    "answer": "C",
+    "explanation": "Specialized Assets remain in scope even when technical limitations exist.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "BRAVO-148",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An external identity provider performs authentication services for systems storing CUI. The provider does not host CUI itself. Which factor deserves the greatest scrutiny?",
+    "choices": {
+      "A": "The physical location of administrators",
+      "B": "Whether the service provides security functions supporting scoped assets",
+      "C": "The age of authentication tokens",
+      "D": "The number of user accounts"
+    },
+    "answer": "B",
+    "explanation": "Identity services supporting CUI Assets are generally Security Protection Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Identity"
+    ]
+  },
+  {
+    "id": "BRAVO-149",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A contractor maintains a separate engineering enclave processing CUI. Corporate systems cannot access the enclave because of enforced segmentation. Which question is most important when determining whether corporate laptops are Out-of-Scope?",
+    "choices": {
+      "A": "Whether the laptops use the same operating system",
+      "B": "Whether effective technical controls prevent CUI access",
+      "C": "Whether users receive awareness training",
+      "D": "Whether the laptops are less than three years old"
+    },
+    "answer": "B",
+    "explanation": "Effective separation may support Out-of-Scope classification.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Out-of-Scope"
+    ]
+  },
+  {
+    "id": "BRAVO-150",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A vulnerability scanner assesses CUI systems but stores only scan metadata and findings. Administrators classify it as a CUI Asset because it touches every server. Which assessment issue is most significant?",
+    "choices": {
+      "A": "The scanner's operating system",
+      "B": "Whether the scanner performs security functions rather than processing CUI",
+      "C": "The age of the scan engine",
+      "D": "Whether reports are printed"
+    },
+    "answer": "B",
+    "explanation": "Security tools supporting CUI Assets are typically SPAs rather than CUI Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Vulnerability Scanner"
+    ]
+  },
+  {
+    "id": "BRAVO-151",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A shared file server contains no CUI but hosts authentication scripts and security configurations used by multiple CUI systems. Administrators classify it as Out-of-Scope because no CUI resides on the server. Which concern deserves the greatest attention?",
+    "choices": {
+      "A": "Whether the server performs functions supporting the protection of CUI Assets",
+      "B": "The amount of storage capacity",
+      "C": "The age of the server hardware",
+      "D": "Whether backups are encrypted"
+    },
+    "answer": "A",
+    "explanation": "Assets supporting the security of CUI systems may remain in scope as Security Protection Assets even when they do not store CUI.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Shared Services"
+    ]
+  },
+  {
+    "id": "BRAVO-152",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A managed SOC operated by an external provider performs continuous monitoring and responds to alerts affecting CUI Assets. The provider cannot access stored CUI but can isolate hosts and modify firewall rules. The OSC classifies the service as Out-of-Scope because no CUI resides on the SOC platform. Which concern deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Whether the provider's personnel are located domestically",
+      "B": "Whether the service performs security functions supporting CUI Assets",
+      "C": "Whether the provider uses its own ticketing system",
+      "D": "Whether the provider supports multiple customers"
+    },
+    "answer": "B",
+    "explanation": "Security functions supporting CUI Assets generally place supporting components within scope as SPAs or through ESP considerations.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "ESP",
+      "SOC"
+    ]
+  },
+  {
+    "id": "BRAVO-153",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An engineering workstation cannot store CUI locally because of technical controls, but users may view CUI remotely through a virtual desktop session. Administrators classify the workstation as Out-of-Scope because no files reside on the device. Which factor is most important?",
+    "choices": {
+      "A": "Whether local storage is disabled",
+      "B": "Whether the device can access and interact with CUI through authorized sessions",
+      "C": "Whether antivirus software is installed",
+      "D": "Whether the device uses full disk encryption"
+    },
+    "answer": "B",
+    "explanation": "Scoping depends on the asset's relationship to CUI, not solely local storage.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset",
+      "VDI"
+    ]
+  },
+  {
+    "id": "BRAVO-154",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A contractor uses an industrial controller that receives production parameters derived from CUI but cannot practically support endpoint protection or centralized logging. Which consideration is most appropriate?",
+    "choices": {
+      "A": "Operational limitations automatically make the asset Out-of-Scope",
+      "B": "The asset may be Specialized while remaining within scope",
+      "C": "The asset becomes a CRMA because of logging limitations",
+      "D": "Physical isolation eliminates assessment concerns"
+    },
+    "answer": "B",
+    "explanation": "Specialized Assets remain in scope despite technical limitations.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "BRAVO-155",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A cloud email security gateway scans messages entering a CUI enclave but never stores mailbox contents permanently. The OSC classifies the gateway as Out-of-Scope. Which issue deserves the greatest attention?",
+    "choices": {
+      "A": "Whether the gateway performs protective functions supporting CUI Assets",
+      "B": "Whether email volume exceeds capacity",
+      "C": "Whether the gateway is vendor managed",
+      "D": "Whether the gateway encrypts logs"
+    },
+    "answer": "A",
+    "explanation": "Protective technologies supporting CUI Assets are generally Security Protection Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Email Gateway"
+    ]
+  },
+  {
+    "id": "BRAVO-156",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "Corporate laptops are separated from a CUI enclave by technical controls. However, several administrators possess credentials allowing them to access both environments from those laptops. Which question is most important?",
+    "choices": {
+      "A": "Whether the laptops are less than five years old",
+      "B": "Whether segmentation effectively prevents CUI access in practice",
+      "C": "Whether the laptops are domain joined",
+      "D": "Whether screen savers activate automatically"
+    },
+    "answer": "B",
+    "explanation": "Administrative access paths may affect Out-of-Scope assumptions.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Out-of-Scope",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "BRAVO-157",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A shared identity platform authenticates users for both corporate systems and CUI Assets. The platform itself stores no CUI. Administrators classify it as Out-of-Scope because authentication data is not CUI. Which concern deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Whether the platform supports security functions critical to CUI Assets",
+      "B": "Whether the platform uses biometrics",
+      "C": "Whether the platform is cloud hosted",
+      "D": "Whether the platform is highly available"
+    },
+    "answer": "A",
+    "explanation": "Identity services supporting CUI Assets are generally considered Security Protection Assets even when they do not store CUI.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Identity"
+    ]
+  },
+  {
+    "id": "BRAVO-158",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A cloud-based backup service stores encrypted CUI backups. Encryption keys are managed by the OSC and unavailable to the provider. Administrators classify the service as Out-of-Scope because the provider cannot decrypt the data. Which consideration is most important?",
+    "choices": {
+      "A": "Whether the provider owns the storage hardware",
+      "B": "Whether the service stores CUI regardless of key ownership",
+      "C": "Whether the provider supports multiple customers",
+      "D": "Whether backups are compressed"
+    },
+    "answer": "B",
+    "explanation": "Storage of CUI affects scoping even when providers cannot decrypt content.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "CUI Asset",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "BRAVO-159",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An external service provider manages firewalls protecting CUI Assets but does not host any CUI. Which issue deserves the greatest attention?",
+    "choices": {
+      "A": "Whether the service performs security functions affecting scoped assets",
+      "B": "Whether administrators work remotely",
+      "C": "Whether firewall firmware is current",
+      "D": "Whether the provider uses biometrics"
+    },
+    "answer": "A",
+    "explanation": "External services providing protection to CUI Assets may fall within scope through ESP and SPA considerations.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "ESP",
+      "SPA"
+    ]
+  },
+  {
+    "id": "BRAVO-160",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A laboratory instrument receives CUI-derived parameters but cannot store information or support modern security controls. Which classification deserves the greatest consideration?",
+    "choices": {
+      "A": "Out-of-Scope Asset",
+      "B": "Specialized Asset",
+      "C": "Security Protection Asset",
+      "D": "CRMA"
+    },
+    "answer": "B",
+    "explanation": "Specialized Assets remain in scope despite technical limitations.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "BRAVO-161",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "Corporate email servers cannot access the CUI enclave, but several administrators manage both environments from shared workstations. Which issue deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Operating system versions",
+      "B": "Effectiveness of separation in practice rather than design assumptions",
+      "C": "Printer configurations",
+      "D": "Backup schedules"
+    },
+    "answer": "B",
+    "explanation": "Shared administration paths may invalidate assumptions regarding Out-of-Scope assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "BRAVO-162",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A vulnerability management platform stores only metadata and findings, but automatically deploys remediation actions to CUI Assets. Administrators classify it as Out-of-Scope. Which concern is most significant?",
+    "choices": {
+      "A": "Whether the platform performs security functions supporting CUI Assets",
+      "B": "Whether the platform is cloud hosted",
+      "C": "Whether reports are retained",
+      "D": "Whether the platform uses TLS"
+    },
+    "answer": "A",
+    "explanation": "Security orchestration and remediation functions generally indicate SPA characteristics.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "SOAR"
+    ]
+  },
+  {
+    "id": "BRAVO-163",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A contractor separates CUI systems from corporate assets using VLANs. Testing reveals routing exceptions allowing occasional connectivity. Which consideration matters most?",
+    "choices": {
+      "A": "Network speed",
+      "B": "Actual effectiveness of segmentation",
+      "C": "Patch frequency",
+      "D": "Age of switches"
+    },
+    "answer": "B",
+    "explanation": "Segmentation should be evaluated based on effectiveness, not design intent.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "BRAVO-164",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An identity platform authenticates users for CUI systems and business applications. It stores only account metadata and no CUI. Administrators classify it as Out-of-Scope. Which issue deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Whether authentication functions support CUI Assets",
+      "B": "Whether users change passwords frequently",
+      "C": "Whether logs are compressed",
+      "D": "Whether the platform is virtualized"
+    },
+    "answer": "A",
+    "explanation": "Identity services supporting CUI Assets are generally Security Protection Assets.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA",
+      "Identity"
+    ]
+  },
+  {
+    "id": "BRAVO-165",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A shared virtualization cluster hosts both CUI workloads and corporate systems. Administrators claim corporate systems are Out-of-Scope because they do not process CUI. Which factor is most important?",
+    "choices": {
+      "A": "Whether isolation mechanisms are demonstrably effective",
+      "B": "Whether hypervisors are patched monthly",
+      "C": "Whether virtual machines use different templates",
+      "D": "Whether backups are encrypted"
+    },
+    "answer": "A",
+    "explanation": "Shared infrastructure requires evaluation of isolation effectiveness.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Virtualization",
+      "Isolation"
+    ]
+  },
+  {
+    "id": "BRAVO-166",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A manufacturing robot receives production instructions derived from CUI but cannot support endpoint logging or patching. Administrators classify it as Out-of-Scope because no files reside locally. Which consideration is most important?",
+    "choices": {
+      "A": "Whether the asset has operational constraints",
+      "B": "Whether the robot is physically isolated",
+      "C": "Whether users rotate passwords",
+      "D": "Whether backups are tested"
+    },
+    "answer": "A",
+    "explanation": "Operational limitations do not remove Specialized Assets from scope.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Specialized Asset"
+    ]
+  },
+  {
+    "id": "BRAVO-167",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A managed detection provider can isolate endpoints, terminate sessions, and modify security policies affecting CUI systems. The provider never stores CUI. Which concern deserves the greatest attention?",
+    "choices": {
+      "A": "Whether the provider's ticketing system is cloud based",
+      "B": "Whether security functions supporting CUI Assets bring the service into scope",
+      "C": "Whether analysts work in shifts",
+      "D": "Whether alerts are retained"
+    },
+    "answer": "B",
+    "explanation": "Services exercising security functions affecting CUI Assets are relevant to scope.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "ESP",
+      "SPA"
+    ]
+  },
+  {
+    "id": "BRAVO-168",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "A contractor assumes systems without CUI are automatically Out-of-Scope. Which principle is most accurate?",
+    "choices": {
+      "A": "Only storage determines scope",
+      "B": "Assets supporting the protection of CUI Assets may remain in scope",
+      "C": "Out-of-Scope status depends on age",
+      "D": "Virtual systems are always scoped separately"
+    },
+    "answer": "B",
+    "explanation": "Scope determination depends on relationships to CUI Assets and protective functions.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "SPA"
+    ]
+  },
+  {
+    "id": "BRAVO-169",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Hard",
+    "question": "A cloud tenant hosting CUI systems shares management infrastructure with non-CUI workloads. Documentation claims isolation exists, but no technical evidence is available. Which issue deserves the greatest scrutiny?",
+    "choices": {
+      "A": "Evidence supporting separation effectiveness",
+      "B": "User awareness training",
+      "C": "Patch frequency",
+      "D": "Media labeling"
+    },
+    "answer": "A",
+    "explanation": "Assumptions regarding separation should be supported by objective evidence.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Isolation",
+      "Evidence"
+    ]
+  },
+  {
+    "id": "BRAVO-170",
+    "exam": "Bravo",
+    "domain": "Domain 6 - Scoping",
+    "difficulty": "Elite",
+    "question": "An OSC classifies several systems as Out-of-Scope based solely on architecture diagrams. Interviews and testing reveal administrators routinely bridge environments for troubleshooting. Which conclusion is most appropriate?",
+    "choices": {
+      "A": "Architecture diagrams alone establish scope",
+      "B": "Actual operational practices should influence scope conclusions",
+      "C": "Troubleshooting activities are temporary and irrelevant",
+      "D": "Only written procedures matter"
+    },
+    "answer": "B",
+    "explanation": "Scope should be based on how systems operate in practice, not solely on intended architecture.",
+    "reference": "CMMC Scope Guide Level 2",
+    "tags": [
+      "Scoping",
+      "Operational Reality",
+      "Boundary"
+    ]
+  }
+]

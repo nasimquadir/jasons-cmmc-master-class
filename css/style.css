@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 95%;
+    margin: auto;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#timer {
+    color: #B00020;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#progressBarContainer {
+    width: 100%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#progressBar {
+    width: 0%;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.exam-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.exam-main {
+    flex: 1;
+}
+
+#questionNav {
+    width: 240px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.nav-question {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #E0E0E0;
+}
+
+.nav-current {
+    background-color: #1976D2 !important;
+    color: white;
+}
+
+.nav-answered {
+    background-color: #C8E6C9 !important;
+}
+
+.nav-flagged {
+    border: 3px solid #B00020 !important;
+}
+
+#questionContainer {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.choice {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+}
+
+.choice:hover {
+    background-color: #EEEEEE;
+}
+
+button {
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.review-controls {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+.review-controls input {
+    padding: 14px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.review-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+.correct {
+    border-left: 10px solid green;
+}
+
+.incorrect {
+    border-left: 10px solid red;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+.weak-domain {
+    color: #B00020;
+    font-weight: bold;
+}
+
+.strong-domain {
+    color: #2E7D32;
+    font-weight: bold;
+}
+.mid-domain {
+    color: #C77700;
+    font-weight: bold;
+}

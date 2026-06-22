@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulated CCP Exam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Simulated CCP Exam</h1>
+
+<h3>170 Questions | 3.5 Hours | No explanations until submission</h3>
+
+<h3 id="questionCount">Loading question count...</h3>
+<h3 id="modeIndicator">Mode: Simulated Exam</h3>
+
+<h2 id="timer">03:30:00</h2>
+
+<div id="progressBarContainer">
+  <div id="progressBar"></div>
+</div>
+
+<div class="exam-layout">
+  <div id="questionNav"></div>
+
+  <div class="exam-main">
+    <div id="questionContainer">Loading simulated exam...</div>
+
+    <br>
+
+    <button onclick="previousQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+    <button onclick="flagQuestion()">Flag Question</button>
+    <button onclick="submitExam()">Submit Exam</button>
+    <button onclick="resetExam()">Reset Exam</button>
+  </div>
+</div>
+
+<br>
+
+<a href="index.html"><button>Main Menu</button></a>
+
+<script>
+window.examType = "study";
+localStorage.setItem("studyQuestionCount", "170");
+localStorage.setItem("studyMode", "random");
+</script>
+
+<script src="js/timer.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scoring.js"></script>
+
+</body>
+</html>

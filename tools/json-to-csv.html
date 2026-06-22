@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON to CSV</title>
+</head>
+<body>
+
+<h1>Convert Questions JSON to CSV</h1>
+
+<input type="file" id="jsonFile" accept=".json">
+<br><br>
+<button onclick="convertJsonToCsv()">Convert to CSV</button>
+
+<script>
+function csvEscape(value) {
+  if (value === undefined || value === null) return '""';
+
+  if (Array.isArray(value)) {
+    value = value.join("|");
+  }
+
+  return `"${String(value).replace(/"/g, '""')}"`;
+}
+
+function download(filename, text) {
+  const blob = new Blob([text], { type: "text/csv" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = filename;
+  link.click();
+}
+
+async function convertJsonToCsv() {
+  const file = document.getElementById("jsonFile").files[0];
+
+  if (!file) {
+    alert("Choose a JSON file first.");
+    return;
+  }
+
+  const text = await file.text();
+  const questions = JSON.parse(text);
+
+  const header = [
+    "id",
+    "exam",
+    "domain",
+    "difficulty",
+    "question",
+    "A",
+    "B",
+    "C",
+    "D",
+    "answer",
+    "explanation",
+    "reference",
+    "tags"
+  ];
+
+  const rows = [header];
+
+  questions.forEach(q => {
+    rows.push([
+      q.id,
+      q.exam,
+      q.domain,
+      q.difficulty,
+      q.question,
+      q.choices.A,
+      q.choices.B,
+      q.choices.C,
+      q.choices.D,
+      q.answer,
+      q.explanation,
+      q.reference,
+      q.tags
+    ]);
+  });
+
+  const csv = rows
+    .map(row => row.map(csvEscape).join(","))
+    .join("\n");
+
+  download("alpha_questions.csv", csv);
+}
+</script>
+
+</body>
+</html>
