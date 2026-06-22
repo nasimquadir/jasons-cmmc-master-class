@@ -17,27 +17,23 @@
 
 <div class="exam-layout">
 
-<div id="questionNav"></div>
+  <div class="exam-main">
 
-<div class="exam-main">
+    <div id="questionContainer">
+      Loading...
+    </div>
 
-<div id="questionContainer">
-Loading...
-</div>
+    <br>
 
-<br>
+    <button onclick="previousQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+    <button onclick="flagQuestion()">Flag Question</button>
+    <button onclick="submitExam()">Submit Exam</button>
+    <button onclick="resetExam()">Reset Exam</button>
 
-<button onclick="previousQuestion()">Previous</button>
+  </div>
 
-<button onclick="nextQuestion()">Next</button>
-
-<button onclick="flagQuestion()">Flag Question</button>
-
-<button onclick="submitExam()">Submit Exam</button>
-
-<button onclick="resetExam()">Reset Exam</button>
-
-</div>
+  <div id="questionNav"></div>
 
 </div>
 
