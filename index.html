@@ -43,9 +43,9 @@
     <div class="top-left">
       <button class="hamburger">☰</button>
       <div class="search">
-        <input type="text" placeholder="Search anything..." />
-        <span>⌕</span>
-      </div>
+  <input id="dashboardSearch" type="text" placeholder="Search anything..." onkeydown="handleDashboardSearch(event)" />
+  <button onclick="runDashboardSearch()">⌕</button>
+</div>
     </div>
 
     <div class="top-right">
@@ -227,13 +227,70 @@
 
   </section>
 
-  <footer class="quote-bar">
+<<footer class="quote-bar">
   <b>❝</b>
   <span>Discipline is what sets in when motivation runs out. Stay on your grind and better yourself.</span>
   <em>– Jason Brown</em>
 </footer>
 
 </main>
+
+<script>
+function handleDashboardSearch(event) {
+  if (event.key === "Enter") {
+    runDashboardSearch();
+  }
+}
+
+function runDashboardSearch() {
+  const term =
+    document.getElementById("dashboardSearch")
+      .value
+      .trim()
+      .toLowerCase();
+
+  if (!term) return;
+
+  const routes = [
+    {
+      keys: ["alpha", "alpha exam"],
+      url: "exam-alpha.html"
+    },
+    {
+      keys: ["bravo", "bravo exam"],
+      url: "exam-bravo.html"
+    },
+    {
+      keys: ["sim", "simulation", "simulated", "simulated exam"],
+      url: "exam-sim.html"
+    },
+    {
+      keys: ["study", "study bank", "bank", "practice"],
+      url: "study-bank.html"
+    },
+    {
+      keys: ["review", "missed", "incorrect", "wrong"],
+      url: "review.html"
+    },
+    {
+      keys: ["dashboard", "performance", "analytics", "report", "stats"],
+      url: "dashboard.html"
+    }
+  ];
+
+  const match = routes.find(route =>
+    route.keys.some(key => term.includes(key))
+  );
+
+  if (match) {
+    window.location.href = match.url;
+  } else {
+    alert(
+      "Try searching: Alpha, Bravo, Simulated Exam, Study Bank, Review, or Performance."
+    );
+  }
+}
+</script>
 
 </body>
 </html>
