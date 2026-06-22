@@ -788,6 +788,54 @@ button {
     grid-template-columns: 1fr;
   }
 }
+.exam-layout {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) 280px;
+  gap: 20px;
+  align-items: start;
+}
+
+.exam-main {
+  margin: 0;
+}
+
+#questionNav {
+  position: sticky;
+  top: 90px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 8px;
+}
+
+.nav-question {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255,255,255,.08);
+}
+
+.nav-answered {
+  background: linear-gradient(145deg,#16a34a,#0f6b36);
+  color: white;
+}
+
+.nav-current {
+  outline: 3px solid #38bdf8;
+}
+
+.nav-flagged {
+  background: linear-gradient(145deg,#f97316,#9a3412);
+}
+
+.nav-answered.nav-flagged {
+  background: linear-gradient(145deg,#22c55e,#f97316);
+}
 
 @media (max-width: 800px) {
   .dash-body {
@@ -819,5 +867,18 @@ button {
   .exam-cards,
   .goal-panel {
     grid-template-columns: 1fr;
+  }
+    .exam-layout {
+    grid-template-columns: 1fr;
+  }
+  #questionNav {
+    position: relative;
+    top: 0;
+    max-height: none;
+  }
+  
+
+  .nav-grid {
+    grid-template-columns: repeat(8, 1fr);
   }
 }
