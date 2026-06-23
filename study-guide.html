@@ -1,395 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CCP 800-Level Study Guide</title>
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCP Study Guide | Jason's CMMC Master Class</title>
 
   <style>
+    * { box-sizing: border-box; }
+
     body {
-      background:#f4f7fb;
-      color:#0f172a;
-      font-family: Arial, sans-serif;
-      line-height:1.6;
-      margin:0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #e9eef6;
+      color: #111827;
+      line-height: 1.6;
+      font-size: 16px;
     }
 
-    .guide-wrap {
-      max-width:1100px;
-      margin:0 auto;
-      padding:30px;
-      background:white;
+    a { color: #0b5ed7; font-weight: bold; }
+
+    .guide {
+      max-width: 1150px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 32px;
+      box-shadow: 0 0 30px rgba(0,0,0,.12);
     }
 
-    .guide-header {
-      border-bottom:4px solid #0d6efd;
-      margin-bottom:25px;
-      padding-bottom:20px;
+    .header {
+      background: #071a33;
+      color: white;
+      padding: 28px;
+      border-radius: 14px;
+      margin-bottom: 24px;
     }
 
-    .guide-header h1 {
-      margin-bottom:5px;
-      color:#0f172a;
+    .header h1 {
+      margin: 0;
+      font-size: 34px;
     }
 
-    .guide-header p {
-      color:#475569;
+    .header h2 {
+      margin: 8px 0 0;
+      color: #93c5fd;
     }
 
-    .print-btn {
-      background:#0d6efd;
-      color:white;
-      border:0;
-      padding:12px 18px;
-      border-radius:8px;
-      font-weight:bold;
-      cursor:pointer;
+    .actions {
+      margin-top: 18px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
     }
 
-    .domain {
-      margin:35px 0;
-      padding:22px;
-      border-radius:14px;
-      border:1px solid #cbd5e1;
-      background:#f8fafc;
-      page-break-inside:avoid;
+    .btn {
+      display: inline-block;
+      padding: 11px 16px;
+      background: #0d6efd;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
+      font-weight: bold;
     }
 
-    .domain h2 {
-      color:#0d47a1;
-      margin-top:0;
+    .btn.dark { background: #111827; }
+
+    .toc, .section {
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 22px;
+      margin: 22px 0;
+      background: #f8fafc;
     }
+
+    h2 {
+      color: #0f3f7f;
+      border-bottom: 2px solid #bfdbfe;
+      padding-bottom: 6px;
+    }
+
+    h3 { color: #1e3a8a; }
 
     .weight {
-      display:inline-block;
-      padding:6px 12px;
-      background:#dbeafe;
-      color:#1d4ed8;
-      font-weight:bold;
-      border-radius:999px;
-      margin-bottom:10px;
+      display: inline-block;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-weight: bold;
+      margin-bottom: 8px;
     }
 
-    .takeaway {
-      background:#fff7ed;
-      border-left:6px solid #f97316;
-      padding:14px;
-      margin:16px 0;
-      font-weight:bold;
-    }
-
-    .emphasis {
-      background:#ecfdf5;
-      border-left:6px solid #22c55e;
-      padding:14px;
-      margin:16px 0;
+    .must {
+      background: #fff7ed;
+      border-left: 7px solid #f97316;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-weight: bold;
     }
 
     .trap {
-      background:#fef2f2;
-      border-left:6px solid #ef4444;
-      padding:14px;
-      margin:16px 0;
+      background: #fef2f2;
+      border-left: 7px solid #dc2626;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-weight: bold;
+    }
+
+    .exam {
+      background: #ecfdf5;
+      border-left: 7px solid #16a34a;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-weight: bold;
+    }
+
+    .plain {
+      background: #ffffff;
+      border: 1px solid #d1d5db;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 14px 0;
     }
 
     table {
-      width:100%;
-      border-collapse:collapse;
-      margin:18px 0;
-    }
-
-    th, td {
-      border:1px solid #cbd5e1;
-      padding:10px;
-      vertical-align:top;
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      background: white;
     }
 
     th {
-      background:#e2e8f0;
+      background: #1e3a8a;
+      color: white;
+      text-align: left;
     }
 
-    .toc a {
-      display:block;
-      padding:6px 0;
-      color:#0d6efd;
-      font-weight:bold;
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 10px;
+      vertical-align: top;
     }
 
-    .source-note {
-      font-size:13px;
-      color:#475569;
-      margin-top:30px;
-      border-top:1px solid #cbd5e1;
-      padding-top:15px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 16px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .source {
+      font-size: 13px;
+      color: #475569;
+      border-top: 1px solid #cbd5e1;
+      margin-top: 28px;
+      padding-top: 14px;
     }
 
     @media print {
-      .print-btn, .back-link {
-        display:none;
-      }
+      body { background: white; }
+      .guide { box-shadow: none; padding: 0; }
+      .actions, .back { display: none; }
+      .section, .toc { page-break-inside: avoid; }
+    }
 
-      body {
-        background:white;
-      }
-
-      .guide-wrap {
-        padding:0;
-      }
-
-      .domain {
-        page-break-inside:avoid;
-      }
+    @media (max-width: 850px) {
+      .grid { grid-template-columns: 1fr; }
+      .guide { padding: 18px; }
     }
   </style>
 </head>
 
 <body>
 
-<div class="guide-wrap">
+<div class="guide">
 
-  <div class="guide-header">
-    <a class="back-link" href="index.html">← Back to Dashboard</a>
+  <div class="header">
+    <a class="back" href="index.html" style="color:#bfdbfe;">← Back to Dashboard</a>
     <h1>Jason's CMMC Master Class</h1>
-    <h2>CCP 800-Level Reference & Study Guide</h2>
-    <p>Blueprint-aligned, printable study guide using only the approved CMMC source documents.</p>
-    <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+    <h2>CCP Exam Study Guide — 800-Level Focus</h2>
+    <p>This guide is built for studying, not filling in blanks. It is aligned to the CCP Blueprint and emphasizes what is most likely to matter on the exam.</p>
+
+    <div class="actions">
+      <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+      <a class="btn dark" href="study-bank.html">Go to Study Bank</a>
+      <a class="btn dark" href="exam-sim.html">Simulated Exam</a>
+    </div>
   </div>
 
-  <section class="toc">
-    <h2>Table of Contents</h2>
-    <a href="#exam">Exam Blueprint</a>
-    <a href="#d1">Domain 1 — CMMC Ecosystem</a>
-    <a href="#d2">Domain 2 — Code of Professional Conduct</a>
-    <a href="#d3">Domain 3 — Governance and Source Documents</a>
-    <a href="#d4">Domain 4 — Model Construct and Implementation Evaluation</a>
-    <a href="#d5">Domain 5 — CMMC Assessment Process</a>
-    <a href="#d6">Domain 6 — Scoping</a>
-    <a href="#tables">High-Yield Tables</a>
-    <a href="#cram">Final Cram Sheet</a>
-  </section>
-
-  <section id="exam" class="domain">
-    <h2>Exam Blueprint</h2>
-    <p>The CCP exam contains <strong>170 multiple-choice questions</strong>, lasts <strong>3.5 hours</strong>, has a <strong>passing score of 500</strong>, and is <strong>not open book</strong>. The Blueprint weights the six domains as follows:</p>
+  <div class="toc">
+    <h2>How to Use This Guide</h2>
+    <p><strong>Spend most of your time on Domains 4, 5, and 6.</strong> Together, they represent 75% of the CCP exam.</p>
+    <ol>
+      <li>Read the “Must Know” sections first.</li>
+      <li>Memorize the tables.</li>
+      <li>Use the Study Bank for weak areas.</li>
+      <li>Use Review Center to drill missed questions.</li>
+    </ol>
 
     <table>
       <tr><th>Domain</th><th>Weight</th><th>Study Priority</th></tr>
-      <tr><td>1. CMMC Ecosystem</td><td>5%</td><td>Memorize roles</td></tr>
-      <tr><td>2. Code of Professional Conduct</td><td>5%</td><td>Ethics scenarios</td></tr>
-      <tr><td>3. Governance and Source Documents</td><td>15%</td><td>FCI, CUI, source docs</td></tr>
-      <tr><td>4. Model Construct and Implementation Evaluation</td><td>35%</td><td><strong>Highest priority</strong></td></tr>
+      <tr><td>1. CMMC Ecosystem</td><td>5%</td><td>Roles and boundaries</td></tr>
+      <tr><td>2. Ethics / CoPC</td><td>5%</td><td>Scenario judgment</td></tr>
+      <tr><td>3. Governance & Source Documents</td><td>15%</td><td>FCI, CUI, source documents</td></tr>
+      <tr><td>4. Model Construct & Implementation Evaluation</td><td>35%</td><td><strong>Highest priority</strong></td></tr>
       <tr><td>5. Assessment Process</td><td>25%</td><td><strong>CAP mastery</strong></td></tr>
       <tr><td>6. Scoping</td><td>15%</td><td><strong>Scenario-heavy</strong></td></tr>
     </table>
+  </div>
 
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> Domains 4, 5, and 6 equal 75% of the exam. Master model practices, CAP phases, evidence, and scoping.
-    </div>
-  </section>
-
-  <section id="d1" class="domain">
+  <section class="section">
     <span class="weight">Domain 1 — 5%</span>
     <h2>CMMC Ecosystem</h2>
 
-    <p>This domain tests whether you understand who does what in the CMMC ecosystem.</p>
+    <div class="must">
+      MUST KNOW: Who can assess, who can prepare, who leads, and who supports. Do not confuse consultants with assessors.
+    </div>
 
     <table>
-      <tr><th>Role / Entity</th><th>What to Know</th></tr>
-      <tr><td>OUSD</td><td>DoD authority connected to cybersecurity standards, best practices, and regulation.</td></tr>
-      <tr><td>OSC</td><td>Organization Seeking Certification.</td></tr>
-      <tr><td>C3PAO</td><td>Authorized assessment organization that conducts CMMC assessments.</td></tr>
-      <tr><td>RPO</td><td>Registered Provider Organization; supports preparation, not certification assessment.</td></tr>
-      <tr><td>RP</td><td>Registered Practitioner; provides advice, consulting, and recommendations but does not participate in Certified CMMC Assessments.</td></tr>
-      <tr><td>CCP</td><td>Certified CMMC Professional; may serve as assessment team member within role limitations.</td></tr>
-      <tr><td>CCA</td><td>Certified CMMC Assessor; assessment role with greater authority than CCP.</td></tr>
-      <tr><td>Lead Assessor</td><td>Leads the assessment team and final assessment activities.</td></tr>
+      <tr><th>Entity / Role</th><th>What You Need to Know for the Exam</th></tr>
+      <tr><td>OUSD</td><td>DoD authority connected to cybersecurity standards, best practices, and requirements driving CMMC.</td></tr>
+      <tr><td>OSC</td><td>Organization Seeking Certification. The company or legal entity seeking CMMC certification for a defined environment.</td></tr>
+      <tr><td>C3PAO</td><td>Authorized third-party assessment organization that performs CMMC assessments.</td></tr>
+      <tr><td>RPO</td><td>Registered Provider Organization. Supports preparation; does not conduct certified assessments.</td></tr>
+      <tr><td>RP</td><td>Registered Practitioner. Provides advice, consulting, and recommendations; not a certified assessment role.</td></tr>
+      <tr><td>CCP</td><td>Certified CMMC Professional. Can participate as an assessment team member within allowed role boundaries.</td></tr>
+      <tr><td>CCA</td><td>Certified CMMC Assessor. Performs assessor duties at a higher level than CCP.</td></tr>
+      <tr><td>Lead Assessor</td><td>Leads assessment activities and drives assessment execution and findings.</td></tr>
+      <tr><td>LTP / LPP</td><td>Licensed Training Provider / Licensed Partner Publisher. Training and content ecosystem roles.</td></tr>
     </table>
 
     <div class="trap">
-      <strong>Exam Trap:</strong> Do not confuse implementers with assessors. RPs and RPOs help prepare but do not conduct certified assessments.
+      EXAM TRAP: RPs and RPOs are implementers/advisors. They do not conduct Certified CMMC Assessments.
     </div>
   </section>
 
-  <section id="d2" class="domain">
+  <section class="section">
     <span class="weight">Domain 2 — 5%</span>
     <h2>Code of Professional Conduct</h2>
 
-    <p>The CoPC applies to credentialed individuals, candidate credential holders, C3PAOs, RPs, RPOs, LPPs, LTPs, and other entities in the CMMC ecosystem.</p>
-
-    <h3>Guiding Principles</h3>
-    <ul>
-      <li><strong>Professionalism</strong></li>
-      <li><strong>Objectivity</strong></li>
-      <li><strong>Confidentiality</strong></li>
-      <li><strong>Proper Use of Methods</strong></li>
-      <li><strong>Information Integrity</strong></li>
-    </ul>
-
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> Ethics questions are scenario-based. The correct answer usually protects objectivity, confidentiality, lawful conduct, and integrity of assessment methods.
+    <div class="must">
+      MUST KNOW: Ethics questions usually test judgment, not definitions. Pick the answer that protects objectivity, confidentiality, lawful conduct, and integrity.
     </div>
 
-    <div class="trap">
-      <strong>Exam Trap:</strong> A conflict of interest does not always mean automatic disqualification, but it must be identified, documented, disclosed, and handled according to applicable requirements.
+    <table>
+      <tr><th>Principle</th><th>Exam Meaning</th></tr>
+      <tr><td>Professionalism</td><td>Represent your role truthfully. Do not overstate certification, authority, or affiliation.</td></tr>
+      <tr><td>Objectivity</td><td>Avoid actual or perceived conflicts of interest. If conflict exists, disclose and manage it.</td></tr>
+      <tr><td>Confidentiality</td><td>Protect customer and government data, security posture, business strategies, trade secrets, and personal information.</td></tr>
+      <tr><td>Proper Use of Methods</td><td>Use CMMC methods, materials, and procedures as intended. Do not improvise assessment criteria.</td></tr>
+      <tr><td>Information Integrity</td><td>Report results completely and honestly. Do not alter, omit, or misrepresent findings.</td></tr>
+      <tr><td>Respect for IP</td><td>Do not misuse protected training, assessment, or customer materials.</td></tr>
+      <tr><td>Lawful and Ethical Practices</td><td>Follow applicable laws, contracts, NDAs, and ethical expectations.</td></tr>
+    </table>
+
+    <div class="exam">
+      WHAT THE EXAM LIKES: “You discover a conflict,” “client asks you to hide something,” “you saw confidential data,” “your company helped implement the controls.” The safest answer is usually disclose, protect, document, escalate appropriately, or refuse improper action.
     </div>
   </section>
 
-  <section id="d3" class="domain">
+  <section class="section">
     <span class="weight">Domain 3 — 15%</span>
     <h2>Governance and Source Documents</h2>
 
-    <h3>FCI and CUI</h3>
-    <p><strong>FCI</strong> is Federal Contract Information. <strong>CUI</strong> is Controlled Unclassified Information requiring safeguarding or dissemination controls.</p>
-
-    <div class="emphasis">
-      <strong>Emphasize:</strong> CMMC exists to protect FCI and CUI in nonfederal systems and organizations.
+    <div class="must">
+      MUST KNOW: CMMC protects FCI and CUI. Level 1 focuses on FCI safeguarding. Level 2 focuses on CUI and aligns to NIST SP 800-171 requirements.
     </div>
 
-    <h3>Source Documents to Know</h3>
-    <ul>
-      <li>CMMC Model Overview</li>
-      <li>CMMC Assessment Guide Level 1</li>
-      <li>CMMC Assessment Guide Level 2</li>
-      <li>CMMC Level 1 Scoping Guidance</li>
-      <li>CMMC Level 2 Scoping Guidance</li>
-      <li>CMMC Assessment Process</li>
-      <li>CMMC Glossary</li>
-      <li>CMMC Artifact Hashing Tool User Guide</li>
-      <li>NIST SP 800-171 Rev. 2</li>
-    </ul>
+    <div class="grid">
+      <div class="card">
+        <h3>FCI</h3>
+        <p><strong>Federal Contract Information</strong> is information provided by or generated for the Government under contract that is not intended for public release.</p>
+        <p><strong>Exam focus:</strong> FCI drives Level 1 safeguarding requirements.</p>
+      </div>
 
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> Know which document answers which kind of question. Model Overview explains structure. Assessment Guide explains practices and assessment methods. CAP explains process. Scoping Guide determines assets in scope. Glossary defines terms.
+      <div class="card">
+        <h3>CUI</h3>
+        <p><strong>Controlled Unclassified Information</strong> requires safeguarding or dissemination controls under law, regulation, or government-wide policy.</p>
+        <p><strong>Exam focus:</strong> CUI drives Level 2 requirements and scoping.</p>
+      </div>
+    </div>
+
+    <h3>Source Document Map</h3>
+    <table>
+      <tr><th>Document</th><th>Use It For</th></tr>
+      <tr><td>CCP Blueprint</td><td>Exam structure, domain weights, task areas.</td></tr>
+      <tr><td>Model Overview</td><td>CMMC model structure, levels, practices, domains.</td></tr>
+      <tr><td>Assessment Guide Level 1 / Level 2</td><td>Practice descriptions, objectives, assessment methods, findings.</td></tr>
+      <tr><td>Scoping Guide Level 1 / Level 2</td><td>Asset categories and assessment boundary decisions.</td></tr>
+      <tr><td>CAP v5.6.1</td><td>Assessment process phases and activities.</td></tr>
+      <tr><td>Glossary</td><td>Definitions and acronyms.</td></tr>
+      <tr><td>Artifact Hashing Tool Guide</td><td>Artifact integrity and assessment record support.</td></tr>
+      <tr><td>NIST SP 800-171 Rev. 2</td><td>Underlying CUI security requirements for Level 2.</td></tr>
+    </table>
+
+    <div class="trap">
+      EXAM TRAP: Do not use the wrong source document. Scoping questions come from scoping guidance. Process questions come from CAP. Practice objective questions come from the Assessment Guide.
     </div>
   </section>
 
-  <section id="d4" class="domain">
+  <section class="section">
     <span class="weight">Domain 4 — 35%</span>
-    <h2>CMMC Model Construct and Implementation Evaluation</h2>
+    <h2>Model Construct and Implementation Evaluation</h2>
 
-    <p>This is the largest exam domain. You must understand model architecture, levels, practices, objectives, assessment methods, assessment objects, and how to evaluate implementation.</p>
-
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> Domain 4 is not memorization only. You must apply source documents to determine whether a practice is implemented and whether evidence is adequate and sufficient.
+    <div class="must">
+      MOST IMPORTANT DOMAIN: You must understand practice intent, objectives, assessment methods, and evidence quality.
     </div>
-
-    <h3>High-Yield Level 1 Practices</h3>
-
-    <table>
-      <tr><th>Family</th><th>Practices Blueprint Emphasizes</th><th>What to Focus On</th></tr>
-      <tr><td>AC</td><td>AC.L1-3.1.1, 3.1.2, 3.1.20, 3.1.22</td><td>Authorized access, transaction/function control, external connections, public information.</td></tr>
-      <tr><td>IA</td><td>IA.L1-3.5.1, 3.5.2</td><td>Identification and authentication of users, processes, and devices.</td></tr>
-      <tr><td>MP</td><td>MP.L1-3.8.3</td><td>Media disposal and sanitization.</td></tr>
-      <tr><td>PE</td><td>PE.L1-3.10.1, 3.10.3, 3.10.4, 3.10.5</td><td>Physical access, visitor escort, logs, physical access device management.</td></tr>
-      <tr><td>SC</td><td>SC.L1-3.13.1, 3.13.5</td><td>Boundary protection and separation of public-access systems.</td></tr>
-      <tr><td>SI</td><td>SI.L1-3.14.1, 3.14.2, 3.14.4, 3.14.5</td><td>Flaw remediation, malicious code protection, updates, scanning.</td></tr>
-    </table>
 
     <h3>Assessment Methods</h3>
     <table>
-      <tr><th>Method</th><th>Meaning</th><th>Examples</th></tr>
-      <tr><td><strong>Examine</strong></td><td>Review documents, records, configurations, policies, logs, or artifacts.</td><td>Policies, procedures, screenshots, configuration files, tickets, inventories.</td></tr>
-      <tr><td><strong>Interview</strong></td><td>Ask personnel to explain how the practice is performed.</td><td>System admin explains MFA enforcement; facility manager explains visitor process.</td></tr>
-      <tr><td><strong>Test</strong></td><td>Observe or perform an action to verify operation.</td><td>Demonstrate session lock, test access control, show alert generation.</td></tr>
+      <tr><th>Method</th><th>What It Means</th><th>Examples</th></tr>
+      <tr><td>Examine</td><td>Review, inspect, observe, study, or analyze assessment objects.</td><td>Policies, procedures, SSP, logs, screenshots, diagrams, tickets, configurations.</td></tr>
+      <tr><td>Interview</td><td>Talk with personnel to understand whether practices are implemented.</td><td>Admins, managers, users, facility staff, security personnel.</td></tr>
+      <tr><td>Test</td><td>Exercise a mechanism or activity to compare expected vs actual behavior.</td><td>Demonstrate MFA, session lock, alerting, access denial, scanning, logging.</td></tr>
+    </table>
+
+    <div class="exam">
+      MEMORIZE: Documentation shows intent. Interviews show understanding. Testing shows actual operation.
+    </div>
+
+    <h3>Findings</h3>
+    <table>
+      <tr><th>Finding</th><th>Meaning</th></tr>
+      <tr><td>MET</td><td>The practice is satisfied and evidence supports all objectives.</td></tr>
+      <tr><td>NOT MET</td><td>The practice is not fully satisfied.</td></tr>
+      <tr><td>NOT APPLICABLE</td><td>The practice does not apply, and the assessor documents why.</td></tr>
+    </table>
+
+    <h3>Level 1 Practices You Must Know</h3>
+    <table>
+      <tr><th>Family</th><th>Practice</th><th>Plain-English Focus</th></tr>
+      <tr><td>AC</td><td>AC.L1-3.1.1 Authorized Access Control</td><td>Limit system access to authorized users, processes, and devices.</td></tr>
+      <tr><td>AC</td><td>AC.L1-3.1.2 Transaction & Function Control</td><td>Limit users to authorized transactions and functions.</td></tr>
+      <tr><td>AC</td><td>AC.L1-3.1.20 External Connections</td><td>Verify and control external system connections.</td></tr>
+      <tr><td>AC</td><td>AC.L1-3.1.22 Control Public Information</td><td>Control what is posted publicly.</td></tr>
+      <tr><td>IA</td><td>IA.L1-3.5.1 Identification</td><td>Identify users, processes, and devices.</td></tr>
+      <tr><td>IA</td><td>IA.L1-3.5.2 Authentication</td><td>Authenticate users, processes, and devices before access.</td></tr>
+      <tr><td>MP</td><td>MP.L1-3.8.3 Media Disposal</td><td>Sanitize or destroy media before disposal or reuse.</td></tr>
+      <tr><td>PE</td><td>PE.L1-3.10.1 Limit Physical Access</td><td>Limit physical access to systems, equipment, and operating environments.</td></tr>
+      <tr><td>PE</td><td>PE.L1-3.10.3 Escort Visitors</td><td>Escort visitors and monitor activity.</td></tr>
+      <tr><td>PE</td><td>PE.L1-3.10.4 Physical Access Logs</td><td>Maintain logs of physical access.</td></tr>
+      <tr><td>PE</td><td>PE.L1-3.10.5 Manage Physical Access</td><td>Control and manage physical access devices.</td></tr>
+      <tr><td>SC</td><td>SC.L1-3.13.1 Boundary Protection</td><td>Monitor, control, and protect communications at boundaries.</td></tr>
+      <tr><td>SC</td><td>SC.L1-3.13.5 Public-Access System Separation</td><td>Separate publicly accessible systems from internal systems.</td></tr>
+      <tr><td>SI</td><td>SI.L1-3.14.1 Flaw Remediation</td><td>Identify, report, and correct flaws.</td></tr>
+      <tr><td>SI</td><td>SI.L1-3.14.2 Malicious Code Protection</td><td>Protect against malicious code.</td></tr>
+      <tr><td>SI</td><td>SI.L1-3.14.4 Update Malicious Code Protection</td><td>Update malicious code mechanisms when new releases are available.</td></tr>
+      <tr><td>SI</td><td>SI.L1-3.14.5 System & File Scanning</td><td>Scan systems and files from external sources.</td></tr>
     </table>
 
     <div class="trap">
-      <strong>Exam Trap:</strong> A policy alone is usually not enough. Evidence must show the practice is implemented, not merely planned.
+      EXAM TRAP: A policy by itself is rarely enough. The question will often ask whether evidence is adequate and sufficient. Look for actual implementation.
     </div>
+
+    <h3>Adequate vs Sufficient Evidence</h3>
+    <table>
+      <tr><th>Term</th><th>Exam Meaning</th></tr>
+      <tr><td>Adequate</td><td>The evidence is relevant and appropriate for the practice/objective.</td></tr>
+      <tr><td>Sufficient</td><td>There is enough evidence across the scope to support the finding.</td></tr>
+      <tr><td>Objective Evidence</td><td>Observable and verifiable evidence used to support a determination.</td></tr>
+    </table>
   </section>
 
-  <section id="d5" class="domain">
+  <section class="section">
     <span class="weight">Domain 5 — 25%</span>
     <h2>CMMC Assessment Process</h2>
 
-    <p>The CAP is organized into four phases. CCP candidates must understand how to assist in planning, conducting, reporting, and POA&M closeout activities.</p>
-
-    <table>
-      <tr><th>CAP Phase</th><th>Purpose</th><th>High-Yield Topics</th></tr>
-      <tr><td>Phase 1 — Plan and Prepare</td><td>Prepare assessment, validate scope, determine readiness.</td><td>Assessment request, roles, documentation, scope validation, evidence approach, COI, readiness review.</td></tr>
-      <tr><td>Phase 2 — Conduct Assessment</td><td>Collect and evaluate evidence.</td><td>Kickoff, examine evidence, conduct interviews, observe tests, score practices, validate preliminary results.</td></tr>
-      <tr><td>Phase 3 — Report Results</td><td>Deliver and package recommended results.</td><td>Final findings, assessment results package, CQAP review, eMASS upload, archive/dispose artifacts.</td></tr>
-      <tr><td>Phase 4 — Close-Out POA&Ms</td><td>Evaluate outstanding POA&M items.</td><td>POA&M closeout, update POA&M, appeals support.</td></tr>
-    </table>
-
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> CAP questions often ask “what happens next” or “who does what during which phase.” Memorize the phase order and outputs.
+    <div class="must">
+      MUST KNOW: CAP phase order, what happens in each phase, and what the CCP can assist with.
     </div>
 
+    <table>
+      <tr><th>Phase</th><th>Name</th><th>What Happens</th><th>Exam Focus</th></tr>
+      <tr><td>1</td><td>Plan and Prepare</td><td>Assessment request, roles, documents, scope validation, evidence approach, readiness review, COI handling.</td><td>Assessment plan, readiness, scope, evidence validation.</td></tr>
+      <tr><td>2</td><td>Conduct Assessment</td><td>Kickoff, collect/examine evidence, interviews, observe tests, evidence gaps, score practices, validate preliminary results.</td><td>Examine/interview/test, preliminary results, evidence gaps.</td></tr>
+      <tr><td>3</td><td>Report Recommended Results</td><td>Deliver final findings, package/archive documentation, CQAP review, upload assessment package, dispose/archive artifacts.</td><td>Reporting, packaging, records, final findings.</td></tr>
+      <tr><td>4</td><td>Close-Out POA&Ms</td><td>Perform POA&M closeout assessment and support appeal resolution.</td><td>Outstanding items, closeout, POA&M awareness.</td></tr>
+    </table>
+
+    <h3>CCP Role by Phase</h3>
+    <table>
+      <tr><th>Phase</th><th>CCP Should Be Able To...</th></tr>
+      <tr><td>Phase 1</td><td>Assist with analyzing requirements, assessment planning, evidence approach, and readiness verification.</td></tr>
+      <tr><td>Phase 2</td><td>Assist with collecting and examining evidence, supporting interviews/tests, scoring support, and preliminary result validation.</td></tr>
+      <tr><td>Phase 3</td><td>Assist with evidence organization, report preparation support, and final results package support.</td></tr>
+      <tr><td>Phase 4</td><td>Understand the CCP role in POA&M closeout and outstanding issue evaluation.</td></tr>
+    </table>
+
     <div class="trap">
-      <strong>Exam Trap:</strong> Do not confuse preliminary results with final findings. Preliminary results are validated before recommended final findings are created and reported.
+      EXAM TRAP: Do not confuse preliminary results with final findings. Preliminary results are validated before final recommended findings are completed.
+    </div>
+
+    <div class="exam">
+      WHAT TO MEMORIZE: Phase 1 = prepare. Phase 2 = collect/evaluate. Phase 3 = report/package. Phase 4 = POA&M closeout.
     </div>
   </section>
 
-  <section id="d6" class="domain">
+  <section class="section">
     <span class="weight">Domain 6 — 15%</span>
     <h2>Scoping</h2>
 
-    <p>Scoping is scenario-heavy. You must classify assets based on whether they process, store, or transmit FCI/CUI or provide security protection for assets that do.</p>
+    <div class="must">
+      MUST KNOW: Start every scoping question with: Does the asset process, store, transmit, or protect CUI?
+    </div>
 
     <table>
-      <tr><th>Asset Category</th><th>Meaning</th><th>Exam Focus</th></tr>
-      <tr><td>CUI Asset</td><td>Processes, stores, or transmits CUI.</td><td>Fully in scope for Level 2.</td></tr>
-      <tr><td>Security Protection Asset</td><td>Provides security functions or capabilities to protect CUI assets.</td><td>Often forgotten in scenarios.</td></tr>
-      <tr><td>Contractor Risk Managed Asset</td><td>Can affect security but does not process, store, or transmit CUI.</td><td>Risk-managed, not assessed the same as CUI assets.</td></tr>
-      <tr><td>Specialized Asset</td><td>Includes OT, IoT, IIoT, test equipment, restricted systems, or government property.</td><td>May have special handling and limited assessment applicability.</td></tr>
-      <tr><td>Out-of-Scope Asset</td><td>Cannot process, store, transmit, or protect CUI.</td><td>Must be logically or physically separated.</td></tr>
-      <tr><td>ESP</td><td>External Service Provider.</td><td>Understand inherited responsibility and service relationship.</td></tr>
+      <tr><th>Asset Category</th><th>Definition / Exam Meaning</th><th>Assessment Treatment</th></tr>
+      <tr><td>CUI Asset</td><td>Processes, stores, or transmits CUI.</td><td>In scope and assessed against applicable practices.</td></tr>
+      <tr><td>Security Protection Asset</td><td>Provides security functions or capabilities to the assessment scope, even if it does not handle CUI.</td><td>In scope and assessed against applicable practices.</td></tr>
+      <tr><td>Contractor Risk Managed Asset</td><td>Can but is not intended to process, store, or transmit CUI due to policies, procedures, and practices.</td><td>Part of scope; SSP reviewed under CA.L2-3.12.4; limited spot checks possible.</td></tr>
+      <tr><td>Specialized Asset</td><td>May or may not handle CUI; includes government property, IoT, OT, restricted systems, and test equipment.</td><td>Part of scope; SSP reviewed; not assessed against other practices.</td></tr>
+      <tr><td>Out-of-Scope Asset</td><td>Cannot process, store, or transmit CUI and does not protect CUI assets.</td><td>Outside assessment scope; must be physically or logically separated.</td></tr>
     </table>
 
-    <div class="takeaway">
-      <strong>Key Takeaway:</strong> Start every scoping question with: Does it process, store, transmit, or protect CUI?
-    </div>
+    <h3>Process / Store / Transmit</h3>
+    <table>
+      <tr><th>Action</th><th>Meaning</th></tr>
+      <tr><td>Process</td><td>CUI is used by the asset: accessed, entered, edited, generated, manipulated, or printed.</td></tr>
+      <tr><td>Store</td><td>CUI is inactive or at rest on the asset: electronic media, memory, or physical paper.</td></tr>
+      <tr><td>Transmit</td><td>CUI moves from one asset to another by physical or digital transport.</td></tr>
+    </table>
+
+    <h3>Common Scoping Examples</h3>
+    <table>
+      <tr><th>Example</th><th>Likely Category</th><th>Why</th></tr>
+      <tr><td>Engineering laptop with CUI files</td><td>CUI Asset</td><td>Stores/processes CUI.</td></tr>
+      <tr><td>Firewall protecting CUI enclave</td><td>Security Protection Asset</td><td>Provides security function.</td></tr>
+      <tr><td>SIEM used for CUI environment monitoring</td><td>Security Protection Asset</td><td>Supports CMMC security requirements.</td></tr>
+      <tr><td>Accounting laptop with no CUI access but on enterprise network</td><td>Potential CRMA</td><td>Can be risk-managed if policies/procedures prevent CUI use.</td></tr>
+      <tr><td>OT / PLC / CNC equipment</td><td>Specialized Asset</td><td>Falls within OT/specialized asset category.</td></tr>
+      <tr><td>Guest Wi-Fi fully isolated from CUI environment</td><td>Out-of-Scope</td><td>Cannot process/store/transmit/protect CUI and is separated.</td></tr>
+    </table>
 
     <div class="trap">
-      <strong>Exam Trap:</strong> Security tools that do not contain CUI may still be in scope as Security Protection Assets.
+      EXAM TRAP: “Does not store CUI” does not automatically mean out of scope. If it protects CUI assets, it may be a Security Protection Asset.
     </div>
   </section>
 
-  <section id="tables" class="domain">
-    <h2>High-Yield Tables</h2>
+  <section class="section">
+    <h2>High-Yield Exam Decision Rules</h2>
 
-    <h3>Evidence Quality</h3>
     <table>
-      <tr><th>Concept</th><th>What It Means</th></tr>
-      <tr><td>Adequate Evidence</td><td>Evidence is relevant to the practice/objective being assessed.</td></tr>
-      <tr><td>Sufficient Evidence</td><td>There is enough evidence to support a reliable determination.</td></tr>
-      <tr><td>Objective Evidence</td><td>Observable, verifiable information supporting a finding.</td></tr>
-    </table>
-
-    <h3>Best Exam Strategy</h3>
-    <table>
-      <tr><th>When the Question Mentions...</th><th>Think...</th></tr>
-      <tr><td>Policies, plans, procedures, logs</td><td>Examine</td></tr>
-      <tr><td>Personnel explanation</td><td>Interview</td></tr>
-      <tr><td>Demonstration or technical operation</td><td>Test</td></tr>
-      <tr><td>Process/store/transmit CUI</td><td>CUI Asset</td></tr>
-      <tr><td>Firewall, SIEM, IdP, vulnerability scanner</td><td>Security Protection Asset</td></tr>
-      <tr><td>Phase sequence</td><td>CAP Phase 1 → 2 → 3 → 4</td></tr>
+      <tr><th>If the Question Says...</th><th>Think...</th></tr>
+      <tr><td>Policy only, no evidence of operation</td><td>Not enough by itself.</td></tr>
+      <tr><td>Personnel explain how something works</td><td>Interview evidence.</td></tr>
+      <tr><td>Screenshots, diagrams, tickets, logs</td><td>Examine evidence.</td></tr>
+      <tr><td>Assessor watches it happen</td><td>Test/observe evidence.</td></tr>
+      <tr><td>Processes, stores, transmits CUI</td><td>CUI Asset.</td></tr>
+      <tr><td>Protects CUI environment</td><td>Security Protection Asset.</td></tr>
+      <tr><td>Can access CUI but policy prevents use</td><td>Contractor Risk Managed Asset.</td></tr>
+      <tr><td>OT, IoT, government property, test equipment</td><td>Specialized Asset.</td></tr>
+      <tr><td>Physically/logically isolated and no CUI capability</td><td>Out-of-Scope.</td></tr>
+      <tr><td>Conflict of interest</td><td>Disclose, document, manage, or avoid.</td></tr>
+      <tr><td>Customer asks to hide information</td><td>Protect integrity; do not misrepresent.</td></tr>
+      <tr><td>Assessment phase question</td><td>Map to CAP Phase 1, 2, 3, or 4.</td></tr>
     </table>
   </section>
 
-  <section id="cram" class="domain">
-    <h2>Final Cram Sheet</h2>
+  <section class="section">
+    <h2>Final 800-Level Cram Sheet</h2>
 
     <ol>
-      <li><strong>Domains 4, 5, and 6 dominate the exam.</strong></li>
-      <li><strong>Know Examine, Interview, and Test cold.</strong></li>
-      <li><strong>Know CAP phase order and phase activities.</strong></li>
-      <li><strong>Policy alone is not implementation.</strong></li>
-      <li><strong>Scoping starts with process, store, transmit, or protect.</strong></li>
-      <li><strong>RPs/RPOs help prepare but do not conduct certified assessments.</strong></li>
-      <li><strong>CoPC scenarios prioritize professionalism, objectivity, confidentiality, proper methods, and information integrity.</strong></li>
-      <li><strong>Level 2 aligns to NIST SP 800-171 requirements.</strong></li>
-      <li><strong>Assessment evidence must be adequate and sufficient.</strong></li>
-      <li><strong>Do not confuse preliminary results with final findings.</strong></li>
+      <li><strong>Domains 4, 5, and 6 are the exam.</strong> They total 75%.</li>
+      <li><strong>Know Examine, Interview, and Test.</strong></li>
+      <li><strong>Testing demonstrates actual behavior.</strong></li>
+      <li><strong>Documentation alone is usually not enough.</strong></li>
+      <li><strong>Every practice must be MET or N/A for the target level.</strong></li>
+      <li><strong>CUI Asset = process/store/transmit CUI.</strong></li>
+      <li><strong>Security Protection Asset = protects the CMMC scope.</strong></li>
+      <li><strong>Out-of-scope assets must be separated and must not protect CUI assets.</strong></li>
+      <li><strong>CAP Phase 1 prepares; Phase 2 assesses; Phase 3 reports; Phase 4 closes POA&Ms.</strong></li>
+      <li><strong>Ethics answers should preserve objectivity, confidentiality, and integrity.</strong></li>
+      <li><strong>RPs/RPOs prepare; C3PAOs assess.</strong></li>
+      <li><strong>CCP supports the assessment team but does not replace the Lead Assessor.</strong></li>
+      <li><strong>Evidence must be adequate and sufficient.</strong></li>
+      <li><strong>Preliminary results are not final findings.</strong></li>
+      <li><strong>Use the correct source document for the question type.</strong></li>
     </ol>
   </section>
 
-  <div class="source-note">
-    <strong>Approved Source Basis:</strong>
-    CCP Blueprint v7.4, CAP v5.6.1, CMMC Assessment Guide Level 2 v2.0, CMMC Model Overview v2.0, CMMC Level 2 Scoping Guide v2.0, CMMC Glossary v2.0, Code of Professional Conduct v2.4, Artifact Hashing Tool Guide v2.0, NIST SP 800-171 Rev. 2.
+  <div class="source">
+    Source basis: CCP Blueprint v7.4, CAP v5.6.1, CMMC Assessment Guide Level 2 v2.0, CMMC Assessment Scope Level 2 v2.0, Model Overview v2.0, Glossary v2.0, Code of Professional Conduct v2.4, Artifact Hashing Tool Guide v2.0, and NIST SP 800-171 Rev. 2.
   </div>
 
 </div>
