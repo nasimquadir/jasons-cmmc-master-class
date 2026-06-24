@@ -13,7 +13,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. The latest authoritative CMMC guidance supporting assessment objectives\n\nCurrent authoritative CMMC guidance should drive implementation and assessment decisions when internal documents conflict.\n\nWhy the other options are not best:\n- A. The internal policy because it predates the guide — Not the best answer for this scenario.\n- C. The opinion of the system administrator — Not the best answer for this scenario.\n- D. The contract manager's interpretation — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CCP Blueprint v7.4; CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CCP Blueprint v7.4; CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Source Documents"
@@ -113,7 +113,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Assessment Guide Level 2\n\nThe Assessment Guide provides objectives and discussion supporting practice evaluation.\n\nWhy the other options are not best:\n- A. Code of Professional Conduct — Not the best answer for this scenario.\n- C. Marketing material from a vendor — Not the best answer for this scenario.\n- D. Corporate travel policy — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Assessment Guide"
@@ -214,7 +214,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Current authoritative guidance should drive implementation\n\nCurrent authoritative documents should be used when evaluating implementation.\n\nWhy the other options are not best:\n- A. Historical success outweighs current guidance — Not the best answer for this scenario.\n- C. Engineering preference controls compliance decisions — Not the best answer for this scenario.\n- D. Any documented procedure is equally valid — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Currency"
@@ -254,7 +254,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Assessment Guide Level 2\n\nThe Assessment Guide contains objectives and discussion statements supporting assessment activities.\n\nWhy the other options are not best:\n- A. Code of Professional Conduct — Not the best answer for this scenario.\n- C. Corporate security handbook — Not the best answer for this scenario.\n- D. Contract performance statement — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Assessment Guide"
@@ -294,7 +294,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Align implementation with current authoritative guidance while reconciling internal procedures\n\nOrganizations should align implementation with current authoritative guidance and reconcile conflicting internal documents.\n\nWhy the other options are not best:\n- A. Maintain the existing procedure because internal standards control implementation — Not the best answer for this scenario.\n- C. Delay the assessment until a new contract is issued — Not the best answer for this scenario.\n- D. Use whichever requirement is easier to satisfy — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Source Hierarchy"
@@ -354,7 +354,7 @@
     },
     "answer": "C",
     "explanation": "Correct answer: C. Assessment Guide Level 2\n\nThe Assessment Guide contains objectives and discussion supporting practice evaluation.\n\nWhy the other options are not best:\n- A. Code of Professional Conduct — Not the best answer for this scenario.\n- B. CMMC Scoping Guide — Not the best answer for this scenario.\n- D. Contractor security awareness training — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Assessment Guide"
@@ -494,7 +494,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Current authoritative guidance should take precedence over legacy procedures\n\nOrganizations should align with current authoritative guidance when resolving conflicts.\n\nWhy the other options are not best:\n- A. Existing practices should remain unchanged to preserve stability — Not the best answer for this scenario.\n- C. Contractors may choose either source if implementation is consistent — Not the best answer for this scenario.\n- D. Assessment objectives apply only after certification — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Source Hierarchy"
@@ -553,8 +553,8 @@
       "D": "CAP v5.6"
     },
     "answer": "C",
-    "explanation": "Correct answer: C. Assessment Guide Level 2\n\nThe Assessment Guide provides objectives and discussion used to evaluate implementation.\n\nWhy the other options are not best:\n- A. Code of Professional Conduct — Not the best answer for this scenario.\n- B. CMMC Scoping Guide — Not the best answer for this scenario.\n- D. CAP v5.6 — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "explanation": "Correct answer: C. Assessment Guide Level 2\n\nThe Assessment Guide provides objectives and discussion used to evaluate implementation.\n\nWhy the other options are not best:\n- A. Code of Professional Conduct — Not the best answer for this scenario.\n- B. CMMC Scoping Guide — Not the best answer for this scenario.\n- D. CAP v5.6.1.1 — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "Governance",
       "Assessment Guide"
@@ -761,7 +761,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Vendor mappings may help planning but do not replace authoritative assessment objectives\n\nVendor materials may support preparation but do not replace authoritative CMMC assessment guidance.\n\nWhy the other options are not best:\n- B. Vendor spreadsheets are always sufficient evidence — Not the best answer for this scenario.\n- C. Vendor mappings determine scoring — Not the best answer for this scenario.\n- D. Assessment Guides apply only to assessors, not OSCs — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0; CCP Blueprint v7.4",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0; CCP Blueprint v7.4",
     "tags": [
       "Governance",
       "Assessment Guide",
@@ -886,7 +886,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege should be preserved because preventive controls address different risks\n\nProtective technologies do not eliminate the need to restrict privileges to authorized functions.\n\nWhy the other options are not best:\n- A. Endpoint protection compensates fully for excessive privileges — Not the best answer for this scenario.\n- C. Local administrator rights are acceptable when users acknowledge responsibility — Not the best answer for this scenario.\n- D. Administrative rights are irrelevant if logging is enabled — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -906,7 +906,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. The bypass may undermine identity assurance for privileged access\n\nExceptions that bypass MFA may weaken authentication protections for privileged access.\n\nWhy the other options are not best:\n- B. Emergency access always exempts MFA requirements — Not the best answer for this scenario.\n- C. Password complexity compensates for MFA exceptions — Not the best answer for this scenario.\n- D. Privileged accounts are outside normal authentication expectations — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "MFA"
@@ -926,7 +926,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Physical protections may be ineffective despite locked storage\n\nPhysical protection mechanisms must be effective, not merely documented.\n\nWhy the other options are not best:\n- A. Media markings are inadequate — Not the best answer for this scenario.\n- C. Paper records are inherently low risk — Not the best answer for this scenario.\n- D. Master key access is irrelevant if logs exist — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "PE"
@@ -946,7 +946,7 @@
     },
     "answer": "C",
     "explanation": "Correct answer: C. Shared infrastructure may expose communications despite internal boundaries\n\nCommunications protection depends on exposure paths, not assumptions about internal trust.\n\nWhy the other options are not best:\n- A. Encryption is required only externally — Not the best answer for this scenario.\n- B. Internal trust eliminates exposure concerns — Not the best answer for this scenario.\n- D. Clear-text traffic is acceptable if segmented by VLAN — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Encryption"
@@ -966,7 +966,7 @@
     },
     "answer": "C",
     "explanation": "Correct answer: C. Protection mechanisms require operational oversight\n\nSecurity mechanisms require monitoring and response, not just installation.\n\nWhy the other options are not best:\n- A. Signature updates eliminate the need for monitoring — Not the best answer for this scenario.\n- B. Alert review is unnecessary when automation exists — Not the best answer for this scenario.\n- D. False positives are more dangerous than missed alerts — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Malicious Code"
@@ -986,7 +986,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Loss of accountability\n\nShared credentials reduce traceability and accountability.\n\nWhy the other options are not best:\n- A. Credential rotation frequency — Not the best answer for this scenario.\n- C. Excessive session timeout — Not the best answer for this scenario.\n- D. Visitor access management — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Accountability"
@@ -1006,7 +1006,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Least functionality\n\nLimiting unnecessary functionality reduces attack surface.\n\nWhy the other options are not best:\n- B. Media accountability — Not the best answer for this scenario.\n- C. Cryptographic protection — Not the best answer for this scenario.\n- D. Personnel screening — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "CM",
       "Least Functionality"
@@ -1026,7 +1026,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Flaw remediation timeliness may not align with risk\n\nTimeliness is a key component of effective flaw remediation.\n\nWhy the other options are not best:\n- A. Patch cadence alone determines compliance — Not the best answer for this scenario.\n- C. Emergency fixes should never bypass schedules — Not the best answer for this scenario.\n- D. Quarterly updates eliminate vulnerability concerns — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Flaw Remediation"
@@ -1046,7 +1046,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Escort authority and visitor control\n\nPhysical protection includes proper authorization and control of visitors.\n\nWhy the other options are not best:\n- B. Badge color standards — Not the best answer for this scenario.\n- C. Visitor sign-in forms — Not the best answer for this scenario.\n- D. Camera placement — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "PE",
       "Visitor Control"
@@ -1066,7 +1066,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Outbound communications require control as well\n\nBoundary protection encompasses communications entering and leaving systems.\n\nWhy the other options are not best:\n- A. Boundary protection applies only to inbound traffic — Not the best answer for this scenario.\n- C. Outbound traffic is addressed only through awareness training — Not the best answer for this scenario.\n- D. Encryption alone addresses destination risk — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Boundary Protection"
@@ -1086,7 +1086,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Session protection depends on reliable mechanisms, not user behavior alone\n\nAutomated session controls reduce reliance on human behavior.\n\nWhy the other options are not best:\n- A. Training frequency — Not the best answer for this scenario.\n- C. Screen savers create usability issues — Not the best answer for this scenario.\n- D. Idle sessions affect only availability — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Session Lock"
@@ -1106,7 +1106,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Media accountability may be insufficient\n\nProtection includes accountability during transport.\n\nWhy the other options are not best:\n- A. Encryption eliminates accountability concerns — Not the best answer for this scenario.\n- C. Physical transportation is outside scope — Not the best answer for this scenario.\n- D. Media markings are unnecessary — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Media Accountability"
@@ -1126,7 +1126,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Risk decisions require visibility and justification\n\nFlaw remediation depends upon visibility and accountable risk decisions.\n\nWhy the other options are not best:\n- A. Alert fatigue is expected — Not the best answer for this scenario.\n- C. Suppressed findings improve efficiency — Not the best answer for this scenario.\n- D. Vulnerability scanners are advisory only — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Vulnerability Management"
@@ -1146,7 +1146,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Offline access mechanisms may introduce authentication risk\n\nEmergency mechanisms should not undermine authentication protections.\n\nWhy the other options are not best:\n- A. Availability always outweighs identity assurance — Not the best answer for this scenario.\n- C. Caching strengthens accountability — Not the best answer for this scenario.\n- D. Privileged users are exempt during outages — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "MFA"
@@ -1166,7 +1166,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Media exposure before user retrieval\n\nPhysical exposure of printed CUI creates risk.\n\nWhy the other options are not best:\n- B. Password complexity — Not the best answer for this scenario.\n- C. Remote access controls — Not the best answer for this scenario.\n- D. Boundary protection — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Paper Media"
@@ -1186,7 +1186,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Encryption alone does not establish trusted endpoints\n\nCommunications protections do not replace endpoint trust requirements.\n\nWhy the other options are not best:\n- B. VPNs eliminate endpoint risks — Not the best answer for this scenario.\n- C. Remote administration requires only passwords — Not the best answer for this scenario.\n- D. Unmanaged devices are equivalent to corporate assets — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Remote Access"
@@ -1206,7 +1206,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Protection mechanisms are not consistently enforced\n\nSecurity mechanisms must operate consistently to remain effective.\n\nWhy the other options are not best:\n- B. Performance optimization outweighs security — Not the best answer for this scenario.\n- C. Malware protection is optional when patching is current — Not the best answer for this scenario.\n- D. Awareness training replaces technical controls — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Malicious Code"
@@ -1226,7 +1226,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Least privilege lifecycle management\n\nTemporary privileges should be controlled and removed when no longer needed.\n\nWhy the other options are not best:\n- B. Physical access — Not the best answer for this scenario.\n- C. Media sanitization — Not the best answer for this scenario.\n- D. Boundary protection — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -1246,7 +1246,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Segmentation effectiveness should be evaluated rather than assumed\n\nLogical separation must be evaluated for effectiveness.\n\nWhy the other options are not best:\n- B. Wireless traffic is inherently trusted — Not the best answer for this scenario.\n- C. Guest access improves monitoring — Not the best answer for this scenario.\n- D. Physical separation is always mandatory — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Segmentation"
@@ -1266,7 +1266,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege and exposure reduction\n\nPrivileged accounts should be restricted to authorized administrative activities to reduce exposure.\n\nWhy the other options are not best:\n- A. Media accountability — Not the best answer for this scenario.\n- C. Visitor management — Not the best answer for this scenario.\n- D. Backup retention — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege",
@@ -1287,7 +1287,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Inadequate traceability of privileged access decisions\n\nEmergency access should remain controlled and auditable.\n\nWhy the other options are not best:\n- A. Lack of media accountability — Not the best answer for this scenario.\n- C. Insufficient physical access restrictions — Not the best answer for this scenario.\n- D. Weak cryptographic protections — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Privileged Access"
@@ -1307,7 +1307,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Credential exposure undermining authentication controls\n\nStored credentials can negate the intended protection of MFA.\n\nWhy the other options are not best:\n- B. Session timeout settings — Not the best answer for this scenario.\n- C. Visitor access procedures — Not the best answer for this scenario.\n- D. Paper media handling — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Credential Protection"
@@ -1327,7 +1327,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Physical exposure of media after authorized access\n\nProtection of media extends beyond initial release mechanisms.\n\nWhy the other options are not best:\n- A. Boundary protection — Not the best answer for this scenario.\n- C. Remote access policy — Not the best answer for this scenario.\n- D. Malicious code prevention — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Physical Media"
@@ -1347,7 +1347,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Sustained boundary protection effectiveness\n\nTemporary exceptions should not become permanent weaknesses.\n\nWhy the other options are not best:\n- A. Session lock — Not the best answer for this scenario.\n- C. Visitor management — Not the best answer for this scenario.\n- D. Media transport accountability — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Boundary Protection"
@@ -1367,7 +1367,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Residual risk from unsupported assets\n\nUnsupported systems require additional risk mitigation.\n\nWhy the other options are not best:\n- A. Overall compliance percentage — Not the best answer for this scenario.\n- C. Physical access control — Not the best answer for this scenario.\n- D. Credential complexity — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Flaw Remediation"
@@ -1387,7 +1387,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege\n\nAccess decisions should align with authorized responsibilities.\n\nWhy the other options are not best:\n- A. Media sanitization — Not the best answer for this scenario.\n- C. Physical escort procedures — Not the best answer for this scenario.\n- D. Boundary defense — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -1407,7 +1407,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Loss of individual accountability\n\nPersisting sessions can undermine user attribution.\n\nWhy the other options are not best:\n- B. Encryption overhead — Not the best answer for this scenario.\n- C. Patch frequency — Not the best answer for this scenario.\n- D. Visitor logging — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Accountability"
@@ -1427,7 +1427,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Delayed accountability for media movement\n\nTimely accountability is essential for media control.\n\nWhy the other options are not best:\n- B. Weak password complexity — Not the best answer for this scenario.\n- C. Unrestricted remote access — Not the best answer for this scenario.\n- D. Session timeout failures — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Media Accountability"
@@ -1447,7 +1447,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Trust assumptions may not provide adequate communication protection\n\nIsolation assumptions should be evaluated rather than presumed.\n\nWhy the other options are not best:\n- A. Hypervisors eliminate communication risks — Not the best answer for this scenario.\n- C. Physical security controls — Not the best answer for this scenario.\n- D. Media retention requirements — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Encryption"
@@ -1467,7 +1467,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Breakdown of operational monitoring\n\nSecurity controls require active operational support.\n\nWhy the other options are not best:\n- A. Signature age — Not the best answer for this scenario.\n- C. Visitor escort procedures — Not the best answer for this scenario.\n- D. Media labeling — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Malicious Code"
@@ -1487,7 +1487,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege lifecycle management\n\nPrivileges should be reviewed and justified periodically.\n\nWhy the other options are not best:\n- A. Media protection — Not the best answer for this scenario.\n- C. Boundary defense — Not the best answer for this scenario.\n- D. Physical access authorization — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -1507,7 +1507,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Identity assurance and accountability\n\nAuthentication mechanisms must preserve individual accountability.\n\nWhy the other options are not best:\n- A. Token portability — Not the best answer for this scenario.\n- C. Patch deployment — Not the best answer for this scenario.\n- D. Paper media security — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "MFA"
@@ -1527,7 +1527,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Residual exposure before destruction\n\nProtection applies until destruction is complete.\n\nWhy the other options are not best:\n- B. Firewall rule review — Not the best answer for this scenario.\n- C. Patch cadence — Not the best answer for this scenario.\n- D. Remote access restrictions — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Sanitization"
@@ -1547,7 +1547,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Segmentation and communication control\n\nCommunication protections depend on effective segmentation and monitoring.\n\nWhy the other options are not best:\n- A. Encryption alone — Not the best answer for this scenario.\n- C. Badge issuance — Not the best answer for this scenario.\n- D. Screen locking — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Segmentation"
@@ -1567,7 +1567,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Potential blind spots in flaw identification\n\nExclusions should be justified and periodically reassessed.\n\nWhy the other options are not best:\n- B. Visitor logs — Not the best answer for this scenario.\n- C. Media transport — Not the best answer for this scenario.\n- D. Authentication token lifespan — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Vulnerability Management"
@@ -1587,7 +1587,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Credential exposure and inappropriate reuse\n\nCredential handling practices influence authentication risk.\n\nWhy the other options are not best:\n- A. Boundary protection — Not the best answer for this scenario.\n- C. Media retention — Not the best answer for this scenario.\n- D. Physical access — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Credential Protection"
@@ -1607,7 +1607,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Compromise of physical access controls\n\nPhysical protections are only as strong as override mechanisms.\n\nWhy the other options are not best:\n- B. Session lock settings — Not the best answer for this scenario.\n- C. Software inventory — Not the best answer for this scenario.\n- D. Patch verification — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "PE",
       "Physical Access"
@@ -1627,7 +1627,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Boundary protection visibility\n\nMonitoring blind spots may weaken communication controls.\n\nWhy the other options are not best:\n- A. Media accountability — Not the best answer for this scenario.\n- C. Visitor management — Not the best answer for this scenario.\n- D. Paper media security — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Boundary Protection"
@@ -1647,7 +1647,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Operational inconsistency in protective mechanisms\n\nControl effectiveness depends on consistent enforcement.\n\nWhy the other options are not best:\n- B. Password complexity — Not the best answer for this scenario.\n- C. Badge control — Not the best answer for this scenario.\n- D. Media transport — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Malicious Code"
@@ -1667,7 +1667,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege and exposure reduction\n\nAdministrative functions should be separated from routine activities to reduce risk.\n\nWhy the other options are not best:\n- A. Media sanitization — Not the best answer for this scenario.\n- C. Visitor access — Not the best answer for this scenario.\n- D. Patch deployment cadence — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -1687,7 +1687,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Whether accountability and individual attribution are preserved during emergencies\n\nEmergency procedures should preserve accountability and not undermine identification and authentication controls.\n\nWhy the other options are not best:\n- A. The envelope storage location — Not the best answer for this scenario.\n- C. Password complexity requirements — Not the best answer for this scenario.\n- D. Patch currency on administrator workstations — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Accountability",
@@ -1708,7 +1708,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege\n\nCompensating technical controls do not eliminate the need to limit access to authorized functions.\n\nWhy the other options are not best:\n- A. Media accountability — Not the best answer for this scenario.\n- C. Physical escort — Not the best answer for this scenario.\n- D. Malicious code protection — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -1728,7 +1728,7 @@
     },
     "answer": "C",
     "explanation": "Correct answer: C. Effectiveness of physical protection mechanisms\n\nControls must be effective in practice, not merely documented.\n\nWhy the other options are not best:\n- A. Printer release settings — Not the best answer for this scenario.\n- B. Media marking — Not the best answer for this scenario.\n- D. Screen lock configuration — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "PE"
@@ -1748,7 +1748,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Loss of communication visibility and boundary control\n\nUnauthorized tunnels may bypass communication protections and monitoring.\n\nWhy the other options are not best:\n- A. Media retention periods — Not the best answer for this scenario.\n- C. Visitor management — Not the best answer for this scenario.\n- D. Password history requirements — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Boundary Protection"
@@ -1768,7 +1768,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Accumulated blind spots reducing detection effectiveness\n\nTemporary exclusions should be reviewed and removed when no longer necessary.\n\nWhy the other options are not best:\n- A. Credential reuse — Not the best answer for this scenario.\n- C. Visitor authorization — Not the best answer for this scenario.\n- D. Physical storage of backups — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Malicious Code"
@@ -1788,7 +1788,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Whether emergency procedures are controlled and auditable\n\nEmergency access should not eliminate accountability or create uncontrolled exceptions.\n\nWhy the other options are not best:\n- A. How often passwords expire — Not the best answer for this scenario.\n- C. Who owns the server room — Not the best answer for this scenario.\n- D. How many users possess laptops — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "MFA"
@@ -1808,7 +1808,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Residual risk created by unsupported infrastructure\n\nTimely flaw remediation must consider all relevant technologies, not just servers.\n\nWhy the other options are not best:\n- A. Asset inventory labels — Not the best answer for this scenario.\n- C. Badge issuance procedures — Not the best answer for this scenario.\n- D. Media transport records — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Flaw Remediation"
@@ -1828,7 +1828,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Least functionality\n\nUncontrolled software execution expands attack surface and reduces system integrity.\n\nWhy the other options are not best:\n- B. Visitor control — Not the best answer for this scenario.\n- C. Media sanitization — Not the best answer for this scenario.\n- D. Physical access — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "CM",
       "Least Functionality"
@@ -1848,7 +1848,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Physical controls should be evaluated for actual effectiveness\n\nControl effectiveness is determined by actual operation, not by documentation alone.\n\nWhy the other options are not best:\n- A. Badge records alone demonstrate effective protection — Not the best answer for this scenario.\n- C. Piggybacking is an awareness issue only — Not the best answer for this scenario.\n- D. Video surveillance replaces visitor procedures — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "PE",
       "Physical Access"
@@ -1868,7 +1868,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Reduced separation between administrative and non-administrative activities\n\nPrivileged systems should minimize exposure to unnecessary activities.\n\nWhy the other options are not best:\n- A. Media accountability — Not the best answer for this scenario.\n- C. Visitor authorization — Not the best answer for this scenario.\n- D. Backup retention — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege",
@@ -1889,7 +1889,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least functionality and privilege controls address different risks\n\nMonitoring controls do not replace restrictions on unnecessary functionality and privileges.\n\nWhy the other options are not best:\n- A. Endpoint monitoring compensates for unrestricted execution — Not the best answer for this scenario.\n- C. Unsigned tools are acceptable when malware scanning is enabled — Not the best answer for this scenario.\n- D. Repository reputation eliminates software integrity concerns — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "CM",
@@ -1910,7 +1910,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Weak identity verification may undermine authentication assurance\n\nIdentity proofing and reset procedures should preserve authentication assurance.\n\nWhy the other options are not best:\n- A. Caller ID provides sufficient identity proof — Not the best answer for this scenario.\n- C. Password complexity requirements — Not the best answer for this scenario.\n- D. Session timeout duration — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "Credential Management"
@@ -1930,7 +1930,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Media accountability and traceability\n\nEncryption alone does not eliminate the need for accountability.\n\nWhy the other options are not best:\n- A. Media markings — Not the best answer for this scenario.\n- C. Remote access restrictions — Not the best answer for this scenario.\n- D. Patch deployment — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "MP",
       "Accountability"
@@ -1950,7 +1950,7 @@
     },
     "answer": "A",
     "explanation": "Correct answer: A. Physical protections must be evaluated for effectiveness\n\nPhysical controls should be monitored and enforced.\n\nWhy the other options are not best:\n- B. Biometrics eliminate physical risks — Not the best answer for this scenario.\n- C. Badge design standards — Not the best answer for this scenario.\n- D. Media retention procedures — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "PE",
       "Physical Access"
@@ -1970,7 +1970,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Loss of boundary visibility and control\n\nPersistent unmanaged connections may bypass communication protections.\n\nWhy the other options are not best:\n- A. Visitor access — Not the best answer for this scenario.\n- C. Media labeling — Not the best answer for this scenario.\n- D. Password expiration — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Boundary Protection"
@@ -1990,7 +1990,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Operational failure of response processes\n\nSecurity mechanisms require monitoring and response, not merely alert generation.\n\nWhy the other options are not best:\n- A. Patch frequency — Not the best answer for this scenario.\n- C. Media disposal — Not the best answer for this scenario.\n- D. Physical access controls — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Monitoring"
@@ -2010,7 +2010,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Least privilege erosion through indirect assignments\n\nIndirect privilege inheritance should be evaluated for excessive access.\n\nWhy the other options are not best:\n- A. Media accountability — Not the best answer for this scenario.\n- C. Session lock settings — Not the best answer for this scenario.\n- D. Visitor controls — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "AC",
       "Least Privilege"
@@ -2030,7 +2030,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Compensating measures protecting noninteractive accounts\n\nLegacy exceptions require additional protections and risk management.\n\nWhy the other options are not best:\n- A. Patch schedules — Not the best answer for this scenario.\n- C. Media transport — Not the best answer for this scenario.\n- D. Physical security logs — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "IA",
       "MFA",
@@ -2051,7 +2051,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Persistent blind spots in communication monitoring\n\nPermanent exclusions should be justified and periodically reviewed.\n\nWhy the other options are not best:\n- A. Media markings — Not the best answer for this scenario.\n- C. Password history requirements — Not the best answer for this scenario.\n- D. Visitor escort procedures — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SC",
       "Monitoring"
@@ -2071,7 +2071,7 @@
     },
     "answer": "B",
     "explanation": "Correct answer: B. Unsupported assets may invalidate confidence in remediation effectiveness\n\nAssessment conclusions should consider excluded assets and residual risk.\n\nWhy the other options are not best:\n- A. Scan results alone demonstrate effective flaw remediation — Not the best answer for this scenario.\n- C. Unsupported systems are outside assessment considerations — Not the best answer for this scenario.\n- D. Patch metrics outweigh architectural concerns — Not the best answer for this scenario.\n\nExam focus:\nRead the stem carefully and identify the controlling concept: ecosystem role, CoPC duty, assessment method, CAP phase, practice intent, or asset category.",
-    "reference": "CMMC Assessment Guide Level 2 v2.0",
+    "reference": "CMMC CMMC CMMC Assessment Guide Level 2 v2.0",
     "tags": [
       "SI",
       "Flaw Remediation",
